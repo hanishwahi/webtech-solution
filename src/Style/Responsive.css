@@ -1,0 +1,117 @@
+@media screen and (max-width: 480px){
+
+}
+
+@media screen and (max-width: 576px){
+ .navbar-001-hide {
+        display: none;
+    }
+    .new-menu-hide {
+        display: block;
+        margin-right: 0 !important;
+    }
+    .contact-button {
+        display: none;
+    }
+    .slider-head h1 {
+        font-size: 28px; 
+    }
+    .slider-head {
+        padding: 40px 80px 40px 0px;
+    }
+    .how-we-work-inner h1 { 
+        padding: 20px 32px;
+    }
+    .how-we-work-main {
+        padding: 50px 15px;
+    }
+    
+    .caraousel::after{
+        display: none;
+    }
+    .caraousel::before{
+        display: none;
+    }
+    .caraousel2::before{
+        display: none;
+    }
+    .caraousel3::after{
+        display: none;
+    }
+     
+
+
+}
+
+@media screen and (min-width: 577px) and (max-width: 767px){
+    .navbar-001-hide {
+        display: none;
+    }
+    .new-menu-hide {
+        display: block;
+        margin-right: 0 !important;
+    }
+    .contact-button {
+        display: none;
+    }
+    .slider-head h1 {
+        font-size: 36px; 
+    }
+    .slider-head {
+        padding: 60px 124px 60px 0px;
+    }
+    .how-we-work-inner h1 { 
+        padding: 20px 24px;
+    }
+    .caraousel::after{
+        display: none;
+    }
+    .caraousel::before{
+        display: none;
+    }
+    .caraousel2::before{
+        display: none;
+    }
+    .caraousel3::after{
+        display: none;
+    }
+
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .navbar-001-hide {
+        display: none;
+    }
+    .new-menu-hide {
+        display: block;
+        margin-right: 0 !important;
+    }
+    .contact-button {
+        display: none;
+    }
+    .slider-head h1 {
+        font-size: 40px; 
+    }
+    .slider-head {
+        padding: 80px 260px 80px 0px;
+    }
+    .caraousel::after{
+        display: none;
+    }
+    .caraousel::before{
+        display: none;
+    }
+    .caraousel2::before{
+        display: none;
+    }
+    .caraousel3::after{
+        display: none;
+    }
+}
+@media screen and (min-width: 993px) and (max-width: 1024px){
+   
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+    .slider-head {
+        padding: 70px 30px 70px 0px;
+    }
+}
