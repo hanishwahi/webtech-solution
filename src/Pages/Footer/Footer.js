@@ -7,19 +7,16 @@ function Footer() {
             <div className="container-fluid footer-bg">
                 <div className="container-xl">
                     <div className="row border-bottom pb-3">
-                        <div className="col-lg-4">
+                        <div className="col-lg-3 col-sm-6 col-md-6">
                             <div className='footer-head'>
-                                <h1>Address</h1>
+                                <h1>WebTech Solutions</h1>
                             </div>
                             <div className="footer-list">
-                                <p><i class="fa-solid fa-location-dot"></i> Bestech Business Tower
-                                    Office No: 412 Tower-A, 4th Floor, Sahibzada Ajit Singh Nagar, Punjab 160066.</p>
-                                <p><i class="fa-solid fa-location-dot"></i> Bestech Business Tower
-                                    Office No: 412 Tower-A, 4th Floor, Sahibzada Ajit Singh Nagar, Punjab 160066.</p>
+                                <p>We specialize in creating custom websites that are fast, secure, and optimized for SEO. Our team of experienced developers can also help you with digital marketing services such as SEO, social media management and more.</p> 
                                  
                             </div>
                         </div>
-                        <div className="col-lg-2">
+                        <div className="col-lg-2 col-sm-6 col-md-6">
                             <div className="border-right">
                                 <div className='footer-head'>
                                     <h1>Quick Links</h1>
@@ -34,7 +31,7 @@ function Footer() {
                             </div>
 
                         </div>
-                        <div className="col-lg-3">
+                        <div className="col-lg-3 col-sm-6 col-md-46">
                             <div className="border-right">
                                 <div className='footer-head'>
                                     <h1>Services</h1>
@@ -48,14 +45,16 @@ function Footer() {
                             </div>
 
                         </div>
-                        <div className="col-lg-3">
-                            <div className='footer-head'>
+                        <div className="col-lg-4 col-sm-6 col-md-6">
+                        <div className='footer-head'>
                                 <h1>Contact Us</h1>
                             </div>
                             <div className="footer-list">
+                                <p><i class="fa-solid fa-location-dot"></i> Bestech Business Tower
+                                    Office No: 412 Tower-A, 4th Floor, Sahibzada Ajit Singh Nagar, Punjab 160066.</p>
                                 <Link><p> <i class="fa-solid fa-phone footer-social-icon"></i> +91 8427682603</p></Link>
                                 <Link><p> <i class="fa-brands fa-whatsapp footer-social-icon"></i> +91 8427682603</p></Link>
-                                <Link><p className='d-flex align-items-center'> <i class="fa-regular fa-envelope  footer-social-icon"></i> info@webtechsolutionsservice.com</p></Link>
+                               
                             </div>
                         </div>
                     </div>

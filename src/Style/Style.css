@@ -519,7 +519,7 @@ body{
 /* footer  */
 .footer-bg{
     background-color: #263045;
-    padding: 30px 0px;
+    padding: 50px 0px;
 }
 .footer-head h1{
     font-size: 18px;
@@ -537,7 +537,8 @@ body{
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
     color: #fff;
-    text-decoration: none;  
+    text-decoration: none; 
+    word-wrap: break-word; 
 }
 .footer-list a{
     text-decoration: none;
