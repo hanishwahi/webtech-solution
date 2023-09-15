@@ -44,7 +44,7 @@ function Services() {
                                                 <img width={50} src={digitalMarketing} alt="" className='pb-4' />
                                                 <h1>Digital Marketing</h1>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque repellat voluptates odio qui, corrupti corporis suscipit.</p>
-                                                <Link>Explore More <i class="fa-solid fa-angles-right arrow1"></i></Link>
+                                                <Link>Explore More <i className="fa-solid fa-angles-right arrow1"></i></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -54,7 +54,7 @@ function Services() {
                                                 <img width={50} src={webdevelopment} alt="" className='pb-4' />
                                                 <h1>Web Development</h1>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque repellat voluptates odio qui, corrupti corporis suscipit.</p>
-                                                <Link>Explore More <i class="fa-solid fa-angles-right arrow1"></i></Link>
+                                                <Link>Explore More <i className="fa-solid fa-angles-right arrow1"></i></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -64,7 +64,7 @@ function Services() {
                                                 <img width={40} src={appdevelopment} alt="" className='pb-4' />
                                                 <h1>App Development</h1>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque repellat voluptates odio qui, corrupti corporis suscipit.</p>
-                                                <Link>Explore More <i class="fa-solid fa-angles-right arrow1"></i></Link>
+                                                <Link>Explore More <i className="fa-solid fa-angles-right arrow1"></i></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -74,7 +74,7 @@ function Services() {
                                                 <img width={50} src={graphicdesigning} alt="" className='pb-4' />
                                                 <h1>Graphic Designing</h1>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque repellat voluptates odio qui, corrupti corporis suscipit.</p>
-                                                <Link>Explore More <i class="fa-solid fa-angles-right arrow1"></i></Link>
+                                                <Link>Explore More <i className="fa-solid fa-angles-right arrow1"></i></Link>
                                             </div>
                                         </div>
                                     </div> 
