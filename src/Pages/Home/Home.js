@@ -4,6 +4,8 @@ import Slider from './Slider'
 import HowWeWork from './HowWeWork'
 import Industries from './Industries'
 import Services from './Services'
+import CallAction from './CallAction'
+import Footer from '../Footer/Footer'
 
 function Home() {
   return (
@@ -13,6 +15,8 @@ function Home() {
      <HowWeWork/>
      <Industries/>
      <Services/>
+     <CallAction/>
+     <Footer/>
      </>
   )
 }

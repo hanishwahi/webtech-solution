@@ -22,7 +22,7 @@ function Slider() {
                         </div>
                         
                             <div className="slider-button">
-                               <h1> <Link>Get Started Free </Link></h1>
+                             <Link>Get Started Free </Link> 
                             </div>
                          
                     </div>

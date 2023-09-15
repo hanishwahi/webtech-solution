@@ -41,13 +41,21 @@
     .how-we-work h1 { 
         font-size: 26px; 
     }
+    .how-we-work p {
+        width: 100%; 
+    }
     .industries h1 { 
         font-size: 26px; 
     }
     .home-services h1 {
         font-size: 26px; 
     }
-    
+    .call-action-content h1 {
+        font-size: 26px; 
+    }
+    .call-action-bg { 
+        padding: 30px 0px;
+    }
 
 }
 
@@ -89,6 +97,12 @@
     .industries-main {
         padding: 25px 30px 25px 30px;
     }
+    .how-we-work p {
+        width: 100%; 
+    }
+    .home-services-main {
+        padding: 8px 20px 0; 
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 992px){
     .navbar-001-hide {
@@ -119,12 +133,23 @@
     .caraousel3::after{
         display: none;
     }
+    .how-we-work p {
+        width: 70%; 
+    }
+    .home-services-main {
+        padding: 8px 20px 0; 
+    }
 }
 @media screen and (min-width: 993px) and (max-width: 1024px){
-   
+    .how-we-work p {
+        width: 60%; 
+    } 
 }
 @media screen and (min-width: 1025px) and (max-width: 1200px){
     .slider-head {
         padding: 70px 30px 70px 0px;
+    }
+    .how-we-work p {
+        width: 70%; 
     }
 }

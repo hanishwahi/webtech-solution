@@ -27,7 +27,7 @@ function Services() {
  
                                     <div className="col-lg-12 col-md-6 col-sm-6">
                                         <div className="row justify-content-center">
-                                            <div className="col-md-8 col-lg-12 col-sm-11">
+                                            <div className="col-8 col-md-8 col-lg-12 col-sm-11">
                                                 <img src={homeserviceImg} alt="" className='img-fluid' />
                                             </div>
                                         </div>

@@ -4,12 +4,14 @@ import hospital from './../../Images/hospital.png'
 import law from './../../Images/Law.png'
 import realestate from './../../Images/real-estate.png'
 import restaurant from './../../Images/restaurant.png'
+import travel from './../../Images/Travel.png'
+import finance from './../../Images/financial.png'
+import retail from './../../Images/Retail.png'
 
 function Industries() {
 
     return (
         <>
-
             <div className="container-fluid industries-main">
                 <div className="container-xl">
                     <div className="row py-3">
@@ -51,25 +53,23 @@ function Industries() {
                         </div>
                         <div className='text-center col-md-3 col-sm-4 col-6 mb-3 border-right'>
                             <div className="caraousel2">
-                                <img width={60} height={50} src={education} alt="" />
-                                <h1>Education</h1>
+                                <img width={60} height={50} src={travel} alt="" />
+                                <h1>Travel</h1>
                             </div>
                         </div>
                         <div className='text-center col-md-3 col-sm-4 col-6 mb-3 border-right'>
                             <div className="caraousel2">
-                                <img width={60} height={50} src={education} alt="" />
-                                <h1>Education</h1>
+                                <img width={60} height={50} src={finance} alt="" />
+                                <h1>Finance</h1>
                             </div>
                         </div>
                         <div className='text-center col-md-3 col-sm-4 col-6 mb-3 border-right'>
                             <div className="caraousell">
-                                <img width={60} height={50} src={education} alt="" />
-                                <h1>Education</h1>
+                                <img width={60} height={50} src={retail} alt="" />
+                                <h1>Retail</h1>
                             </div>
                         </div>
-
                     </div>
-                    
                 </div>
             </div>
         </>

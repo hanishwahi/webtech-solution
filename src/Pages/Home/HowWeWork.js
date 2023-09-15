@@ -14,7 +14,7 @@ function HowWeWork() {
                     <div className="row">
                         <div className="col how-we-work">
                             <h1>How <span>We Work</span></h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab cumque nesciunt  <br />pariatur sapiente itaque illum architecto et voluptatem quibusdam. </p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab cumque nesciunt pariatur sapiente itaque illum architecto et voluptatem quibusdam. </p>
                         </div>
                     </div>
                     <div className="row justify-content-between py-3">

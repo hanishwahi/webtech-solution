@@ -1,3 +1,7 @@
+body{
+    margin: 0px auto;
+}
+
 /* top nav bar  */
 .top-head-bg {
     background-color: #263045;
@@ -140,6 +144,9 @@
     text-decoration: none;
     padding-left: 5px;
 }
+.slider-button{
+    margin: 15px 0px;
+}
 .slider-button a {
     background-image: linear-gradient(to right, #018dd1, #43ade6);
     border-radius: 6px;
@@ -174,14 +181,15 @@
     color: #43ade6;
 }
 .how-we-work p {
+    width: 50%;
     text-align: center;
     font-size: 15px;
-    font-weight: 400;
-    margin-bottom: 0;
+    font-weight: 400; 
     font-family: 'Roboto', sans-serif;
     color: #263045;
     text-decoration: none;
     padding-left: 5px;
+    margin: 0px auto;
 }
 .how-we-work-inner {
     border-radius: 10px;
@@ -456,3 +464,94 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
+/* call action  */
+
+.call-action-main{ 
+    margin: 50px 0px; 
+}
+.call-action-bg{
+    /* background-color: #263045;  */
+    background-image: linear-gradient(to bottom, #018dd1, #43ade6);
+    padding: 50px 0px;
+}
+.call-action-content h1{
+    font-size: 32px;
+    font-weight: 300; 
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    text-align: center; 
+}
+.call-action-content p{
+    font-size: 16px;
+    font-weight: 300; 
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.call-action-button1 a{
+    background: #fff;
+    border-radius: 6px;
+    color: #43ade6;
+    padding: 10px 14px;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;  
+}
+.call-action-button2 a{
+    border: 2px solid #fff;
+    border-radius: 6px;
+    color: #fff;
+    padding: 10px 14px;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+
+/* footer  */
+.footer-bg{
+    background-color: #263045;
+    padding: 30px 0px;
+}
+.footer-head h1{
+    font-size: 18px;
+    font-weight: 400; 
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    color: #fff;
+    text-decoration: none; 
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.footer-list p{
+    font-size: 16px;
+    font-weight: 300; 
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    color: #fff;
+    text-decoration: none;  
+}
+.footer-list a{
+    text-decoration: none;
+}
+.footer-arrow{
+    font-size: 12px;
+    padding-right: 15px;
+}
+.footer-social-icon{
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.border-right{
+border-right: 1px solid #ccc;
+min-height: 230px;
+}
