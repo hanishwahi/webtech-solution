@@ -17,7 +17,7 @@ function Footer() {
                             </div>
                         </div>
                         <div className="col-lg-2 col-sm-6 col-md-6">
-                            <div className="border-right">
+                            <div className="border-right-footer">
                                 <div className='footer-head'>
                                     <h1>Quick Links</h1>
                                 </div>
@@ -32,7 +32,7 @@ function Footer() {
 
                         </div>
                         <div className="col-lg-3 col-sm-6 col-md-46">
-                            <div className="border-right">
+                            <div className="border-right-footer">
                                 <div className='footer-head'>
                                     <h1>Services</h1>
                                 </div>

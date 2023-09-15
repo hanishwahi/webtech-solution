@@ -552,7 +552,7 @@ body{
     padding-right: 5px;
 }
 
-.border-right{
+.border-right-footer{
 border-right: 1px solid #ccc;
 min-height: 230px;
 }
