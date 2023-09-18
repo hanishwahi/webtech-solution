@@ -1,5 +1,5 @@
-body{
-    margin: 0px auto;
+body {
+    margin: 0 auto;
 }
 
 /* top nav bar  */
@@ -97,7 +97,7 @@ body{
     z-index: 20;
     width: 100%;
 }
-.nav-link{
+.nav-link {
     color: #263045;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
@@ -116,7 +116,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
- 
+
 .slider-head {
     padding: 80px 80px 80px 0;
 }
@@ -144,8 +144,8 @@ body{
     text-decoration: none;
     padding-left: 5px;
 }
-.slider-button{
-    margin: 15px 0px;
+.slider-button {
+    margin: 15px 0;
 }
 .slider-button a {
     background-image: linear-gradient(to right, #018dd1, #43ade6);
@@ -184,12 +184,12 @@ body{
     width: 50%;
     text-align: center;
     font-size: 15px;
-    font-weight: 400; 
+    font-weight: 400;
     font-family: 'Roboto', sans-serif;
     color: #263045;
     text-decoration: none;
     padding-left: 5px;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 .how-we-work-inner {
     border-radius: 10px;
@@ -370,17 +370,17 @@ body{
 .arrow1 {
     animation: slide1 2s ease-in-out infinite;
     margin-left: 5px;
-  }
-  @keyframes slide1 {
-    0%,
+}
+@keyframes slide1 {
+    0,
     100% {
-      transform: translate(0, 0);
+        transform: translate(0, 0);
     }
-  
+
     50% {
-      transform: translate(10px, 0);
+        transform: translate(10px, 0);
     }
-  }
+}
 
 
 /* home services  */
@@ -467,32 +467,32 @@ body{
 
 /* call action  */
 
-.call-action-main{ 
-    margin: 50px 0px; 
+.call-action-main {
+    margin: 50px 0;
 }
-.call-action-bg{
+.call-action-bg {
     /* background-color: #263045;  */
     background-image: linear-gradient(to bottom, #018dd1, #43ade6);
-    padding: 50px 0px;
+    padding: 50px 0;
 }
-.call-action-content h1{
+.call-action-content h1 {
     font-size: 32px;
-    font-weight: 300; 
+    font-weight: 300;
     font-family: 'Roboto', sans-serif;
     color: #fff;
     text-decoration: none;
-    text-align: center; 
+    text-align: center;
 }
-.call-action-content p{
+.call-action-content p {
     font-size: 16px;
-    font-weight: 300; 
+    font-weight: 300;
     font-family: 'Roboto', sans-serif;
     color: #fff;
     text-decoration: none;
     text-align: center;
 }
 
-.call-action-button1 a{
+.call-action-button1 a {
     background: #fff;
     border-radius: 6px;
     color: #43ade6;
@@ -501,9 +501,9 @@ body{
     font-size: 16px;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    cursor: pointer;  
+    cursor: pointer;
 }
-.call-action-button2 a{
+.call-action-button2 a {
     border: 2px solid #fff;
     border-radius: 6px;
     color: #fff;
@@ -517,42 +517,76 @@ body{
 
 
 /* footer  */
-.footer-bg{
+.footer-bg {
     background-color: #263045;
-    padding: 50px 0px;
+    padding: 50px 0;
 }
-.footer-head h1{
+.footer-head h1 {
     font-size: 18px;
-    font-weight: 400; 
+    font-weight: 400;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
     color: #fff;
-    text-decoration: none; 
+    text-decoration: none;
     text-transform: uppercase;
     margin-bottom: 25px;
 }
-.footer-list p{
+.footer-list p {
     font-size: 16px;
-    font-weight: 300; 
+    font-weight: 300;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
     color: #fff;
-    text-decoration: none; 
-    word-wrap: break-word; 
+    text-decoration: none;
+    word-wrap: break-word;
+    text-align: justify;
 }
-.footer-list a{
+.footer-list a {
     text-decoration: none;
 }
-.footer-arrow{
+.footer-arrow {
     font-size: 12px;
     padding-right: 15px;
 }
-.footer-social-icon{
+.footer-social-icon {
     font-size: 20px;
     padding-right: 5px;
 }
 
-.border-right-footer{
-border-right: 1px solid #ccc;
-min-height: 190px;
+.border-right-footer {
+    border-right: 1px solid #ccc;
+    min-height: 190px;
+}
+
+.domain-bar {
+    margin-bottom: -40px;
+    /* box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); */
+    position: relative;
+    box-shadow: 3px 3px 26px -5px rgba(0, 0, 0, 0.35)
+}
+
+
+/* clients */
+
+.text-muted {
+    color: #263045 !important;
+    width: 42%;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    border-style: solid; 
+    border-image: linear-gradient(to top, #43ade6, rgba(0, 0, 0, 0)) 1 100%;
+}
+.text-muted-inner{
+    
+    margin: 0 auto; 
+}
+.client-img {
+    background-image: url(http://localhost:3000/static/media/layer17.7b7dbc7e2fae0e12168e.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 18%;
+    padding: 24px 0px;
+    margin: 0px auto;
 }

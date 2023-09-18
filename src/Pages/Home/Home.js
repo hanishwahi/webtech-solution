@@ -6,6 +6,8 @@ import Industries from './Industries'
 import Services from './Services'
 import CallAction from './CallAction'
 import Footer from '../Footer/Footer'
+import Clients from './Clients'
+// import Technologies from './Technologies'
 
 function Home() {
   return (
@@ -16,7 +18,10 @@ function Home() {
      <Industries/>
      <Services/>
      <CallAction/>
+     {/* <Technologies/> */}
+     <Clients/>
      <Footer/>
+  
      </>
   )
 }
