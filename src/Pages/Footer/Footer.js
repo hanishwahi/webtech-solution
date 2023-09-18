@@ -22,7 +22,7 @@ function Footer() {
                                     <h1>Quick Links</h1>
                                 </div>
                                 <div className="footer-list">
-                                    <Link><p> <i class="fa-solid fa-caret-right footer-arrow"></i>Home</p></Link>
+                                    {/* <Link><p> <i class="fa-solid fa-caret-right footer-arrow"></i>Home</p></Link> */}
                                     <Link><p> <i class="fa-solid fa-caret-right footer-arrow"></i>Career</p></Link>
                                     <Link><p> <i class="fa-solid fa-caret-right footer-arrow"></i>Our Team</p></Link>
                                     <Link><p> <i class="fa-solid fa-caret-right footer-arrow"></i>Blog</p></Link>
@@ -52,8 +52,8 @@ function Footer() {
                             <div className="footer-list">
                                 <p><i class="fa-solid fa-location-dot"></i> Bestech Business Tower
                                     Office No: 412 Tower-A, 4th Floor, Sahibzada Ajit Singh Nagar, Punjab 160066.</p>
-                                <Link><p> <i class="fa-solid fa-phone footer-social-icon"></i> +91 8427682603</p></Link>
-                                <Link><p> <i class="fa-brands fa-whatsapp footer-social-icon"></i> +91 8427682603</p></Link>
+                                <Link to="tel:+91 8427682603"><p> <i class="fa-solid fa-phone footer-social-icon"></i> +91 8427682603</p></Link>
+                                <Link to="https://wa.me/+918427682603"><p> <i class="fa-brands fa-whatsapp footer-social-icon"></i> +91 8427682603</p></Link>
                                
                             </div>
                         </div>
