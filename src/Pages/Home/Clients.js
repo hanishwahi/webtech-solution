@@ -1,6 +1,8 @@
 import React from 'react'
-import tempimg from '../../Images/Icon1.png'
 import tabbu from '../../Images/tabbu-rajput.png'
+import nucosmetics from '../../Images/nucosmetic.webp'
+import startupkhata from '../../Images/StartupKhatalogo.png'
+import rapidtax from '../../Images/rapidtax.webp'
 
 function Clients() {
 
@@ -18,135 +20,114 @@ function Clients() {
                         <div className="carousel-inner ">
                             <div className="carousel-item active">
                                 <div className="client-img">
-                                    <img loading="lazy" width="100%" height='100%' className="rounded-circle border shadow-1-strong mb-4"
+                                    <img loading="lazy" width="100%" height='100%' className="client-img-section  mb-4"
                                         src={tabbu} alt="Client Reviews"
                                         style={{ width: "150px" }} />
                                 </div>
                                 <div className="row d-flex justify-content-center py-2">
                                     <div className="text-muted">
                                         <div className="col-lg-11 col-8 col-sm-9 text-muted-inner">
-                                            <h5 className="mb-3 h4">Tabbu Rajput</h5>
-                                            <h3 className="mb-3 h6">CEO AGENCY</h3>
+                                            <h5 className="mb-3">Tabbu Rajput</h5>
+                                            <h3 className="mb-3">CEO AGENCY</h3>
                                             <p className=" ">
                                                 <i className="fas fa-quote-left pe-2"></i>
                                                 "Working with Webtech Solutions has been an incredible experience. From start to finish, they demonstrated professionalism, expertise, and a genuine commitment to delivering exceptional service.
                                             </p>
                                         </div>
+                                        <ul className="list-unstyled d-flex justify-content-center text-warning mb-3">
+                                            <li><i className="fas fa-star fa-sm"></i></li>
+                                            <li><i className="fas fa-star fa-sm"></i></li>
+                                            <li><i className="fas fa-star fa-sm"></i></li>
+                                            <li><i className="fas fa-star fa-sm"></i></li>
+                                            <li><i className="far fa-star fa-sm"></i></li>
+                                        </ul>
                                     </div>
                                 </div>
-                                <ul className="list-unstyled d-flex justify-content-center text-warning mb-0">
-                                    <li><i className="fas fa-star fa-sm"></i></li>
-                                    <li><i className="fas fa-star fa-sm"></i></li>
-                                    <li><i className="fas fa-star fa-sm"></i></li>
-                                    <li><i className="fas fa-star fa-sm"></i></li>
-                                    <li><i className="far fa-star fa-sm"></i></li>
-                                </ul>
+
                             </div>
-                            <div className="carousel-item ">
+                            <div className="carousel-item">
                                 <div className="client-img">
-                                    <img loading="lazy" width="100%" height='100%' className="rounded-circle border shadow-1-strong mb-4"
-                                        src={tabbu} alt="Client Reviews"
+                                    <img loading="lazy" width="100%" height='100%' className="client-img-section  mb-4"
+                                        src={nucosmetics} alt="Client Reviews"
                                         style={{ width: "150px" }} />
                                 </div>
                                 <div className="row d-flex justify-content-center py-2">
                                     <div className="text-muted">
                                         <div className="col-lg-11 col-8 col-sm-9 text-muted-inner">
-                                            <h5 className="mb-3 h4">Tabbu Rajput</h5>
-                                            <h3 className="mb-3 h6">CEO AGENCY</h3>
+                                            <h5 className="mb-3">NU COsmetics</h5>
+                                            <h3 className="mb-3">CEO AGENCY</h3>
                                             <p className=" ">
                                                 <i className="fas fa-quote-left pe-2"></i>
                                                 "Working with Webtech Solutions has been an incredible experience. From start to finish, they demonstrated professionalism, expertise, and a genuine commitment to delivering exceptional service.
                                             </p>
                                         </div>
+                                        <ul className="list-unstyled d-flex justify-content-center text-warning mb-3">
+                                            <li><i className="fas fa-star fa-sm"></i></li>
+                                            <li><i className="fas fa-star fa-sm"></i></li>
+                                            <li><i className="fas fa-star fa-sm"></i></li>
+                                            <li><i className="fas fa-star fa-sm"></i></li>
+                                            <li><i className="far fa-star fa-sm"></i></li>
+                                        </ul>
                                     </div>
                                 </div>
-                                <ul className="list-unstyled d-flex justify-content-center text-warning mb-0">
-                                    <li><i className="fas fa-star fa-sm"></i></li>
-                                    <li><i className="fas fa-star fa-sm"></i></li>
-                                    <li><i className="fas fa-star fa-sm"></i></li>
-                                    <li><i className="fas fa-star fa-sm"></i></li>
-                                    <li><i className="far fa-star fa-sm"></i></li>
-                                </ul>
+
                             </div>
-                            <div className="carousel-item ">
+                            <div className="carousel-item">
                                 <div className="client-img">
-                                    <img loading="lazy" width="100%" height='100%' className="rounded-circle border shadow-1-strong mb-4"
-                                        src={tabbu} alt="Client Reviews"
+                                    <img loading="lazy" width="100%" height='100%' className="client-img-section  mb-4"
+                                        src={startupkhata} alt="Client Reviews"
                                         style={{ width: "150px" }} />
                                 </div>
                                 <div className="row d-flex justify-content-center py-2">
                                     <div className="text-muted">
                                         <div className="col-lg-11 col-8 col-sm-9 text-muted-inner">
-                                            <h5 className="mb-3 h4">Tabbu Rajput</h5>
-                                            <h3 className="mb-3 h6">CEO AGENCY</h3>
+                                            <h5 className="mb-3">Startup Khata</h5>
+                                            <h3 className="mb-3">CEO AGENCY</h3>
                                             <p className=" ">
                                                 <i className="fas fa-quote-left pe-2"></i>
                                                 "Working with Webtech Solutions has been an incredible experience. From start to finish, they demonstrated professionalism, expertise, and a genuine commitment to delivering exceptional service.
                                             </p>
                                         </div>
+                                        <ul className="list-unstyled d-flex justify-content-center text-warning mb-3">
+                                            <li><i className="fas fa-star fa-sm"></i></li>
+                                            <li><i className="fas fa-star fa-sm"></i></li>
+                                            <li><i className="fas fa-star fa-sm"></i></li>
+                                            <li><i className="fas fa-star fa-sm"></i></li>
+                                            <li><i className="far fa-star fa-sm"></i></li>
+                                        </ul>
                                     </div>
                                 </div>
-                                <ul className="list-unstyled d-flex justify-content-center text-warning mb-0">
-                                    <li><i className="fas fa-star fa-sm"></i></li>
-                                    <li><i className="fas fa-star fa-sm"></i></li>
-                                    <li><i className="fas fa-star fa-sm"></i></li>
-                                    <li><i className="fas fa-star fa-sm"></i></li>
-                                    <li><i className="far fa-star fa-sm"></i></li>
-                                </ul>
+
                             </div>
-                            <div className="carousel-item ">
+                            <div className="carousel-item">
                                 <div className="client-img">
-                                    <img loading="lazy" width="100%" height='100%' className="rounded-circle border shadow-1-strong mb-4"
-                                        src={tabbu} alt="Client Reviews"
+                                    <img loading="lazy" width="100%" height='100%' className="client-img-section  mb-4"
+                                        src={rapidtax} alt="Client Reviews"
                                         style={{ width: "150px" }} />
                                 </div>
                                 <div className="row d-flex justify-content-center py-2">
                                     <div className="text-muted">
                                         <div className="col-lg-11 col-8 col-sm-9 text-muted-inner">
-                                            <h5 className="mb-3 h4">Tabbu Rajput</h5>
-                                            <h3 className="mb-3 h6">CEO AGENCY</h3>
+                                            <h5 className="mb-3">Rapid Tax</h5>
+                                            <h3 className="mb-3">CEO AGENCY</h3>
                                             <p className=" ">
                                                 <i className="fas fa-quote-left pe-2"></i>
                                                 "Working with Webtech Solutions has been an incredible experience. From start to finish, they demonstrated professionalism, expertise, and a genuine commitment to delivering exceptional service.
                                             </p>
                                         </div>
+                                        <ul className="list-unstyled d-flex justify-content-center text-warning mb-3">
+                                            <li><i className="fas fa-star fa-sm"></i></li>
+                                            <li><i className="fas fa-star fa-sm"></i></li>
+                                            <li><i className="fas fa-star fa-sm"></i></li>
+                                            <li><i className="fas fa-star fa-sm"></i></li>
+                                            <li><i className="far fa-star fa-sm"></i></li>
+                                        </ul>
                                     </div>
                                 </div>
-                                <ul className="list-unstyled d-flex justify-content-center text-warning mb-0">
-                                    <li><i className="fas fa-star fa-sm"></i></li>
-                                    <li><i className="fas fa-star fa-sm"></i></li>
-                                    <li><i className="fas fa-star fa-sm"></i></li>
-                                    <li><i className="fas fa-star fa-sm"></i></li>
-                                    <li><i className="far fa-star fa-sm"></i></li>
-                                </ul>
-                            </div>
-                            <div className="carousel-item ">
-                                <div className="client-img">
-                                    <img loading="lazy" width="100%" height='100%' className="rounded-circle border shadow-1-strong mb-4"
-                                        src={tabbu} alt="Client Reviews"
-                                        style={{ width: "150px" }} />
-                                </div>
-                                <div className="row d-flex justify-content-center py-2">
-                                    <div className="text-muted">
-                                        <div className="col-lg-11 col-8 col-sm-9 text-muted-inner">
-                                            <h5 className="mb-3 h4">Tabbu Rajput</h5>
-                                            <h3 className="mb-3 h6">CEO AGENCY</h3>
-                                            <p className=" ">
-                                                <i className="fas fa-quote-left pe-2"></i>
-                                                "Working with Webtech Solutions has been an incredible experience. From start to finish, they demonstrated professionalism, expertise, and a genuine commitment to delivering exceptional service.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <ul className="list-unstyled d-flex justify-content-center text-warning mb-0">
-                                    <li><i className="fas fa-star fa-sm"></i></li>
-                                    <li><i className="fas fa-star fa-sm"></i></li>
-                                    <li><i className="fas fa-star fa-sm"></i></li>
-                                    <li><i className="fas fa-star fa-sm"></i></li>
-                                    <li><i className="far fa-star fa-sm"></i></li>
-                                </ul>
+
                             </div>
                             
+
 
                         </div>
                         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
