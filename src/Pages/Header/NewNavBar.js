@@ -37,7 +37,7 @@ function NewNavBar() {
 
 
                                                     <div className="container">
-                                                        <div className="row my-2">
+                                                        <div className="row">
                                                             <div className="col-md-4 col-lg-12 mb-3 mb-lg-0">
                                                                 <div className="list-group list-group-flush">
                                                                     <Link to="/" className="list-group-item list-group-item-action">Digital Marketing</Link>

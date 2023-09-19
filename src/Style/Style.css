@@ -133,8 +133,7 @@ li.nav-item {
         margin: 0;
         font-family: 'Roboto', sans-serif;
         font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
+        font-weight: 500; 
         text-align: left;
         list-style: none;
         line-height: 26px;
@@ -142,7 +141,7 @@ li.nav-item {
         background-color: #fff;
         background-clip: padding-box;
         border: 1px solid rgba(0,0,0,.15);
-        border-radius: .25rem;
+        border-radius: .25rem; 
     }
 
 /* slider  */
@@ -671,4 +670,28 @@ li.nav-item {
 }
 
 
-     
+/* about us  */
+.aboutus-main {
+    padding: 50px 30px; 
+}
+.aboutus-content h1 { 
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    text-decoration: none;
+}
+.aboutus-content h1 span {
+    color: #43ade6;
+}
+.aboutus-content p { 
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #263045;
+    text-decoration: none; 
+    padding-right: 30px;
+    line-height: 30px;
+}
