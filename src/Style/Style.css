@@ -560,7 +560,7 @@ body {
 
 .border-right-footer {
     border-right: 1px solid #ccc;
-    min-height: 225px;
+    min-height: 200px;
 }
 
 .domain-bar {

@@ -6,7 +6,7 @@ import webdevelopment from './../../Images/Web Development.png'
 import appdevelopment from './../../Images/App Development.png'
 import graphicdesigning from './../../Images/Graphic Designing.png'
 
-function Services() {
+function HomeServices() {
     return (
         <>
             <div className="container-fluid home-services-bg">
@@ -88,4 +88,4 @@ function Services() {
     )
 }
 
-export default Services
+export default HomeServices

@@ -11,7 +11,7 @@ function Footer() {
                         <div className="col-lg-3 col-sm-6 col-md-6">
                             <div className='row'>
                                 <div className="col">
-                                    <img src={mainlogo} alt="" width={200} />
+                                    <img src={mainlogo} alt="" width={180} />
                                 </div>
                             </div>
                         </div>
