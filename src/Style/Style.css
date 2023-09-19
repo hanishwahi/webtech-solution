@@ -680,6 +680,7 @@ li.nav-item {
     font-family: 'Roboto', sans-serif;
     color: #000000;
     text-decoration: none;
+    letter-spacing: 2px;
 }
 .aboutus-content h1 span {
     color: #43ade6;
@@ -694,4 +695,43 @@ li.nav-item {
     text-decoration: none; 
     padding-right: 30px;
     line-height: 30px;
+}
+
+
+/* counter  */ 
+
+.counter-bg {
+    background-image: linear-gradient(to right, #018dd1, #42ADE4);
+}
+
+.Counter-1 h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: #42ADE4;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.counter-box {
+    border: 2px solid #fff;
+    text-align: center;
+    padding: 60px;
+    background: #fff;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+
+ 
+.record-004 h2 {
+    margin-bottom: 0; 
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+    min-height: 48px;
+    font-family: 'Roboto', sans-serif;
+
 }
