@@ -11,11 +11,11 @@ function Slider() {
                             <h1>Boost Your Online Presence with <span>Digital Marketing Services</span> </h1>
                         </div>
                         <div className='py-3'>
-                            <div className='d-flex slider-list'>
+                            <div className='slider-list'>
                                 <i className="fa-solid fa-check" style={{color:"#42ADE4"}}></i>
                                 <h2>Cost Effective & Scalable Solutions</h2>
                             </div>
-                            <div className='d-flex slider-list'>
+                            <div className='slider-list'>
                                 <i className="fa-solid fa-check" style={{color:"#42ADE4"}}></i>
                                 <h2>Staying Updated with Industry Trends</h2>
                             </div>

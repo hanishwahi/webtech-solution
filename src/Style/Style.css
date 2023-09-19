@@ -39,6 +39,7 @@ body {
     font-size: 16px;
     line-height: 26px;
     color: #263045 !important;
+    text-align: center;
 
 }
 
@@ -98,16 +99,51 @@ body {
     width: 100%;
 }
 .nav-link {
-    color: #263045;
+    color: #263045 !important;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
     padding: 10px 12px;
 }
-
-.nav-link:focus,
-.nav-link:hover {
-    color: #43ade6;
+li.nav-item {
+    padding:  6px;
 }
+
+.nav-link:hover {
+    color: #43ade6 !important;
+}
+
+.dropdown-hover:hover>.dropdown-menu {
+    display: inline-block;
+    }
+    
+    .dropdown-hover>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+    }
+
+    .dropdown-toggle::after{
+        border: none;
+    }
+    .dropdown-menu {
+        position: absolute;
+        z-index: 1000;
+        display: none; 
+        min-width: 14rem;
+        padding: .5rem 0;
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: left;
+        list-style: none;
+        line-height: 26px;
+        color: #263045 !important;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid rgba(0,0,0,.15);
+        border-radius: .25rem;
+    }
 
 /* slider  */
 .slider-bg {
@@ -134,6 +170,8 @@ body {
 }
 .slider-list {
     margin-top: 15px;
+    display: flex;
+    align-items: center;
 }
 .slider-list h2 {
     font-size: 15px;
@@ -390,9 +428,12 @@ body {
 }
 
 .home-services-main {
-    padding: 32px 20px 0;
+    padding: 32px 20px 0px 20px;
     background-color: #fff;
     border-radius: 10px;
+}
+.home-services{
+    padding-bottom: 24px;
 }
 
 .home-services h1 {
@@ -554,7 +595,7 @@ body {
     padding-right: 15px;
 }
 .footer-social-icon {
-    font-size: 20px;
+    font-size: 18px;
     padding-right: 5px;
 }
 
@@ -628,3 +669,6 @@ body {
     border: 5px solid #6fc6f5;
     border-radius: 50%;
 }
+
+
+     

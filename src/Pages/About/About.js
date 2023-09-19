@@ -4,8 +4,7 @@ import Footer from '../Footer/Footer'
 
 function About() {
   return (
-     <>
-     
+     <> 
      <Header/>
      <Footer/>
      </>

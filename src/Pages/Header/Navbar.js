@@ -24,6 +24,7 @@ function Navbar() {
                                 <Link onClick={scrollToHome} to="/" aria-current="page" className="nav-link w-nav-link ">Home</Link>
                                 <Link onClick={scrollToHome} to="/about" className="nav-link w-nav-link">About</Link>
                                 <Link onClick={scrollToHome} to="/services" className="nav-link w-nav-link">Service</Link>
+                                
                                 <Link onClick={scrollToHome} to="/clients" className="nav-link w-nav-link">Clients</Link>
                                 {/* <Link onClick={scrollToHome} to="/career" className="nav-link w-nav-link">Careers</Link> */}
                                 {/* <Link onClick={scrollToHome} to="/training-development" className="nav-link w-nav-link">Training</Link> */}
@@ -67,7 +68,7 @@ function Navbar() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div >
 
 
         </>

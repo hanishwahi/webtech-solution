@@ -20,9 +20,9 @@ function HomeServices() {
                                             <h1>Our <span>Services</span> </h1>
                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum excepturi, blanditiis rem, quo vel earum voluptates nobis, voluptatibus impedit magnam dolores sunt! </p>
                                         </div>
-                                        <div className='home-services-button'>
+                                        {/* <div className='home-services-button'>
                                             <Link>View All</Link>
-                                        </div>
+                                        </div> */}
                                     </div>
  
                                     <div className="col-lg-12 col-md-6 col-sm-6">

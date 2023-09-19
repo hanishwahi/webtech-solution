@@ -55,7 +55,7 @@ function Footer() {
                                 <p><i class="fa-solid fa-location-dot"></i> Bestech Business Tower
                                     Office No: 412 Tower-A, 4th Floor, Sahibzada Ajit Singh Nagar, Punjab 160066.</p>
                                 <Link to="tel:+91 8427682603"><p> <i class="fa-solid fa-phone footer-social-icon"></i> +91 8427682603</p></Link>
-                                <Link to="mailto:info@webtechsolutionsservie.com"><p> <i class="fa-solid fa-envelope"></i> info@webtechsolutionsservie.com</p></Link>
+                                <Link to="mailto:info@webtechsolutionsservie.com"><p> <i class="fa-solid fa-envelope footer-social-icon"></i> info@webtechsolutionsservie.com</p></Link>
 
                             </div>
                         </div>
