@@ -4,7 +4,7 @@ function CounterRecord() {
     const [counter1, setCounter1] = useState(0);
     const [counter2, setCounter2] = useState(0);
     const [counter3, setCounter3] = useState(0);
- 
+
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -64,20 +64,20 @@ function CounterRecord() {
                                 <div className="col-lg-12 col-sm-12 col-12 Counter-1"><h1>{counter1}%</h1></div>
                                 <div className='col-lg-12 col-sm-12 col-12 record-004'>
                                     <h2>Increase your clients retention rates</h2></div>
-                                    </div>
+                            </div>
                         </div>
                         <div className='col-lg-4 col-sm-6 mb-3 mb-md-0'>
-                        <div className='counter-box'>
+                            <div className='counter-box'>
                                 <div className="col-lg-12 col-sm-12 col-12 Counter-1"><h1>{counter2}+</h1></div>
                                 <div className='col-lg-12 col-sm-12 col-12 record-004'>
                                     <h2>WebTech Employees</h2></div>
-                                    </div>
+                            </div>
                         </div>
                         <div className='col-lg-4 col-sm-6 mb-3 mb-md-0'>
-                        <div className='counter-box'>
+                            <div className='counter-box'>
                                 <div className="col-lg-12 col-sm-12 col-12 Counter-1"><h1>{counter3}%</h1></div>
                                 <div className='col-lg-12 col-sm-12 col-12 record-004'><h2>Tested and proven concepts</h2></div>
-                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

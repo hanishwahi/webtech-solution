@@ -1,8 +1,11 @@
 import React from 'react'
 import aboutimg from '../../Images/home-about-img.webp'
 import clientlogos from '../../Images/nucosmetic.webp'
+ 
 
 function AboutUS() {
+    
+    
     return (
         <>
             <div className="container-fluid aboutus-main">
@@ -22,22 +25,22 @@ function AboutUS() {
             <div className="container-fluid bg-dark">
                 <div className="container-xl">
                     <div className="row py-4 text-center my-5">
-                        <div className="col-lg-2 col-md-2 col-sm-3 col-4 mb-3 mb-lg-0">
+                        <div  className="col-lg-2 col-md-2 col-sm-3 col-4 mb-3 mb-lg-0 btnhover">
                             <img src={clientlogos} alt="" width={90}/>
                         </div>
-                        <div className="col-lg-2 col-md-2 col-sm-3 col-4 mb-3 mb-lg-0">
+                        <div className="col-lg-2 col-md-2 col-sm-3 col-4 mb-3 mb-lg-0 btnhover">
                             <img src={clientlogos} alt="" width={90}/>
                         </div>
-                        <div className="col-lg-2 col-md-2 col-sm-3 col-4 mb-3 mb-lg-0">
+                        <div className="col-lg-2 col-md-2 col-sm-3 col-4 mb-3 mb-lg-0 btnhover">
                             <img src={clientlogos} alt="" width={90}/>
                         </div>
-                        <div className="col-lg-2 col-md-2 col-sm-3 col-4 mb-3 mb-lg-0">
+                        <div className="col-lg-2 col-md-2 col-sm-3 col-4 mb-3 mb-lg-0 btnhover">
                             <img src={clientlogos} alt="" width={90}/>
                         </div>
-                        <div className="col-lg-2 col-md-2 col-sm-3 col-4 mb-3 mb-lg-0">
+                        <div className="col-lg-2 col-md-2 col-sm-3 col-4 mb-3 mb-lg-0 btnhover">
                             <img src={clientlogos} alt="" width={90}/>
                         </div>
-                        <div className="col-lg-2 col-md-2 col-sm-3 col-4 mb-3 mb-lg-0">
+                        <div className="col-lg-2 col-md-2 col-sm-3 col-4 mb-3 mb-lg-0 btnhover">
                             <img src={clientlogos} alt="" width={90}/>
                         </div>
                     </div>

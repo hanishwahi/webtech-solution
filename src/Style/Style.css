@@ -735,3 +735,13 @@ li.nav-item {
     font-family: 'Roboto', sans-serif;
 
 }
+
+
+.btnhover { 
+    border: none;
+    color: white;    
+    opacity: 0.1;
+    transition: 0.3s; 
+  }
+  .btnhover:hover {opacity: 1;
+cursor: pointer;}
