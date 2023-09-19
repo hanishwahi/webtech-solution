@@ -8,7 +8,7 @@ function Clients() {
 
     return (
         <>
-            <div className="container-fluid py-5">
+            <div className="container-fluid py-5 client-bg">
                 <div className="container-xl">
                     <div className="row py-3">
                         <div className="col industries">

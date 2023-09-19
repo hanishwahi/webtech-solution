@@ -7,6 +7,10 @@ import restaurant from './../../Images/restaurant.png'
 import travel from './../../Images/Travel.png'
 import finance from './../../Images/financial.png'
 import retail from './../../Images/Retail.png'
+import b2c from './../../Images/b2c.png'
+import b2b from './../../Images/b2b.png'
+import telecom from './../../Images/Telecom.png'
+import immigration from './../../Images/Immigration.png'
 
 function Industries() {
 
@@ -23,50 +27,74 @@ function Industries() {
                     <div className="row">
                         <div className='text-center col-md-3 col-sm-4 col-6 mb-3 border-right'>
                             <div className="caraousel">
-                                <img width={60} height={50} src={education} alt="" />
+                                <img  width={60} height={60} src={education} alt="" />
                                 <h1>Education</h1>
                             </div>
                         </div>
                         <div className='text-center col-md-3 col-sm-4 col-6 mb-3 border-right'>
                             <div className="caraousel">
-                                <img width={60} height={50} src={hospital} alt="" />
+                                <img  width={60} height={60} src={hospital} alt="" />
                                 <h1>Hospital</h1>
                             </div>
                         </div>
                         <div className='text-center col-md-3 col-sm-4 col-6 mb-3 border-right'>
                             <div className="caraousel">
-                                <img width={60} height={50} src={law} alt="" />
+                                <img  width={60} height={60} src={law} alt="" />
                                 <h1>Law</h1>
                             </div>
                         </div>
                         <div className='text-center col-md-3 col-sm-4 col-6 mb-3 border-right'>
                             <div className="caraousel3">
-                                <img width={60} height={50} src={realestate} alt="" />
+                                <img  width={60} height={60} src={realestate} alt="" />
                                 <h1>Real Estate</h1>
                             </div>
                         </div>
                         <div className='text-center col-md-3 col-sm-4 col-6 mb-3 border-right'>
-                            <div className="caraousel2">
-                                <img width={60} height={50} src={restaurant} alt="" />
+                            <div className="caraousel">
+                                <img  width={60} height={60} src={restaurant} alt="" />
                                 <h1>Restaurant</h1>
                             </div>
                         </div>
                         <div className='text-center col-md-3 col-sm-4 col-6 mb-3 border-right'>
-                            <div className="caraousel2">
-                                <img width={60} height={50} src={travel} alt="" />
+                            <div className="caraousel">
+                                <img  width={60} height={60} src={travel} alt="" />
                                 <h1>Travel</h1>
                             </div>
                         </div>
                         <div className='text-center col-md-3 col-sm-4 col-6 mb-3 border-right'>
-                            <div className="caraousel2">
-                                <img width={60} height={50} src={finance} alt="" />
+                            <div className="caraousel">
+                                <img  width={60} height={60} src={finance} alt="" />
                                 <h1>Finance</h1>
+                            </div>
+                        </div>
+                        <div className='text-center col-md-3 col-sm-4 col-6 mb-3'>
+                            <div className="caraousel3">
+                                <img  width={60} height={60} src={retail} alt="" />
+                                <h1>Retail</h1>
+                            </div>
+                        </div>
+                        <div className='text-center col-md-3 col-sm-4 col-6 mb-3 border-right'>
+                            <div className="caraousel2">
+                                <img  width={60} height={60} src={b2c} alt="" />
+                                <h1>Business to Customer</h1>
+                            </div>
+                        </div>
+                        <div className='text-center col-md-3 col-sm-4 col-6 mb-3 border-right'>
+                            <div className="caraousel2">
+                                <img  width={60} height={60} src={telecom} alt="" />
+                                <h1>Telecom</h1>
+                            </div>
+                        </div>
+                        <div className='text-center col-md-3 col-sm-4 col-6 mb-3 border-right'>
+                            <div className="caraousel2">
+                                <img  width={60} height={60} src={b2b} alt="" />
+                                <h1>Business to Business</h1>
                             </div>
                         </div>
                         <div className='text-center col-md-3 col-sm-4 col-6 mb-3 border-right'>
                             <div className="caraousell">
-                                <img width={60} height={50} src={retail} alt="" />
-                                <h1>Retail</h1>
+                                <img  width={60} height={60} src={immigration} alt="" />
+                                <h1>Immigration</h1>
                             </div>
                         </div>
                     </div>

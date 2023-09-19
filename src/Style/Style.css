@@ -372,15 +372,15 @@ body {
     margin-left: 5px;
 }
 @keyframes slide1 {
-    0,
+    0%,
     100% {
-        transform: translate(0, 0);
+      transform: translate(0, 0);
     }
-
+  
     50% {
-        transform: translate(10px, 0);
+      transform: translate(10px, 0);
     }
-}
+  }
 
 
 /* home services  */
@@ -520,6 +520,10 @@ body {
 .footer-bg {
     background-color: #263045;
     padding: 50px 0;
+    /* background-image: url('../Images/earth\ \(1\).webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; */
 }
 .footer-head h1 {
     font-size: 18px;
@@ -531,6 +535,7 @@ body {
     text-transform: uppercase;
     margin-bottom: 25px;
 }
+ 
 .footer-list p {
     font-size: 16px;
     font-weight: 300;
@@ -555,7 +560,7 @@ body {
 
 .border-right-footer {
     border-right: 1px solid #ccc;
-    min-height: 190px;
+    min-height: 225px;
 }
 
 .domain-bar {
@@ -567,6 +572,13 @@ body {
 
 
 /* clients */
+.client-bg{
+    margin: 50px 0px;
+    background-image: url('../Images/earth\ \(1\).webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
 
 .text-muted {
     color: #263045 !important;
@@ -578,7 +590,7 @@ body {
     /* border-image: linear-gradient(to top, #43ade6, rgba(0, 0, 0, 0)) 1 100%; */
     border: 4px solid green;
     border-image-source: linear-gradient(white, #9cdafc, #43ade6);
-    border-image-slice: 1; 
+    border-image-slice: 1;
 }
 .text-muted-inner {
     margin: 0 auto;
@@ -614,5 +626,5 @@ body {
 }
 .client-img-section {
     border: 5px solid #6fc6f5;
-    border-radius: 50%;  
+    border-radius: 50%;
 }
