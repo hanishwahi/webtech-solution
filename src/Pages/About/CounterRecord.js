@@ -57,23 +57,23 @@ function CounterRecord() {
     return (
         <>
             <div className='container-fluid my-md-5 my-3 py-md-5 py-3 counter-bg'>
-                <div className='container'>
-                    <div className='row justify-content-lg-center'>
-                        <div className='col-lg-4 col-sm-6 mb-3 mb-md-0 '>
+                <div className='container-xl'>
+                    <div className='row justify-content-lg-center align-items-center'>
+                        <div className='col-lg-4 col-sm-6 col-md-4 mb-3 mb-md-0 '>
                             <div className='counter-box'>
                                 <div className="col-lg-12 col-sm-12 col-12 Counter-1"><h1>{counter1}%</h1></div>
                                 <div className='col-lg-12 col-sm-12 col-12 record-004'>
                                     <h2>Increase your clients retention rates</h2></div>
                             </div>
                         </div>
-                        <div className='col-lg-4 col-sm-6 mb-3 mb-md-0'>
+                        <div className='col-lg-4 col-sm-6 col-md-4 mb-3 mb-md-0'>
                             <div className='counter-box'>
                                 <div className="col-lg-12 col-sm-12 col-12 Counter-1"><h1>{counter2}+</h1></div>
                                 <div className='col-lg-12 col-sm-12 col-12 record-004'>
                                     <h2>WebTech Employees</h2></div>
                             </div>
                         </div>
-                        <div className='col-lg-4 col-sm-6 mb-3 mb-md-0'>
+                        <div className='col-lg-4 col-sm-6 col-md-4 mb-3 mb-md-0'>
                             <div className='counter-box'>
                                 <div className="col-lg-12 col-sm-12 col-12 Counter-1"><h1>{counter3}%</h1></div>
                                 <div className='col-lg-12 col-sm-12 col-12 record-004'><h2>Tested and proven concepts</h2></div>

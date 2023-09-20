@@ -140,7 +140,7 @@ li.nav-item {
     color: #263045 !important;
     background-color: #fff;
     background-clip: padding-box;
-    border: 1px solid rgba(0, 0, 0, .15);
+    border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 0.25rem;
 }
 
@@ -409,7 +409,7 @@ li.nav-item {
     margin-left: 5px;
 }
 @keyframes slide1 {
-    0,
+    0%,
     100% {
         transform: translate(0, 0);
     }
@@ -672,7 +672,7 @@ li.nav-item {
 
 /* about us  */
 .aboutus-main {
-    padding: 50px 0px;
+    padding: 50px 0;
 }
 .aboutus-content h1 {
     font-size: 32px;
@@ -719,10 +719,9 @@ li.nav-item {
 .counter-box {
     border: 2px solid #fff;
     text-align: center;
-    padding: 60px;
+    padding: 40px 30px;
     background: #fff;
-    border-radius: 20px;
-    margin-bottom: 20px;
+    border-radius: 20px; 
 }
 
 
@@ -743,7 +742,7 @@ li.nav-item {
     border: none;
     color: white;
     opacity: 0.3;
-    transition: 0.3s;
+    transition: 0.3s; 
 }
 .btnhover:hover {
     opacity: 1;
@@ -752,7 +751,7 @@ li.nav-item {
 
 
 /* why choose us  */
- 
+
 .why-choose h1 {
     font-size: 32px;
     font-weight: 700;
@@ -771,7 +770,7 @@ li.nav-item {
     margin-bottom: 0;
     font-family: 'Roboto', sans-serif;
     color: #263045;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 .why-choose-checkbox p i {
@@ -781,10 +780,10 @@ li.nav-item {
     padding: 3px;
     font-size: 10px;
 }
-.why-choose-checkbox{
-    padding: 10px 0px;
+.why-choose-checkbox {
+    padding: 10px 0;
 }
-.why-choose-checkbox p { 
+.why-choose-checkbox p {
     font-size: 15px;
     line-height: 35px;
 }
