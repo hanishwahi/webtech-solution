@@ -105,44 +105,44 @@ body {
     padding: 10px 12px;
 }
 li.nav-item {
-    padding:  6px;
+    padding: 6px;
 }
 
 .nav-link:hover {
     color: #43ade6 !important;
 }
 
-.dropdown-hover:hover>.dropdown-menu {
+.dropdown-hover:hover > .dropdown-menu {
     display: inline-block;
-    }
-    
-    .dropdown-hover>.dropdown-toggle:active {
+}
+
+.dropdown-hover>.dropdown-toggle:active {
     /*Without this, clicking will make it sticky*/
     pointer-events: none;
-    }
+}
 
-    .dropdown-toggle::after{
-        border: none;
-    }
-    .dropdown-menu {
-        position: absolute;
-        z-index: 1000;
-        display: none; 
-        min-width: 14rem;
-        padding: .5rem 0;
-        margin: 0;
-        font-family: 'Roboto', sans-serif;
-        font-style: normal;
-        font-weight: 500; 
-        text-align: left;
-        list-style: none;
-        line-height: 26px;
-        color: #263045 !important;
-        background-color: #fff;
-        background-clip: padding-box;
-        border: 1px solid rgba(0,0,0,.15);
-        border-radius: .25rem; 
-    }
+.dropdown-toggle::after {
+    border: none;
+}
+.dropdown-menu {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 14rem;
+    padding: 0.5rem 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    text-align: left;
+    list-style: none;
+    line-height: 26px;
+    color: #263045 !important;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 0.25rem;
+}
 
 /* slider  */
 .slider-bg {
@@ -409,15 +409,15 @@ li.nav-item {
     margin-left: 5px;
 }
 @keyframes slide1 {
-    0%,
+    0,
     100% {
-      transform: translate(0, 0);
+        transform: translate(0, 0);
     }
-  
+
     50% {
-      transform: translate(10px, 0);
+        transform: translate(10px, 0);
     }
-  }
+}
 
 
 /* home services  */
@@ -427,11 +427,11 @@ li.nav-item {
 }
 
 .home-services-main {
-    padding: 32px 20px 0px 20px;
+    padding: 32px 20px 0;
     background-color: #fff;
     border-radius: 10px;
 }
-.home-services{
+.home-services {
     padding-bottom: 24px;
 }
 
@@ -575,7 +575,7 @@ li.nav-item {
     text-transform: uppercase;
     margin-bottom: 25px;
 }
- 
+
 .footer-list p {
     font-size: 16px;
     font-weight: 300;
@@ -612,12 +612,12 @@ li.nav-item {
 
 
 /* clients */
-.client-bg{
-    margin: 50px 0px;
+.client-bg {
+    margin: 50px 0;
     background-image: url('../Images/earth\ \(1\).webp');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
 }
 
 .text-muted {
@@ -672,9 +672,9 @@ li.nav-item {
 
 /* about us  */
 .aboutus-main {
-    padding: 50px 30px; 
+    padding: 50px 0px;
 }
-.aboutus-content h1 { 
+.aboutus-content h1 {
     font-size: 32px;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
@@ -685,26 +685,29 @@ li.nav-item {
 .aboutus-content h1 span {
     color: #43ade6;
 }
-.aboutus-content p { 
+.aboutus-content p {
     text-align: justify;
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 0;
     font-family: 'Roboto', sans-serif;
     color: #263045;
-    text-decoration: none; 
+    text-decoration: none;
     padding-right: 30px;
-    line-height: 30px;
 }
 
 
-/* counter  */ 
+/* counter  */
+
+.client-logo-slider-bg {
+    background-color: #ebebeb;
+}
 
 .counter-bg {
     background-image: linear-gradient(to right, #018dd1, #42ADE4);
 }
 
-.Counter-1 h1{
+.Counter-1 h1 {
     font-size: 45px;
     font-weight: 700;
     color: #42ADE4;
@@ -723,9 +726,8 @@ li.nav-item {
 }
 
 
- 
 .record-004 h2 {
-    margin-bottom: 0; 
+    margin-bottom: 0;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -737,11 +739,52 @@ li.nav-item {
 }
 
 
-.btnhover { 
+.btnhover {
     border: none;
-    color: white;    
-    opacity: 0.1;
-    transition: 0.3s; 
-  }
-  .btnhover:hover {opacity: 1;
-cursor: pointer;}
+    color: white;
+    opacity: 0.3;
+    transition: 0.3s;
+}
+.btnhover:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+/* why choose us  */
+ 
+.why-choose h1 {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.why-choose h1 span {
+    color: #43ade6;
+}
+.why-choose p {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #263045;
+    text-decoration: none; 
+}
+
+.why-choose-checkbox p i {
+    background-color: #42ADE4;
+    color: #fff;
+    border-radius: 50%;
+    padding: 3px;
+    font-size: 10px;
+}
+.why-choose-checkbox{
+    padding: 10px 0px;
+}
+.why-choose-checkbox p { 
+    font-size: 15px;
+    line-height: 35px;
+}

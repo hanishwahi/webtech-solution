@@ -59,6 +59,27 @@
     .border-right-footer { 
         border: none;
     }
+    .aboutus-main {
+        padding: 20px 0px;
+    }
+    .aboutus-content p { 
+        padding-right: 0px;
+    }
+    .aboutus-content h1 {
+        font-size: 26px; 
+    }
+    .why-choose h1 {
+        font-size: 26px; 
+    }
+    .why-choose-checkbox p { 
+        line-height: 25px;
+    }
+    .counter-box { 
+        padding: 40px; 
+    }
+    .Counter-1 h1 {
+        font-size: 38px; 
+    }
 
 }
 
