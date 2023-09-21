@@ -16,9 +16,9 @@ function NewNavBar() {
             <div className="container-fluid sticky-top py-1 py-lg-0 border-bottom bg-white">
                 <div className="container-xl">
                     <div className="row">
-                        <div className="col-lg-2 col-md-2 col-5 col-sm-3 text-start px-0 align-self-center">
+                        <div className="col-lg-2 col-md-2 col-5 col-sm-3 text-start align-self-center">
                             <Link onClick={scrollToHome} to='/'>
-                                <img width="80%" height={50} className="img-fluid px-0" src={MainNewlogo} alt="" />
+                                <img width="90%" height={50} className="img-fluid px-0" src={MainNewlogo} alt="" />
 
                             </Link>
                         </div>
