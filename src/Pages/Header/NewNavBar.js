@@ -6,9 +6,14 @@ function NewNavBar() {
     const scrollToHome = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
+
+ 
+    
+
+
     return (
         <>
-            <div className="container-fluid sticky-top bg-white py-1 py-lg-0 border-bottom">
+            <div className="container-fluid sticky-top py-1 py-lg-0 border-bottom bg-white">
                 <div className="container-xl">
                     <div className="row">
                         <div className="col-lg-2 col-md-2 col-5 col-sm-3 text-start px-0 align-self-center">
@@ -32,7 +37,7 @@ function NewNavBar() {
                                             <li className="nav-item dropdown dropdown-hover position-static">
 
                                                 <Link className="nav-link w-nav-link dropdown-toggle " id="navbarDropdown" role="button"
-                                                    data-mdb-toggle="dropdown" aria-expanded="false">Service <i class="fa-solid fa-caret-down"></i></Link>
+                                                    data-mdb-toggle="dropdown" aria-expanded="false">Service <i className="fa-solid fa-caret-down"></i></Link>
                                                 <div style={{ width: "26%" }} className="dropdown-menu mt-0" aria-labelledby="navbarDropdown" >
 
 

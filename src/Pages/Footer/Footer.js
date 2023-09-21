@@ -24,11 +24,11 @@ function Footer() {
                                     <h1>Quick Links</h1>
                                 </div>
                                 <div className="footer-list">
-                                    {/* <Link><p> <i class="fa-solid fa-caret-right footer-arrow"></i>Home</p></Link> */}
-                                    <Link><p> <i class="fa-solid fa-caret-right footer-arrow"></i>Career</p></Link>
-                                    <Link><p> <i class="fa-solid fa-caret-right footer-arrow"></i>Our Team</p></Link>
-                                    <Link><p> <i class="fa-solid fa-caret-right footer-arrow"></i>Blog</p></Link>
-                                    <Link><p> <i class="fa-solid fa-caret-right footer-arrow"></i>Privacy & Policy</p></Link>
+                                    {/* <Link><p> <i className="fa-solid fa-caret-right footer-arrow"></i>Home</p></Link> */}
+                                    <Link><p> <i className="fa-solid fa-caret-right footer-arrow"></i>Career</p></Link>
+                                    <Link><p> <i className="fa-solid fa-caret-right footer-arrow"></i>Our Team</p></Link>
+                                    <Link><p> <i className="fa-solid fa-caret-right footer-arrow"></i>Blog</p></Link>
+                                    <Link><p> <i className="fa-solid fa-caret-right footer-arrow"></i>Privacy & Policy</p></Link>
                                 </div>
                             </div>
 
@@ -39,10 +39,10 @@ function Footer() {
                                     <h1>Services</h1>
                                 </div>
                                 <div className="footer-list">
-                                    <Link><p> <i class="fa-solid fa-caret-right footer-arrow"></i>Digital Marketing</p></Link>
-                                    <Link><p> <i class="fa-solid fa-caret-right footer-arrow"></i>Web Development</p></Link>
-                                    <Link><p> <i class="fa-solid fa-caret-right footer-arrow"></i>App Development</p></Link>
-                                    <Link><p> <i class="fa-solid fa-caret-right footer-arrow"></i>Graphic Designing</p></Link>
+                                    <Link><p> <i className="fa-solid fa-caret-right footer-arrow"></i>Digital Marketing</p></Link>
+                                    <Link><p> <i className="fa-solid fa-caret-right footer-arrow"></i>Web Development</p></Link>
+                                    <Link><p> <i className="fa-solid fa-caret-right footer-arrow"></i>App Development</p></Link>
+                                    <Link><p> <i className="fa-solid fa-caret-right footer-arrow"></i>Graphic Designing</p></Link>
                                 </div>
                             </div>
 
@@ -52,10 +52,10 @@ function Footer() {
                                 <h1>Contact Us</h1>
                             </div>
                             <div className="footer-list footer-list-padding">
-                                <p><i class="fa-solid fa-location-dot"></i> Bestech Business Tower
+                                <p><i className="fa-solid fa-location-dot"></i> Bestech Business Tower
                                     Office No: 412 Tower-A, 4th Floor, Sahibzada Ajit Singh Nagar, Punjab 160066.</p>
-                                <Link to="tel:+91 8427682603"><p> <i class="fa-solid fa-phone footer-social-icon"></i> +91 8427682603</p></Link>
-                                <Link to="mailto:info@webtechsolutionsservie.com"><p> <i class="fa-solid fa-envelope footer-social-icon"></i> info@webtechsolutionsservie.com</p></Link>
+                                <Link to="tel:+91 8427682603"><p> <i className="fa-solid fa-phone footer-social-icon"></i> +91 8427682603</p></Link>
+                                <Link to="mailto:info@webtechsolutionsservie.com"><p> <i className="fa-solid fa-envelope footer-social-icon"></i> info@webtechsolutionsservie.com</p></Link>
 
                             </div>
                         </div>

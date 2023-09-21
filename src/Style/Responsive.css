@@ -75,12 +75,20 @@
         line-height: 25px;
     }
     .counter-box { 
-        padding: 40px; 
+        padding: 10px 40px; 
     }
     .Counter-1 h1 {
         font-size: 38px; 
     }
-
+    .client-img { 
+        width: 50%; 
+    }
+    .counter-box-margin-top {
+        margin-top: 0px;
+    }
+    .counter-box-inner { 
+        padding: 70px 16px; 
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width: 767px){
@@ -133,8 +141,12 @@
     .footer-list p {
         font-size: 14px; 
     }
-
-     
+    .counter-box-margin-top {
+        margin-top: 0px;
+    }
+    .client-img { 
+        width: 30%; 
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 992px){
     .navbar-001-hide {
@@ -176,6 +188,12 @@
     }
     .counter-box {
        margin-bottom: 10px;
+    }
+    .counter-box-inner { 
+        padding: 42px 20px; 
+    }
+    .counter-box-margin-top {
+        margin-top: 0px;
     }
 
 }

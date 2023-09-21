@@ -18,15 +18,17 @@ function WhyChooseUs() {
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto officia dolor nostrum consequatur, obcaecati officiis tempora voluptatem vitae illum, totam exercitationem voluptas obcaecati officiis tempora voluptatem vitae illum, totam exercitationem voluptas exercitationem voluptas obcaecati officiis tempora voluptatem vitae illum, totam exercitationem voluptas.  </p>
                             </div>
                             <div className="why-choose-checkbox">
-                                <p><i class="fa-solid fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <p><i class="fa-solid fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <p><i class="fa-solid fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <p><i className="fa-solid fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <p><i className="fa-solid fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <p><i className="fa-solid fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             </div>
                         </div>
 
                     </div>
                 </div>
             </div>
+
+            
 
         </>
     )

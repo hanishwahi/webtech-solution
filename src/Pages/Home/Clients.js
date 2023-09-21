@@ -8,7 +8,7 @@ function Clients() {
 
     return (
         <>
-            <div className="container-fluid py-5 client-bg">
+            <div className="container-fluid client-bg">
                 <div className="container-xl">
                     <div className="row py-3">
                         <div className="col industries">
@@ -25,22 +25,25 @@ function Clients() {
                                         style={{ width: "150px" }} />
                                 </div>
                                 <div className="row d-flex justify-content-center py-2">
-                                    <div className="text-muted">
-                                        <div className="col-lg-11 col-8 col-sm-9 text-muted-inner">
-                                            <h5 className="mb-3">Tabbu Rajput</h5>
-                                            <h3 className="mb-3">CEO AGENCY</h3>
-                                            <p className=" ">
-                                                <i className="fas fa-quote-left pe-2"></i>
-                                                "Working with Webtech Solutions has been an incredible experience. From start to finish, they demonstrated professionalism, expertise, and a genuine commitment to delivering exceptional service.
-                                            </p>
+                                    <div className="col-lg-6 col-11 col-sm-8">
+                                        <div className="row text-muted">
+                                            <div className="col-lg-11 col-12 col-sm-11 text-muted-inner">
+                                                <h5 className="mb-3">Tabbu Rajput</h5>
+                                                <h3 className="mb-3">CEO AGENCY</h3>
+                                                <p className=" ">
+                                                    <i className="fas fa-quote-left pe-2"></i>
+                                                    "Working with Webtech Solutions has been an incredible experience. From start to finish, they demonstrated professionalism, expertise, and a genuine commitment to delivering exceptional service.
+                                                </p>
+                                            </div>
+                                            <ul className="list-unstyled d-flex justify-content-center text-warning mb-3">
+                                                <li><i className="fas fa-star fa-sm"></i></li>
+                                                <li><i className="fas fa-star fa-sm"></i></li>
+                                                <li><i className="fas fa-star fa-sm"></i></li>
+                                                <li><i className="fas fa-star fa-sm"></i></li>
+                                                <li><i className="far fa-star fa-sm"></i></li>
+                                            </ul>
+
                                         </div>
-                                        <ul className="list-unstyled d-flex justify-content-center text-warning mb-3">
-                                            <li><i className="fas fa-star fa-sm"></i></li>
-                                            <li><i className="fas fa-star fa-sm"></i></li>
-                                            <li><i className="fas fa-star fa-sm"></i></li>
-                                            <li><i className="fas fa-star fa-sm"></i></li>
-                                            <li><i className="far fa-star fa-sm"></i></li>
-                                        </ul>
                                     </div>
                                 </div>
 
@@ -52,22 +55,24 @@ function Clients() {
                                         style={{ width: "150px" }} />
                                 </div>
                                 <div className="row d-flex justify-content-center py-2">
-                                    <div className="text-muted">
-                                        <div className="col-lg-11 col-8 col-sm-9 text-muted-inner">
-                                            <h5 className="mb-3">NU COsmetics</h5>
-                                            <h3 className="mb-3">CEO AGENCY</h3>
-                                            <p className=" ">
-                                                <i className="fas fa-quote-left pe-2"></i>
-                                                "Working with Webtech Solutions has been an incredible experience. From start to finish, they demonstrated professionalism, expertise, and a genuine commitment to delivering exceptional service.
-                                            </p>
+                                    <div className="col-lg-6 col-11 col-sm-8">
+                                        <div className="row text-muted">
+                                            <div className="col-lg-11 col-12 col-sm-11 text-muted-inner">
+                                                <h5 className="mb-3">NU COsmetics</h5>
+                                                <h3 className="mb-3">CEO AGENCY</h3>
+                                                <p className=" ">
+                                                    <i className="fas fa-quote-left pe-2"></i>
+                                                    "Working with Webtech Solutions has been an incredible experience. From start to finish, they demonstrated professionalism, expertise, and a genuine commitment to delivering exceptional service.
+                                                </p>
+                                            </div>
+                                            <ul className="list-unstyled d-flex justify-content-center text-warning mb-3">
+                                                <li><i className="fas fa-star fa-sm"></i></li>
+                                                <li><i className="fas fa-star fa-sm"></i></li>
+                                                <li><i className="fas fa-star fa-sm"></i></li>
+                                                <li><i className="fas fa-star fa-sm"></i></li>
+                                                <li><i className="far fa-star fa-sm"></i></li>
+                                            </ul>
                                         </div>
-                                        <ul className="list-unstyled d-flex justify-content-center text-warning mb-3">
-                                            <li><i className="fas fa-star fa-sm"></i></li>
-                                            <li><i className="fas fa-star fa-sm"></i></li>
-                                            <li><i className="fas fa-star fa-sm"></i></li>
-                                            <li><i className="fas fa-star fa-sm"></i></li>
-                                            <li><i className="far fa-star fa-sm"></i></li>
-                                        </ul>
                                     </div>
                                 </div>
 
@@ -79,22 +84,24 @@ function Clients() {
                                         style={{ width: "150px" }} />
                                 </div>
                                 <div className="row d-flex justify-content-center py-2">
-                                    <div className="text-muted">
-                                        <div className="col-lg-11 col-8 col-sm-9 text-muted-inner">
-                                            <h5 className="mb-3">Startup Khata</h5>
-                                            <h3 className="mb-3">CEO AGENCY</h3>
-                                            <p className=" ">
-                                                <i className="fas fa-quote-left pe-2"></i>
-                                                "Working with Webtech Solutions has been an incredible experience. From start to finish, they demonstrated professionalism, expertise, and a genuine commitment to delivering exceptional service.
-                                            </p>
+                                    <div className="col-lg-6 col-11 col-sm-8">
+                                        <div className="row text-muted">
+                                            <div className="col-lg-11 col-12 col-sm-11 text-muted-inner">
+                                                <h5 className="mb-3">Startup Khata</h5>
+                                                <h3 className="mb-3">CEO AGENCY</h3>
+                                                <p className=" ">
+                                                    <i className="fas fa-quote-left pe-2"></i>
+                                                    "Working with Webtech Solutions has been an incredible experience. From start to finish, they demonstrated professionalism, expertise, and a genuine commitment to delivering exceptional service.
+                                                </p>
+                                            </div>
+                                            <ul className="list-unstyled d-flex justify-content-center text-warning mb-3">
+                                                <li><i className="fas fa-star fa-sm"></i></li>
+                                                <li><i className="fas fa-star fa-sm"></i></li>
+                                                <li><i className="fas fa-star fa-sm"></i></li>
+                                                <li><i className="fas fa-star fa-sm"></i></li>
+                                                <li><i className="far fa-star fa-sm"></i></li>
+                                            </ul>
                                         </div>
-                                        <ul className="list-unstyled d-flex justify-content-center text-warning mb-3">
-                                            <li><i className="fas fa-star fa-sm"></i></li>
-                                            <li><i className="fas fa-star fa-sm"></i></li>
-                                            <li><i className="fas fa-star fa-sm"></i></li>
-                                            <li><i className="fas fa-star fa-sm"></i></li>
-                                            <li><i className="far fa-star fa-sm"></i></li>
-                                        </ul>
                                     </div>
                                 </div>
 
@@ -106,27 +113,29 @@ function Clients() {
                                         style={{ width: "150px" }} />
                                 </div>
                                 <div className="row d-flex justify-content-center py-2">
-                                    <div className="text-muted">
-                                        <div className="col-lg-11 col-8 col-sm-9 text-muted-inner">
-                                            <h5 className="mb-3">Rapid Tax</h5>
-                                            <h3 className="mb-3">CEO AGENCY</h3>
-                                            <p className=" ">
-                                                <i className="fas fa-quote-left pe-2"></i>
-                                                "Working with Webtech Solutions has been an incredible experience. From start to finish, they demonstrated professionalism, expertise, and a genuine commitment to delivering exceptional service.
-                                            </p>
+                                    <div className="col-lg-6 col-11 col-sm-8">
+                                        <div className="row text-muted">
+                                            <div className="col-lg-11 col-12 col-sm-11 text-muted-inner">
+                                                <h5 className="mb-3">Rapid Tax</h5>
+                                                <h3 className="mb-3">CEO AGENCY</h3>
+                                                <p className=" ">
+                                                    <i className="fas fa-quote-left pe-2"></i>
+                                                    "Working with Webtech Solutions has been an incredible experience. From start to finish, they demonstrated professionalism, expertise, and a genuine commitment to delivering exceptional service.
+                                                </p>
+                                            </div>
+                                            <ul className="list-unstyled d-flex justify-content-center text-warning mb-3">
+                                                <li><i className="fas fa-star fa-sm"></i></li>
+                                                <li><i className="fas fa-star fa-sm"></i></li>
+                                                <li><i className="fas fa-star fa-sm"></i></li>
+                                                <li><i className="fas fa-star fa-sm"></i></li>
+                                                <li><i className="far fa-star fa-sm"></i></li>
+                                            </ul>
                                         </div>
-                                        <ul className="list-unstyled d-flex justify-content-center text-warning mb-3">
-                                            <li><i className="fas fa-star fa-sm"></i></li>
-                                            <li><i className="fas fa-star fa-sm"></i></li>
-                                            <li><i className="fas fa-star fa-sm"></i></li>
-                                            <li><i className="fas fa-star fa-sm"></i></li>
-                                            <li><i className="far fa-star fa-sm"></i></li>
-                                        </ul>
                                     </div>
                                 </div>
 
                             </div>
-                            
+
 
 
                         </div>
