@@ -19,7 +19,6 @@ function NewNavBar() {
                         <div className="col-lg-2 col-md-2 col-5 col-sm-3 text-start align-self-center">
                             <Link onClick={scrollToHome} to='/'>
                                 <img width="90%" height={50} className="img-fluid px-0" src={MainNewlogo} alt="" />
-
                             </Link>
                         </div>
                         <div className="col-lg-8 align-self-center navbar-001-hide">
