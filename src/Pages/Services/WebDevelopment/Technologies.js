@@ -9,22 +9,22 @@ function Technologies() {
                     <h1><span>Technlogies</span> We Work on</h1>
                 </div>
                 <div className="row pt-5 text-center">
-                    <div className="col-lg-2">
+                    <div className="col-lg-2 col-4 col-sm-3 mb-3">
                         <img src={techicon} alt="" width={60}/>
                     </div>
-                    <div className="col-lg-2">
+                    <div className="col-lg-2 col-4 col-sm-3 mb-3">
                         <img src={techicon} alt="" width={60}/>
                     </div>
-                    <div className="col-lg-2">
+                    <div className="col-lg-2 col-4 col-sm-3 mb-3">
                         <img src={techicon} alt="" width={60}/>
                     </div>
-                    <div className="col-lg-2">
+                    <div className="col-lg-2 col-4 col-sm-3 mb-3">
                         <img src={techicon} alt="" width={60}/>
                     </div>
-                    <div className="col-lg-2">
+                    <div className="col-lg-2 col-4 col-sm-3 mb-3">
                         <img src={techicon} alt="" width={60}/>
                     </div>
-                    <div className="col-lg-2">
+                    <div className="col-lg-2 col-4 col-sm-3 mb-3">
                         <img src={techicon} alt="" width={60}/>
                     </div>
                 </div>

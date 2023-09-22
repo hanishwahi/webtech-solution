@@ -933,7 +933,7 @@ li.nav-item {
 
 /* technologies  */
 .technologies-main{
-    padding: 70px 0px;
+    padding: 140px 0px 70px 0px;
 }
 .technologies h1 {
     font-size: 36px;
@@ -951,7 +951,9 @@ li.nav-item {
 
 
 /* faq  */
- 
+.faq-main-top{
+    padding: 70px 0px;
+}
 
 .faq-main h1{ 
     font-size: 36px;

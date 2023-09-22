@@ -89,6 +89,40 @@
     .counter-box-inner { 
         padding: 70px 16px; 
     }
+    .web-development-main {
+        padding: 30px 0;
+    }
+    .web-development-inner h1 {
+        font-size: 26px; 
+    }
+    .serviceOffer h1 {
+        font-size: 26px; 
+    }
+    .technologies h1 {
+        font-size: 26px; 
+    }
+    .technologies-main {
+        padding: 30px 0px;
+    }
+    .faq-main h1 {
+        font-size: 26px; 
+    }
+    .accordion-button { 
+        font-size: 15px; 
+    }
+    .faq-main-top{
+        padding: 30px 0px;
+    }
+
+    .counter-box-inner { 
+        margin: 0 22px;
+    }
+    .ready-to-grow-content h1 { 
+        font-size: 22px; 
+    }
+    .ready-to-grow-content h2 { 
+        font-size: 20px; 
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width: 767px){
@@ -147,6 +181,33 @@
     .client-img { 
         width: 30%; 
     }
+    .web-development-inner h1 {
+        font-size: 30px; 
+    }
+    .web-development-main {
+        padding: 40px 0;
+    }
+    .technologies h1 {
+        font-size: 30px; 
+    }
+    .faq-main h1 {
+        font-size: 30px; 
+    }
+    .technologies-main {
+        padding: 40px 0px;
+    }
+    .faq-main-top{
+        padding: 30px 0px;
+    }
+    .ready-to-grow-content h1 { 
+        font-size: 26px; 
+    }
+    .ready-to-grow-content h2 { 
+        font-size: 22px; 
+    }
+    .industries h1 { 
+        font-size: 30px; 
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 992px){
     .navbar-001-hide {
@@ -195,7 +256,12 @@
     .counter-box-margin-top {
         margin-top: 0px;
     }
-
+    .technologies-main {
+        padding: 50px 0px;
+    }
+    .faq-main-top {
+        padding: 50px 0px;
+    }
 }
 @media screen and (min-width: 993px) and (max-width: 1024px){
     .how-we-work p {

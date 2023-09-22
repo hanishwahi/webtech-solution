@@ -12,7 +12,7 @@ function AboutUS() {
                             <h1>About <span>Us</span> </h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto officia dolor nostrum consequatur, obcaecati officiis tempora voluptatem vitae illum, totam exercitationem voluptas. Quae, cupiditate voluptates reprehenderit officiis eius fugiat ratione omnis illum harum impedit minima eos non ducimus autem delectus itaque quam corporis quo porro repellendus fugit rerum ipsa. Sint aperiam esse excepturi laborum labore et praesentium quisquam laboriosam eveniet, recusandae eaque cupiditate quam alias maxime consectetur omnis sunt quos hic. Autem necessitatibus quos odio corrupti sequi magni earum, reiciendis labore eligendi eum voluptas accusantium nobis voluptatum natus voluptatibus! Numquam omnis expedita aut quas rem repellendus magnam veritatis voluptatibus nemo exercitationem velit totam quasi earum id, beatae officia veniam. Explicabo dignissimos provident inventore vero iste nobis ea natus odit nulla incidunt.</p>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-sm-8 col-8">
+                        <div className="col-lg-4 col-md-6 col-sm-8 col-12">
                             <img src={aboutusimg} alt="" className='img-fluid' />
                         </div>
                     </div>

@@ -3,14 +3,14 @@ import React from 'react'
 function Faq() {
     return (
         <>
-            <div className="container-fluid my-5">
+            <div className="container-fluid faq-main-top">
                 <div className="container-xl">
                     <div className="faq-main">
                         <h1><span>Frequently Asked </span> Questions</h1>
                     </div>
 
                 </div>
-                <div className='container pb-5'>
+                <div className='container'>
                     <div className="accordion" id="accordionExample">
                         <div className="accordion-item">
                             <h2 className="accordion-header" id="headingOne">
