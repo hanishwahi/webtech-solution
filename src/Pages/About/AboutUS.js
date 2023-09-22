@@ -7,10 +7,15 @@ function AboutUS() {
         <>
             <div className="container-fluid aboutus-main">
                 <div className="container-xl">
-                    <div className="row align-items-center justify-content-center">
+                    <div className="row justify-content-center">
                         <div className="col-lg-8 aboutus-content">
                             <h1>About <span>Us</span> </h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto officia dolor nostrum consequatur, obcaecati officiis tempora voluptatem vitae illum, totam exercitationem voluptas. Quae, cupiditate voluptates reprehenderit officiis eius fugiat ratione omnis illum harum impedit minima eos non ducimus autem delectus itaque quam corporis quo porro repellendus fugit rerum ipsa. Sint aperiam esse excepturi laborum labore et praesentium quisquam laboriosam eveniet.</p>
+                            <div className="why-choose-checkbox">
+                                <p><i className="fa-solid fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <p><i className="fa-solid fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <p><i className="fa-solid fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-8 col-12">
                             <img src={aboutusimg} alt="" className='img-fluid' />

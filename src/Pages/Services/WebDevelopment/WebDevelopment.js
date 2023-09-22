@@ -5,6 +5,7 @@ import ServiceOffer from './ServiceOffer'
 import Technologies from './Technologies'
 import webdevelopmentImg from '../../../Images/aboutus-img.webp'
 import Faq from './FAQ'
+import ContactForm from '../../ContactForm/ContactForm'
 
 function WebDevelopment() {
   return (
@@ -29,6 +30,7 @@ function WebDevelopment() {
       <ServiceOffer />
       <Technologies />
       <Faq/>
+      <ContactForm/>
       <Footer />
     </>
   )

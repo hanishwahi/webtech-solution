@@ -14,17 +14,17 @@ function Blogs() {
                 <div className="card">
                     <div className="card-body p-0 shadow blog-box">
                         <div className='row ratio ratio-16x9 object-fit m-0'>
-                            <img className='img-fluid p-0' src="https://infogram.com/blog/wp-content/uploads/2023/06/GettyImages-1415537875-1-1024x638.jpg"  alt=''/>
+                            <img className='img-fluid p-0' src="https://img.freepik.com/premium-photo/having-great-idea_102671-6148.jpg?w=360" alt='' />
                         </div>
 
                         <div className='row px-4 py-3'>
                             <div className='col-sm-12 col-lg-12 col-12 col-md-12 px-0 blog-content'>
-                                    <h5 className="card-title mb-2" >Golden Rules for Elevating Your Creative Vision </h5>
+                                <h5 className="card-title mb-2" >Golden Rules for Elevating Your Creative Vision </h5>
                             </div>
                         </div>
                         <div className='row px-4'>
                             <div className='col-sm-12 col-lg-12 col-12 col-md-12 px-0 blog-content'>
-                                    <p className="card-title mb-2" >Design is an art form that conveys ideas, emotions, and messages beyond just aesthetics...</p>
+                                <p className="card-title mb-2" >Design is an art form that conveys ideas, emotions, and messages beyond just aesthetics...</p>
                             </div>
                         </div>
                         <div className='row px-4 py-3 align-items-center'>
@@ -43,19 +43,17 @@ function Blogs() {
                 <div className="card">
                     <div className="card-body p-0 shadow blog-box">
                         <div className='row ratio ratio-16x9 object-fit m-0'>
-                            <img className='img-fluid p-0' src="https://www.modalyst.co/wp-content/uploads/2016/08/SEO.jpg" alt=''/>
+                            <img className='img-fluid p-0' src="https://www.modalyst.co/wp-content/uploads/2016/08/SEO.jpg" alt='' />
                         </div>
 
                         <div className='row px-4 py-3'>
                             <div className='col-sm-12 col-lg-12 col-12 col-md-12 px-0 blog-content'>
-                                <Link onClick={scrollToHome} to={`/blog/`}>
-                                    <h5 className="card-title mb-2" >How to Improve Your Website's Visibility</h5>
-                                </Link>
+                                <h5 className="card-title mb-2" >How to Improve Your Website's Visibility</h5>
                             </div>
                         </div>
                         <div className='row px-4'>
                             <div className='col-sm-12 col-lg-12 col-12 col-md-12 px-0 blog-content'>
-                                    <p className="card-title mb-2" >Having an online presence is essential in the digital age for both individuals and organisations...</p>
+                                <p className="card-title mb-2" >Having an online presence is essential in the digital age for both individuals and organisations...</p>
                             </div>
                         </div>
                         <div className='row px-4 py-3 align-items-center'>
@@ -79,13 +77,13 @@ function Blogs() {
 
                         <div className='row px-4 py-3'>
                             <div className='col-sm-12 col-lg-12 col-12 col-md-12 px-0 blog-content'>
-                                    <h5 className="card-title mb-2" >Exploring the Future of Website Development in 2023 and Beyond!</h5>
-                                
+                                <h5 className="card-title mb-2" >Exploring the Future of Website Development in 2023 and Beyond!</h5>
+
                             </div>
                         </div>
                         <div className='row px-4'>
                             <div className='col-sm-12 col-lg-12 col-12 col-md-12 px-0 blog-content'>
-                                    <p className="card-title mb-2" >Websites have developed into potent tools that shape our online experiences as the internet...</p>
+                                <p className="card-title mb-2" >Websites have developed into potent tools that shape our online experiences as the internet...</p>
                             </div>
                         </div>
                         <div className='row px-4 py-3 align-items-center'>
@@ -100,7 +98,7 @@ function Blogs() {
                     </div>
                 </div>
             </div>
-             
+
 
         </>
     )

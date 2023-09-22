@@ -4,6 +4,7 @@ import Footer from '../../Footer/Footer'
 import Technologies from '../WebDevelopment/Technologies'
 import webdevelopmentImg from '../../../Images/home-service-img.webp' 
 import AppServiceOffer from './AppServiceOffer' 
+import ContactForm from '../../ContactForm/ContactForm'
 
 function AppDevelopment() {
   return (
@@ -29,6 +30,7 @@ function AppDevelopment() {
       </div> 
       <AppServiceOffer/>
       <Technologies /> 
+      <ContactForm/>
       <Footer />
     </>
   )

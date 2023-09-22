@@ -977,13 +977,18 @@ li.nav-item {
     padding: 1rem 1.25rem;
     font-size: 17px;
     font-weight: 500;
-    color: #212529;
+    color: #43ade6 !important;
     text-align: left;
     background-color: #fff;
     border: 0;
     border-radius: 0;
     overflow-anchor: none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+}
+.accordion-body p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #263045;
 }
 
 
