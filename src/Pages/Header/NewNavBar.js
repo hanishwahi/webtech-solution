@@ -44,10 +44,10 @@ function NewNavBar() {
                                                         <div className="row">
                                                             <div className="col-md-4 col-lg-12 mb-3 mb-lg-0">
                                                                 <div className="list-group list-group-flush">
-                                                                    <Link to="/" className="list-group-item list-group-item-action">Digital Marketing</Link>
-                                                                    <Link to="/" className="list-group-item list-group-item-action">Web Development</Link>
-                                                                    <Link to="/" className="list-group-item list-group-item-action">App Development</Link>
-                                                                    <Link to="/" className="list-group-item list-group-item-action">Graphic Designing</Link>
+                                                                    <Link onClick={scrollToHome} to="/" className="list-group-item list-group-item-action">Digital Marketing</Link>
+                                                                    <Link onClick={scrollToHome} to="/web-development" className="list-group-item list-group-item-action">Web Development</Link>
+                                                                    <Link onClick={scrollToHome} to="/" className="list-group-item list-group-item-action">App Development</Link>
+                                                                    <Link onClick={scrollToHome} to="/" className="list-group-item list-group-item-action">Graphic Designing</Link>
                                                                 </div>
                                                             </div>
 
