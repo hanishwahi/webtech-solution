@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom'
 import mainlogo from '../../Images/Webtech-logo.webp'
 
 function Footer() {
+    const scrollToHome = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
     return (
         <>
             <div className="container-fluid footer-bg">
@@ -37,8 +41,8 @@ function Footer() {
                                 </div>
                                 <div className="footer-list">
                                     <Link><p> <i className="fa-solid fa-caret-right footer-arrow"></i>Digital Marketing</p></Link>
-                                    <Link><p> <i className="fa-solid fa-caret-right footer-arrow"></i>Web Development</p></Link>
-                                    <Link><p> <i className="fa-solid fa-caret-right footer-arrow"></i>App Development</p></Link>
+                                    <Link onClick={scrollToHome} to="/web-development"><p> <i className="fa-solid fa-caret-right footer-arrow"></i>Web Development</p></Link>
+                                    <Link onClick={scrollToHome} to="/app-development"><p> <i className="fa-solid fa-caret-right footer-arrow"></i>App Development</p></Link>
                                     <Link><p> <i className="fa-solid fa-caret-right footer-arrow"></i>Graphic Designing</p></Link>
                                 </div>
                             </div>

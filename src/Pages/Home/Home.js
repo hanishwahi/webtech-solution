@@ -5,7 +5,7 @@ import HowWeWork from './HowWeWork'
 import Industries from './Industries' 
 import CallAction from './CallAction'
 import Footer from '../Footer/Footer'
-import Clients from './Clients'
+import HomeClients from './HomeClients'
 import HomeServices from './HomeServices'
 // import Technologies from './Technologies'
 
@@ -19,7 +19,7 @@ function Home() {
      <HomeServices/>
      <CallAction/>
      {/* <Technologies/> */}
-     <Clients/>   
+     <HomeClients/>   
      <Footer/>
   
      </>

@@ -7,8 +7,8 @@ function NewNavBar() {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
- 
-    
+
+
 
 
     return (
@@ -46,7 +46,7 @@ function NewNavBar() {
                                                                 <div className="list-group list-group-flush">
                                                                     <Link onClick={scrollToHome} to="/" className="list-group-item list-group-item-action">Digital Marketing</Link>
                                                                     <Link onClick={scrollToHome} to="/web-development" className="list-group-item list-group-item-action">Web Development</Link>
-                                                                    <Link onClick={scrollToHome} to="/" className="list-group-item list-group-item-action">App Development</Link>
+                                                                    <Link onClick={scrollToHome} to="/app-development" className="list-group-item list-group-item-action">App Development</Link>
                                                                     <Link onClick={scrollToHome} to="/" className="list-group-item list-group-item-action">Graphic Designing</Link>
                                                                 </div>
                                                             </div>
@@ -66,7 +66,7 @@ function NewNavBar() {
                                                 <Link onClick={scrollToHome} to="/portfolio" className="nav-link w-nav-link">Portfolio</Link>
                                             </li>
                                             <li className="nav-item">
-                                                <Link onClick={scrollToHome} to="/team" className="nav-link w-nav-link">Team</Link>
+                                                <Link onClick={scrollToHome} to="/our-team" className="nav-link w-nav-link">Team</Link>
                                             </li>
 
 
@@ -97,13 +97,25 @@ function NewNavBar() {
                             <div className="offcanvas-body p-0">
                                 <Link onClick={scrollToHome} to="/" aria-current="page" className="nav-link w-nav-link ">Home</Link>
                                 <Link onClick={scrollToHome} to="/about" className="nav-link w-nav-link">About</Link>
-                                <Link onClick={scrollToHome} to="/services" className="nav-link w-nav-link">Services</Link>
+                                {/* <Link onClick={scrollToHome} to="/services" className="nav-link w-nav-link">Services</Link> */}
+                                <div class="dropdown">
+                                    <a class="dropdown-toggle nav-link w-nav-link" href='/'  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Services
+                                    </a>
+ 
+                                    <ul class="dropdown-menu">
+                                        <li><Link class="dropdown-item" to='/digital-marketing'>Digital Marketing</Link></li>
+                                        <li><Link class="dropdown-item" to='/web-development'>Web Development</Link></li>
+                                        <li><Link class="dropdown-item" to='/app-development'>App Development</Link></li>
+                                        <li><Link class="dropdown-item" to='/graphic-designing'>Graphic Designing</Link></li>
+                                    </ul>
+                                </div>
                                 <Link onClick={scrollToHome} to="/clients" className="nav-link w-nav-link">Clients</Link>
                                 <Link onClick={scrollToHome} to="/career" className="nav-link w-nav-link">Careers</Link>
                                 <Link onClick={scrollToHome} to="/training-development" className="nav-link w-nav-link">Training</Link>
                                 <Link onClick={scrollToHome} to="/blogs" className="nav-link w-nav-link">Blog</Link>
                                 <Link onClick={scrollToHome} to="/portfolio" className="nav-link w-nav-link">Portfolio</Link>
-                                <Link onClick={scrollToHome} to="/team" className="nav-link w-nav-link">Team</Link>
+                                <Link onClick={scrollToHome} to="/our-team" className="nav-link w-nav-link">Team</Link>
                                 <Link onClick={scrollToHome} to="/contact-us" className="nav-link w-nav-link">Contact Us</Link>
                             </div>
                         </div>

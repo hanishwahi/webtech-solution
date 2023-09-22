@@ -4,7 +4,7 @@ import nucosmetics from '../../Images/nucosmetic.webp'
 import startupkhata from '../../Images/StartupKhatalogo.png'
 import rapidtax from '../../Images/rapidtax.webp'
 
-function Clients() {
+function HomeClients() {
 
     return (
         <>
@@ -154,4 +154,4 @@ function Clients() {
     )
 }
 
-export default Clients
+export default HomeClients

@@ -7,6 +7,10 @@ import appdevelopment from './../../Images/App Development.png'
 import graphicdesigning from './../../Images/Graphic Designing.png'
 
 function HomeServices() {
+    const scrollToHome = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
     return (
         <>
             <div className="container-fluid home-services-bg">
@@ -54,7 +58,7 @@ function HomeServices() {
                                                 <img width={50} src={webdevelopment} alt="" className='pb-4' />
                                                 <h1>Web Development</h1>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque repellat voluptates odio qui, corrupti corporis suscipit.</p>
-                                                <Link>Explore More <i className="fa-solid fa-angles-right arrow1"></i></Link>
+                                                <Link onClick={scrollToHome} to='/web-development'>Explore More <i className="fa-solid fa-angles-right arrow1"></i></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -64,7 +68,7 @@ function HomeServices() {
                                                 <img width={40} src={appdevelopment} alt="" className='pb-4' />
                                                 <h1>App Development</h1>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque repellat voluptates odio qui, corrupti corporis suscipit.</p>
-                                                <Link>Explore More <i className="fa-solid fa-angles-right arrow1"></i></Link>
+                                                <Link onClick={scrollToHome} to='/app-development'>Explore More <i className="fa-solid fa-angles-right arrow1"></i></Link>
                                             </div>
                                         </div>
                                     </div>

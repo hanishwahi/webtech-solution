@@ -4,7 +4,7 @@ import Footer from '../Footer/Footer'
 import AboutUS from './AboutUS'
 import CounterRecord from './CounterRecord'
 import WhyChooseUs from './WhyChooseUs'
-import Clients from '../Home/Clients'
+import Clients from '../Home/HomeClients'
 import GetQuote from './GetQuote'
 
 
