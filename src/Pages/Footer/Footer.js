@@ -32,7 +32,6 @@ function Footer() {
                                     <Link><p> <i className="fa-solid fa-caret-right footer-arrow"></i>Privacy & Policy</p></Link>
                                 </div>
                             </div>
-
                         </div>
                         <div className="col-lg-3 col-sm-6 col-md-6 mb-4">
                             <div className="border-right-footer">
@@ -46,7 +45,6 @@ function Footer() {
                                     <Link><p> <i className="fa-solid fa-caret-right footer-arrow"></i>Graphic Designing</p></Link>
                                 </div>
                             </div>
-
                         </div>
                         <div className="col-lg-4 col-sm-6 col-md-6 mb-4">
                             <div className='footer-head'>
