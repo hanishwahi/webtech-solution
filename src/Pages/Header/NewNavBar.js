@@ -100,7 +100,7 @@ function NewNavBar() {
                                 {/* <Link onClick={scrollToHome} to="/services" className="nav-link w-nav-link">Services</Link> */}
                                 <div className="dropdown">
                                     <a className="dropdown-toggle nav-link w-nav-link" href='/'  role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Services
+                                    Services <i className="fa-solid fa-caret-down"></i>
                                     </a>
  
                                     <ul className="dropdown-menu">
