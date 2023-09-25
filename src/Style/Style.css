@@ -128,7 +128,7 @@ li.nav-item {
     position: absolute;
     z-index: 1000;
     display: none;
-    min-width: 14rem;
+    min-width: 10rem;
     padding: 0.5rem 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -142,6 +142,15 @@ li.nav-item {
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 0.25rem;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .5rem 4px;
+    color: #212529 !important;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
 }
 
 /* slider  */

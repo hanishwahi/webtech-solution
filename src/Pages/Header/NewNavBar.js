@@ -37,7 +37,7 @@ function NewNavBar() {
 
                                                 <Link className="nav-link w-nav-link dropdown-toggle " id="navbarDropdown" role="button"
                                                     data-mdb-toggle="dropdown" aria-expanded="false">Service <i className="fa-solid fa-caret-down"></i></Link>
-                                                <div style={{ width: "26%" }} className="dropdown-menu mt-0" aria-labelledby="navbarDropdown" >
+                                                <div  className="dropdown-menu mt-0" aria-labelledby="navbarDropdown" >
 
 
                                                     <div className="px-3">

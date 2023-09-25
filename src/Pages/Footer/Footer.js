@@ -39,10 +39,10 @@ function Footer() {
                                     <h1>Services</h1>
                                 </div>
                                 <div className="footer-list">
-                                 <Link><p> <i className="fa-solid fa-caret-right footer-arrow"></i>Digital Marketing</p></Link>
-                                 <Link onClick={scrollToHome} to="/web-development"><p><i className="fa-solid fa-caret-right footer-arrow"></i>Web Development</p></Link>
-                                 <Link onClick={scrollToHome} to="/app-development"><p><i className="fa-solid fa-caret-right footer-arrow"></i>App Development</p></Link>
-                                 <Link><p> <i className="fa-solid fa-caret-right footer-arrow"></i>Graphic Designing</p></Link>
+                                    <Link><p> <i className="fa-solid fa-caret-right footer-arrow"></i>Digital Marketing</p></Link>
+                                    <Link onClick={scrollToHome} to="/web-development"><p><i className="fa-solid fa-caret-right footer-arrow"></i>Web Development</p></Link>
+                                    <Link onClick={scrollToHome} to="/app-development"><p><i className="fa-solid fa-caret-right footer-arrow"></i>App Development</p></Link>
+                                    <Link><p> <i className="fa-solid fa-caret-right footer-arrow"></i>Graphic Designing</p></Link>
                                 </div>
                             </div>
                         </div>
