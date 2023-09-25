@@ -88,7 +88,7 @@ function InputForm() {
 
                 <div className="form-outline mb-4">
                     <label className="form-label fw-bold" htmlFor="form4Example3">*Message</label>
-                    <textarea className="form-control" name="message" required id="form4Example3" rows="4" placeholder='Message...'></textarea>
+                    <textarea className="form-control" name="message" required id="form4Example3" rows="2" placeholder='Message...'></textarea>
                 </div>
                 <input className='form-Button' type="submit" value="Submit" />
             </form>

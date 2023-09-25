@@ -81,7 +81,7 @@ function Industries() {
                         </div>
                         <div className='text-center col-md-3 col-sm-4 col-6 mb-3 border-right'>
                             <div className="caraousel2">
-                                <img  width={60} height={60} src={telecom} alt="" />
+                                <img  width={50} height={60} src={telecom} alt="" />
                                 <h1>Telecom</h1>
                             </div>
                         </div>

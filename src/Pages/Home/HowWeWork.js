@@ -33,7 +33,7 @@ function HowWeWork() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-sm-6">
+                        <div className="col-lg-4 col-sm-6 ">
                             <div>
                                 <div className='py-4'> <img width={60} height={50} src={two} alt="" /></div>
                                 <div className='d-flex shadow how-we-work-inner'>
@@ -43,12 +43,12 @@ function HowWeWork() {
 
                                     <div className='col-9 col-sm-8 col-md-9'><h1>Planning & <br /> Strategy</h1></div>
                                 </div>
-                                <div className='row how-we-work-inner'>
+                                <div className='how-we-work-inner'>
                                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur saepe mollitia, dolores blanditiis modi asperiores.</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-sm-6">
+                        <div className="col-lg-4 col-sm-6 ">
                             <div>
                                 <div className='py-4'> <img width={60} height={50} src={three} alt="" /></div>
                                 <div className='d-flex shadow how-we-work-inner'>
@@ -58,11 +58,13 @@ function HowWeWork() {
 
                                     <div className='col-9 col-sm-8 col-md-9'><h1>Client <br /> Satisfaction</h1></div>
                                 </div>
-                                <div className='row how-we-work-inner'>
+                                <div className='how-we-work-inner'>
                                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur saepe mollitia, dolores blanditiis modi asperiores.</p>
                                 </div>
                             </div>
                         </div>
+                       
+                      
                     </div>
                 </div>
             </div>

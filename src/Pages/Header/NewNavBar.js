@@ -40,7 +40,7 @@ function NewNavBar() {
                                                 <div style={{ width: "26%" }} className="dropdown-menu mt-0" aria-labelledby="navbarDropdown" >
 
 
-                                                    <div className="container">
+                                                    <div className="px-3">
                                                         <div className="row">
                                                             <div className="col-md-4 col-lg-12 mb-3 mb-lg-0">
                                                                 <div className="list-group list-group-flush">
