@@ -4,8 +4,6 @@ import { useRef } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-
-
 function InputForm() {
 
     const form = useRef();
@@ -91,9 +89,8 @@ function InputForm() {
                     <textarea className="form-control" name="message" required id="form4Example3" rows="2" placeholder='Message...'></textarea>
                 </div>
                 <input className='form-Button' type="submit" value="Submit" />
-            </form>
-
-            <ToastContainer /> 
+            </form> 
+            <ToastContainer />
         </>
     )
 }
