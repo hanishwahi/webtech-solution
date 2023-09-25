@@ -98,16 +98,16 @@ function NewNavBar() {
                                 <Link onClick={scrollToHome} to="/" aria-current="page" className="nav-link w-nav-link ">Home</Link>
                                 <Link onClick={scrollToHome} to="/about" className="nav-link w-nav-link">About</Link>
                                 {/* <Link onClick={scrollToHome} to="/services" className="nav-link w-nav-link">Services</Link> */}
-                                <div class="dropdown">
-                                    <a class="dropdown-toggle nav-link w-nav-link" href='/'  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <div className="dropdown">
+                                    <a className="dropdown-toggle nav-link w-nav-link" href='/'  role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Services
                                     </a>
  
-                                    <ul class="dropdown-menu">
-                                        <li><Link class="dropdown-item" to='/digital-marketing'>Digital Marketing</Link></li>
-                                        <li><Link class="dropdown-item" to='/web-development'>Web Development</Link></li>
-                                        <li><Link class="dropdown-item" to='/app-development'>App Development</Link></li>
-                                        <li><Link class="dropdown-item" to='/graphic-designing'>Graphic Designing</Link></li>
+                                    <ul className="dropdown-menu">
+                                        <li><Link className="dropdown-item" to='/digital-marketing'>Digital Marketing</Link></li>
+                                        <li><Link className="dropdown-item" to='/web-development'>Web Development</Link></li>
+                                        <li><Link className="dropdown-item" to='/app-development'>App Development</Link></li>
+                                        <li><Link className="dropdown-item" to='/graphic-designing'>Graphic Designing</Link></li>
                                     </ul>
                                 </div>
                                 <Link onClick={scrollToHome} to="/clients" className="nav-link w-nav-link">Clients</Link>
