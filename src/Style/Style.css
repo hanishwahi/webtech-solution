@@ -993,6 +993,11 @@ li.nav-item {
 
 
 /* contact form  */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
 .contactus-main {
     background: #E2F5FF;
 }
@@ -1029,7 +1034,6 @@ li.nav-item {
 .contact-us i {
     color: #42ADE4;
     font-size: 22px;
-    
 }
 
 .contact-us a {
@@ -1135,7 +1139,6 @@ li.nav-item {
 
 .blog-detail-001 a {
     text-decoration: none;
-
 }
 
 .blog-detail-001 a h4 {
