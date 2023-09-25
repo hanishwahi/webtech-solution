@@ -104,10 +104,10 @@ function NewNavBar() {
                                     </a>
  
                                     <ul className="dropdown-menu">
-                                        <li><Link className="dropdown-item" to='/digital-marketing'>Digital Marketing</Link></li>
-                                        <li><Link className="dropdown-item" to='/web-development'>Web Development</Link></li>
-                                        <li><Link className="dropdown-item" to='/app-development'>App Development</Link></li>
-                                        <li><Link className="dropdown-item" to='/graphic-designing'>Graphic Designing</Link></li>
+                                        <li onClick={scrollToHome}><Link className="dropdown-item" to='/digital-marketing'>Digital Marketing</Link></li>
+                                        <li onClick={scrollToHome}><Link className="dropdown-item" to='/web-development'>Web Development</Link></li>
+                                        <li onClick={scrollToHome}><Link className="dropdown-item" to='/app-development'>App Development</Link></li>
+                                        <li onClick={scrollToHome}><Link className="dropdown-item" to='/graphic-designing'>Graphic Designing</Link></li>
                                     </ul>
                                 </div>
                                 <Link onClick={scrollToHome} to="/clients" className="nav-link w-nav-link">Clients</Link>
