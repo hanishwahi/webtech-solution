@@ -1333,7 +1333,7 @@ input::-webkit-inner-spin-button {
     margin-bottom: 0px;
 }
 .corevalue-border-bottom{
-    border-bottom: 4px dotted #ccc; 
+    border-bottom: 4px dotted #ccc;  
 }
 .border-left-dotted{
     border-right: 4px dotted #ccc;

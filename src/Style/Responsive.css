@@ -158,6 +158,15 @@
     .blog-content h5 { 
         min-height: 52px; 
     }
+    .corevalue-border-bottom{
+        border: none;  
+    }
+    .border-left-dotted{
+        border: none;  
+    }
+    .core-values-bg { 
+        padding: 35px 0px;
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width: 767px){
@@ -253,6 +262,12 @@
     .blog-content h5 { 
         min-height: 78px; 
     }
+    .corevalue-border-bottom{
+        border: none;  
+    }
+    .border-left-dotted{
+        border: none;  
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 992px){
     .navbar-001-hide {
@@ -327,6 +342,12 @@
     .blog-detail-001 h1 {
         font-size: 20px;
         line-height: 26px;
+    }
+    .corevalue-border-bottom{
+        border: none;  
+    }
+    .border-left-dotted{
+        border: none;  
     }
 }
 @media screen and (min-width: 993px) and (max-width: 1024px){
