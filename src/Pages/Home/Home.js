@@ -8,6 +8,7 @@ import Footer from '../Footer/Footer'
 import HomeClients from './HomeClients'
 import HomeServices from './HomeServices'
 import BlogCaraousel from './BlogCaraousel'
+import CoreValues from './CoreValues'
 // import Technologies from './Technologies'
 
 function Home() {
@@ -18,6 +19,7 @@ function Home() {
      <HowWeWork/>
      <Industries/> 
      <HomeServices/>
+     <CoreValues/>
      <CallAction/>
      {/* <Technologies/> */}
      <BlogCaraousel/>

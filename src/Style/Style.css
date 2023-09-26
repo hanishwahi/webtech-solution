@@ -210,7 +210,7 @@ li.nav-item {
 
 /* how we work  */
 .how-we-work-main {
-    padding: 50px 30px;
+    padding: 70px 0px 35px 0px;
 }
 
 .how-we-work h1 {
@@ -388,7 +388,7 @@ li.nav-item {
 
 
 .industries-main {
-    padding: 50px 30px;
+    padding: 35px 0px 35px 0px;
 }
 .industries h1 {
     text-align: center;
@@ -514,9 +514,7 @@ li.nav-item {
 
 /* call action  */
 
-.call-action-main {
-    margin: 50px 0;
-}
+ 
 .call-action-bg {
     /* background-color: #263045;  */
     background-image: linear-gradient(to bottom, #018dd1, #43ade6);
@@ -1265,4 +1263,76 @@ input::-webkit-inner-spin-button {
     left: calc(2% + 1px) !important;
 }
 
+
+
+ /* core values  */
+ .core-values-bg{
+    background-image: url('/src/Images/corevalues-bg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    padding: 70px 0px;
+ }
  
+ .blue-bg{
+    background-color: #43ade6;
+    height: 20px;
+    width: 85%;
+     margin: 0px auto;
+     border-top-left-radius: 100px 64px;
+     position: relative;
+ }
+
+ .blue-bg:after {
+    content: "";
+    position:absolute;
+    margin:-20px;
+    width:40px;
+    height:40px;
+    transform:rotate(45deg);
+    background-color:#ffffff; /* to see where it is */
+  }
+ 
+  .blue-bg:before {
+    content: "";
+    position: absolute;
+    margin: -20px;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    transform: rotate(45deg);
+    background-color: #ffffff;
+}
+
+.core-values-text{
+    padding: 45px 20px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+.core-values-text h1{
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #43ade6;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+.core-values-text p { 
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: #263045;
+    text-decoration: none;
+    padding: 15px 0px; 
+}
+.corevalue-border-bottom{
+    border-bottom: 4px dotted #ccc; 
+}
+.border-left-dotted{
+    border-right: 4px dotted #ccc;
+    height: 80px; 
+    width: 50%;
+}

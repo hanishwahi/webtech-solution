@@ -10,7 +10,7 @@ function CallAction() {
     }
     return (
         <>
-            <div className="container-fluid call-action-main call-action-bg">
+            <div className="container-fluid call-action-bg">
                 <div className="container-xl">
                     <div className="row call-action-content">
                         <h1>We are trusted by leading Companies around the world. </h1>
