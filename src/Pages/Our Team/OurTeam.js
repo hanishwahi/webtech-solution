@@ -7,6 +7,7 @@ import Kuldeep from '../../Images/kuldeep.jpg'
 import Simar from '../../Images/simar.jpg'
 import Anuj from '../../Images/anuj.jpg'
 import Ankit_Mishra from '../../Images/ankit_mishra.webp'
+import Meenakshi from '../../Images/Meenakshi.webp'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 
@@ -104,6 +105,16 @@ function OurTeam() {
                             </h5>
                             <p className="card-text">
                             Wordpress Developer
+                            </p>
+                        </div>
+                        <div className="col-lg-3 text-center mb-3">
+                            <img loading="lazy" src={Meenakshi}
+                                className="team-image"
+                            />
+                            <h5 className="card-title pt-3">Meenakshi Goyal
+                            </h5>
+                            <p className="card-text">
+                            Graphic Designer
                             </p>
                         </div>
                     </div>
