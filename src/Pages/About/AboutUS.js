@@ -1,6 +1,10 @@
-import React from 'react'
-import clientlogos from '../../Images/nucosmetic.webp'
+import React from 'react' 
 import aboutusimg from '../../Images/aboutus-img.webp'
+import clienticon1 from '../../Images/icon-Carparts.png'
+import clienticon2 from '../../Images/icon-DOG.png'
+import clienticon3 from '../../Images/icon-EBike.png'
+import clienticon4 from '../../Images/icon-NU COSMETICS.png'
+import clienticon5 from '../../Images/icon-ticketmaster99.png'
 
 function AboutUS() {
     return (
@@ -26,25 +30,24 @@ function AboutUS() {
 
             <div className="container-fluid  client-logo-slider-bg">
                 <div className="container-xl">
-                    <div className="row py-4 text-center my-3 my-md-5">
+                    <div className="row py-4 text-center my-3 my-md-5 align-items-center justify-content-between">
                         <div className="col-lg-2 col-md-2 col-sm-3 col-4 mb-3 mb-lg-0 btnhover">
-                            <img src={clientlogos} alt="" width={90} />
+                            <img src={clienticon1} alt="" width={130} />
                         </div>
                         <div className="col-lg-2 col-md-2 col-sm-3 col-4 mb-3 mb-lg-0 btnhover">
-                            <img src={clientlogos} alt="" width={90} />
+                            <img src={clienticon5} alt="" width={130} />
                         </div>
                         <div className="col-lg-2 col-md-2 col-sm-3 col-4 mb-3 mb-lg-0 btnhover">
-                            <img src={clientlogos} alt="" width={90} />
+                            <img src={clienticon3} alt="" width={130} />
                         </div>
                         <div className="col-lg-2 col-md-2 col-sm-3 col-4 mb-3 mb-lg-0 btnhover">
-                            <img src={clientlogos} alt="" width={90} />
+                            <img src={clienticon4} alt="" width={130} />
                         </div>
+                      
                         <div className="col-lg-2 col-md-2 col-sm-3 col-4 mb-3 mb-lg-0 btnhover">
-                            <img src={clientlogos} alt="" width={90} />
+                            <img src={clienticon2} alt="" width={130} />
                         </div>
-                        <div className="col-lg-2 col-md-2 col-sm-3 col-4 mb-3 mb-lg-0 btnhover">
-                            <img src={clientlogos} alt="" width={90} />
-                        </div>
+                         
                     </div>
                 </div>
             </div>

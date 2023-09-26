@@ -51,7 +51,7 @@ function Footer() {
                                 <h1>Contact Us</h1>
                             </div>
                             <div className="footer-list footer-list-padding">
-                                <p><i className="fa-solid fa-location-dot"></i> Bestech Business Tower
+                                <p><i className="fa-solid fa-location-dot footer-social-icon"></i> Bestech Business Tower
                                     Office No: 412 Tower-A, 4th Floor, Sahibzada Ajit Singh Nagar, Punjab 160066.</p>
                                 <Link to="tel:+91 8427682603"><p> <i className="fa-solid fa-phone footer-social-icon"></i> +91 8427682603</p></Link>
                                 <Link to="mailto:info@webtechsolutionsservie.com"><p> <i className="fa-solid fa-envelope footer-social-icon"></i> info@webtechsolutionsservie.com</p></Link>

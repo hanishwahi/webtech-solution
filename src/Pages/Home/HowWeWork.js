@@ -17,7 +17,7 @@ function HowWeWork() {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab cumque nesciunt pariatur sapiente itaque illum architecto et voluptatem quibusdam. </p>
                         </div>
                     </div>
-                    <div className="row justify-content-between py-3">
+                    <div className="row justify-content-between pt-3">
                         <div className="col-lg-4 col-sm-6 ">
                             <div>
                                 <div className='py-4'> <img width={60} height={50} src={one} alt="" /></div>
