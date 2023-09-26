@@ -3,6 +3,12 @@ import { Link } from 'react-router-dom'
 
 
 function GetQuote() {
+    function scrollToHome() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        });
+    }
     return (
         <>
 
@@ -12,7 +18,7 @@ function GetQuote() {
                         <div className="col ready-to-grow-content">
                             <h2>Ready to Grow</h2>
                             <h1>Get Your Free Quote Today</h1>
-                            <Link to='/'>Get Quote</Link>
+                            <Link to='/contact-us' onClick={scrollToHome}>Get Quote</Link>
                         </div>
                     </div>
                 </div>

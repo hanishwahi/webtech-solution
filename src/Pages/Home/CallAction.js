@@ -2,6 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 function CallAction() {
+    function scrollToHome() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        });
+    }
     return (
         <>
             <div className="container-fluid call-action-main call-action-bg">
@@ -12,7 +18,7 @@ function CallAction() {
                     </div>
                     <div className="row">
                         <div className="col-lg-6 col-sm-6 text-sm-end text-center mb-3 mb-sm-0 call-action-button1"> 
-                               <h1><Link>Request Free Quote</Link></h1>  
+                               <h1><Link to='/contact-us' onClick={scrollToHome}>Request Free Quote</Link></h1>  
                         </div>
                         <div className="col-lg-6 col-sm-6 text-sm-start text-center call-action-button2"> 
                               <h1><Link to="tel:+91 8427682603"><i className="fa-solid fa-phone"></i> +91 8427682603</Link> </h1> 

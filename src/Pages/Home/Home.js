@@ -7,6 +7,7 @@ import CallAction from './CallAction'
 import Footer from '../Footer/Footer'
 import HomeClients from './HomeClients'
 import HomeServices from './HomeServices'
+import BlogCaraousel from './BlogCaraousel'
 // import Technologies from './Technologies'
 
 function Home() {
@@ -19,6 +20,7 @@ function Home() {
      <HomeServices/>
      <CallAction/>
      {/* <Technologies/> */}
+     <BlogCaraousel/>
      <HomeClients/>   
      <Footer/>
   
