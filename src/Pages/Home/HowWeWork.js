@@ -14,7 +14,7 @@ function HowWeWork() {
                     <div className="row">
                         <div className="col how-we-work">
                             <h1>How <span>We Work</span></h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab cumque nesciunt pariatur sapiente itaque illum architecto et voluptatem quibusdam. </p>
+                            <p>WebTech Solutions Service is a top-of-the-line digital marketing company in Mohali, dedicated to enriching the digital experience by providing  creative and innovative solutions to small as well as large scale businesses. We believe in the power of collaboration and transparency, working closely with our clients to bring their visions to life.</p>
                         </div>
                     </div>
                     <div className="row justify-content-between pt-3">
@@ -29,7 +29,7 @@ function HowWeWork() {
                                     <div className='col-9 col-sm-8 col-md-9'><h1>Understanding <br /> Client Needs</h1></div>
                                 </div>
                                 <div className='how-we-work-inner'>
-                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur saepe mollitia, dolores blanditiis modi asperiores.</p>
+                                    <p>We begin by thoroughly understanding the client's requirements, objectives, and vision for the project.</p>
                                 </div>
                             </div>
                         </div>
@@ -44,7 +44,7 @@ function HowWeWork() {
                                     <div className='col-9 col-sm-8 col-md-9'><h1>Planning & <br /> Strategy</h1></div>
                                 </div>
                                 <div className='how-we-work-inner'>
-                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur saepe mollitia, dolores blanditiis modi asperiores.</p>
+                                    <p>We formulate a comprehensive plan and strategy to achieve the client's objectives, delineating the project timeline, deliverables, and necessary resources.</p>
                                 </div>
                             </div>
                         </div>
@@ -59,7 +59,7 @@ function HowWeWork() {
                                     <div className='col-9 col-sm-8 col-md-9'><h1>Client <br /> Satisfaction</h1></div>
                                 </div>
                                 <div className='how-we-work-inner'>
-                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur saepe mollitia, dolores blanditiis modi asperiores.</p>
+                                    <p>Our ultimate goal is to ensure client satisfaction by delivering exceptional results, meeting project objectives, and exceeding expectations.</p>
                                 </div>
                             </div>
                         </div>

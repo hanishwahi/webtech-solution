@@ -22,7 +22,7 @@ function HomeServices() {
                                     <div className="col-lg-12 col-md-6 col-sm-6 align-self-center">
                                         <div className="row home-services">
                                             <h1>Our <span>Services</span> </h1>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum excepturi, blanditiis rem, quo vel earum voluptates nobis, voluptatibus impedit magnam dolores sunt! </p>
+                                            <p>Discover a world of possibilities with our  comprehensive services. We offer a dynamic range of solutions tailored to propel your brand forward. From website design and development that captivates your audience to data-driven digital marketing strategies that boost your online presence, we've got you covered. </p>
                                         </div>
                                         {/* <div className='home-services-button'>
                                             <Link>View All</Link>
@@ -31,7 +31,7 @@ function HomeServices() {
  
                                     <div className="col-lg-12 col-md-6 col-sm-6">
                                         <div className="row justify-content-center">
-                                            <div className="col-8 col-md-8 col-lg-12 col-sm-11">
+                                            <div className="col-8 col-md-8 col-lg-11 col-sm-11">
                                                 <img src={homeserviceImg} alt="" className='img-fluid' />
                                             </div>
                                         </div>
@@ -47,7 +47,7 @@ function HomeServices() {
                                             <div className='home-service-box'>
                                                 <img width={50} src={digitalMarketing} alt="" className='pb-4' />
                                                 <h1>Digital Marketing</h1>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque repellat voluptates odio qui, corrupti corporis suscipit.</p>
+                                                <p> From SEO to social media and PPC we'll help you reach your target audience and achieve remarkable results.</p>
                                                 <Link>Explore More <i className="fa-solid fa-angles-right arrow1"></i></Link>
                                             </div>
                                         </div>
@@ -57,7 +57,7 @@ function HomeServices() {
                                             <div className='home-service-box'>
                                                 <img width={50} src={webdevelopment} alt="" className='pb-4' />
                                                 <h1>Web Development</h1>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque repellat voluptates odio qui, corrupti corporis suscipit.</p>
+                                                <p>We bring your digital vision to life with sleek designs and seamless functionality.</p>
                                                 <Link onClick={scrollToHome} to='/web-development'>Explore More <i className="fa-solid fa-angles-right arrow1"></i></Link>
                                             </div>
                                         </div>
@@ -67,7 +67,7 @@ function HomeServices() {
                                             <div className='home-service-box'>
                                                 <img width={40} src={appdevelopment} alt="" className='pb-4' />
                                                 <h1>App Development</h1>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque repellat voluptates odio qui, corrupti corporis suscipit.</p>
+                                                <p>From concept to launch, we transform ideas into powerful, user-friendly mobile and web applications.</p>
                                                 <Link onClick={scrollToHome} to='/app-development'>Explore More <i className="fa-solid fa-angles-right arrow1"></i></Link>
                                             </div>
                                         </div>
@@ -77,7 +77,7 @@ function HomeServices() {
                                             <div className='home-service-box'>
                                                 <img width={50} src={graphicdesigning} alt="" className='pb-4' />
                                                 <h1>Graphic Designing</h1>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque repellat voluptates odio qui, corrupti corporis suscipit.</p>
+                                                <p>From captivating logos to stunning visuals, we transform your ideas into compelling visual stories.</p>
                                                 <Link>Explore More <i className="fa-solid fa-angles-right arrow1"></i></Link>
                                             </div>
                                         </div>

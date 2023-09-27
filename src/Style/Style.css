@@ -225,7 +225,7 @@ li.nav-item {
     color: #43ade6;
 }
 .how-we-work p {
-    width: 50%;
+    width: 90%;
     text-align: center;
     font-size: 15px;
     font-weight: 400;
@@ -434,12 +434,12 @@ li.nav-item {
 }
 
 .home-services-main {
-    padding: 32px 20px 0;
+    padding: 5px 5px 0;
     background-color: #fff;
     border-radius: 10px;
 }
 .home-services {
-    padding-bottom: 24px;
+    padding-bottom: 18px;
 }
 
 .home-services h1 {
@@ -1064,21 +1064,48 @@ input::-webkit-inner-spin-button {
     text-align: center;
 }
 
-.blog-box {
+.home-blog-box {
     min-height: 150px; 
 }
 
 .blog-content a {
     text-decoration: none;
 }
-
-.blog-content h5 {
+.home-blog-content h5 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 17px; 
     color: #263045;
     min-height: 39px;
+    text-decoration: none !important;
+}
+.home-blog-content h6 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #263045;
+}
+.home-blogs-button a {
+    border-radius: 53px;
+   color: #263045; 
+   font-weight: 400;
+   font-size: 15px;
+   text-decoration: none;
+   font-family: 'Roboto', sans-serif;
+}
+.home-blogs-button a:hover { 
+   color: #43ade6;  
+}
+ 
+.blog-content h5 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px; 
+    color: #263045;
     text-decoration: none !important;
 }
 
@@ -1101,15 +1128,19 @@ input::-webkit-inner-spin-button {
 }
 
 .blogs-button a {
-     border-radius: 53px;
-    color: #263045; 
+    border-radius: 53px;
+    color: #fff;
     font-weight: 400;
     font-size: 15px;
+    background: #263045;
+    padding: 10px;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
 }
 .blogs-button a:hover { 
-    color: #43ade6;  
+    color: #263045; 
+    background: transparent;
+    border: 1px solid #263045; 
 }
 
 /* blog detail page  */
@@ -1292,7 +1323,7 @@ input::-webkit-inner-spin-button {
     width:40px;
     height:40px;
     transform:rotate(45deg);
-    background-color:#ffffff; /* to see where it is */
+    background-color:#ffffff;  
   }
  
   .blue-bg:before {
@@ -1310,6 +1341,7 @@ input::-webkit-inner-spin-button {
     padding: 45px 20px;
     background-color: #fff;
     border-radius: 30px;
+    min-height: 254px;
 }
 .core-values-text h1{
     font-size: 18px;

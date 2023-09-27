@@ -21,7 +21,7 @@ function Industries() {
                     <div className="row py-3">
                         <div className="col industries">
                             <h1>Industries <span>We Work For</span></h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>At our digital marketing agency, our expertise extends across a diverse spectrum of industries. We take pride in tailoring our digital strategies to suit the unique needs and challenges that each industry presents. </p>
                         </div>
                     </div>
                     <div className="row">

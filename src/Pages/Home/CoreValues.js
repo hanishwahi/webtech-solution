@@ -18,8 +18,8 @@ function CoreValues() {
                             <div className="blue-bg">
                             </div>
                             <div className='shadow core-values-text'>
-                                <h1>inovation</h1>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos quia alias ipsum, quod atque repellat neque blanditiis quidem obcaecati enim.</p>
+                                <h1>innovation</h1>
+                                <p>Innovation is at the heart of everything we do. We continually seek new ideas and creative solutions to drive progress and exceed expectations.</p>
                             </div>
                             <div className="core-icons">
                                 <img src={innovation} alt="" width={100}/>
@@ -32,7 +32,7 @@ function CoreValues() {
                             </div>
                             <div className='shadow core-values-text'>
                                 <h1>integrity</h1>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos quia alias ipsum, quod atque repellat neque blanditiis quidem obcaecati enim.</p>
+                                <p>We uphold unwavering honesty and transparency, ensuring your trust in our commitment to excellence.</p>
                             </div>
                             <div className="core-icons">
                                 <img src={integrity} alt="" width={100}/>
@@ -45,7 +45,7 @@ function CoreValues() {
                             </div>
                             <div className='shadow core-values-text'>
                                 <h1>Customer Centricity</h1>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos quia alias ipsum, quod atque repellat neque blanditiis quidem obcaecati enim.</p>
+                                <p>We prioritize your success, ensuring every digital marketing and website development solution is tailored to your unique needs and objectives.</p>
                             </div>
                             <div className="core-icons">
                                 <img src={customercent} alt="" width={100}/>
@@ -58,7 +58,7 @@ function CoreValues() {
                             </div>
                             <div className='shadow core-values-text'>
                                 <h1>transparency</h1>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos quia alias ipsum, quod atque repellat neque blanditiis quidem obcaecati enim.</p>
+                                <p>We believe in open communication and clear insights, ensuring our clients are informed every step of the way.</p>
                             </div>
                             <div className="core-icons">
                                 <img src={transparency} alt="" width={100}/>
