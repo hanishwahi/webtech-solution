@@ -15,6 +15,7 @@ import Blog2 from './Pages/Blog-New/blog-detail/Blog-2';
 import Blog3 from './Pages/Blog-New/blog-detail/Blog-3';
 import OurTeam from './Pages/Our Team/OurTeam';
 import Portfolio from './Pages/Portfolio/Portfolio';
+import PrivacyPolicy from './Pages/PrivacyPolicy/PrivacyPolicy';
 
 function App() {
   return (
@@ -27,9 +28,10 @@ function App() {
           <Route path='/app-development' element={<AppDevelopment/>}/>
           <Route path='/clients' element={<Clients/>}/> 
           <Route path='/contact-us' element={<Contact/>}/>
-          <Route path='/blogs' element={<BlogPage />} />
           <Route path='/our-team' element={<OurTeam/>} />
           <Route path='/portfolio' element={<Portfolio/>}/>
+          <Route path='/privacy-policy' element={<PrivacyPolicy/>}/>
+          <Route path='/blogs' element={<BlogPage />} />
         <Route path='/blogs/Golden-Rules-for-Elevating-Your-Creative-Vision' element={<Blog1 />} />
         <Route path='/blogs/How-to-Improve-Your-Website-Visibility' element={<Blog2 />} />
         <Route path='/blogs/Exploring-the-Future-of-Website-Development' element={<Blog3 />} />

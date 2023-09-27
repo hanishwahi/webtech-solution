@@ -27,9 +27,9 @@ function Footer() {
                                 <div className="footer-list">
                                     {/* <Link><p> <i className="fa-solid fa-caret-right footer-arrow"></i>Home</p></Link> */}
                                     <Link><p><i className="fa-solid fa-caret-right footer-arrow"></i>Career</p></Link>
-                                    <Link><p><i className="fa-solid fa-caret-right footer-arrow"></i>Our Team</p></Link>
-                                    <Link><p><i className="fa-solid fa-caret-right footer-arrow"></i>Blog</p></Link>
-                                    <Link><p><i className="fa-solid fa-caret-right footer-arrow"></i>Privacy & Policy</p></Link>
+                                    <Link onClick={scrollToHome} to='/our-team'><p><i className="fa-solid fa-caret-right footer-arrow"></i>Our Team</p></Link>
+                                    <Link onClick={scrollToHome} to='/blogs'><p><i className="fa-solid fa-caret-right footer-arrow"></i>Blog</p></Link>
+                                    <Link onClick={scrollToHome} to='/privacy-policy'><p><i className="fa-solid fa-caret-right footer-arrow"></i>Privacy & Policy</p></Link>
                                 </div>
                             </div>
                         </div>

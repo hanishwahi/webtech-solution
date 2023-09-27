@@ -6,8 +6,7 @@ import { Link } from 'react-router-dom'
 
 function BlogCaraousel() {
     const responsive = {
-        superLargeDesktop: {
-            // the naming can be any, depends on you.
+        superLargeDesktop: { 
             breakpoint: { max: 4000, min: 3000 },
             items: 5
         },
