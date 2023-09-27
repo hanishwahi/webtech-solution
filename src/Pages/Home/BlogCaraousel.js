@@ -35,7 +35,6 @@ function BlogCaraousel() {
             behavior: 'smooth',
         });
     }
-
     return (
         <>
             <div className="container-fluid blogs-carousel-main">
@@ -75,7 +74,6 @@ function BlogCaraousel() {
                                     </div>
                                 </div>
                             </div>
-                            
                             <div className="row justify-content-around">
                                 <div className="col-11">
                                     <div className="card">

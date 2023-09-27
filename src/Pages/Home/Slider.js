@@ -12,19 +12,17 @@ function Slider() {
                         </div>
                         <div className='py-3'>
                             <div className='slider-list'>
-                                <i className="fa-solid fa-check" style={{color:"#42ADE4"}}></i>
+                                <i className="fa-solid fa-check" style={{ color:"#42ADE4"}}></i>
                                 <h2>Cost Effective & Scalable Solutions</h2>
                             </div>
                             <div className='slider-list'>
-                                <i className="fa-solid fa-check" style={{color:"#42ADE4"}}></i>
+                                <i className="fa-solid fa-check" style={{ color: "#42ADE4" }}></i>
                                 <h2>Staying Updated with Industry Trends</h2>
                             </div>
-                        </div>
-                        
-                            <div className="slider-button">
-                             <Link to='/contact-us'>Get Started Free </Link> 
-                            </div>
-                         
+                        </div> 
+                        <div className="slider-button">
+                            <Link to='/contact-us'>Get Started Free </Link>
+                        </div> 
                     </div>
                     <div className="col-lg-6"></div>
                 </div>
