@@ -1,10 +1,10 @@
 import React from 'react'
 import Header from '../../Header/Header'
-import Footer from '../../Footer/Footer' 
-import Technologies from '../WebDevelopment/Technologies'
+import Footer from '../../Footer/Footer'  
 import webdevelopmentImg from '../../../Images/home-service-img.webp' 
 import AppServiceOffer from './AppServiceOffer' 
 import ContactForm from '../../ContactForm/ContactForm'
+import AppTechnologies from './AppTechnologies'
 
 function AppDevelopment() {
   return (
@@ -28,8 +28,8 @@ function AppDevelopment() {
  
         </div>
       </div> 
-      <AppServiceOffer/>
-      <Technologies /> 
+      <AppServiceOffer/> 
+      <AppTechnologies/>
       <ContactForm/>
       <Footer />
     </>

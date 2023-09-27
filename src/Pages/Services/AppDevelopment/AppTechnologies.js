@@ -1,22 +1,22 @@
 import React from 'react'
-import technology from '../../../Images/webtechnologies.webp'
+import appTechnologies from '../../../Images/Apptechnogies.webp'
 
-function Technologies() {
-    return (
-        <div className="container-fluid technologies-main">
+function AppTechnologies() {
+  return (
+    <div className="container-fluid technologies-main">
             <div className="container-xl">
                 <div className="row technologies">
                     <h1><span>Technlogies</span> We Work on</h1>
                 </div>
                 <div className="row pt-5 text-center">
-                    <div className="col-lg-12 mb-3">
-                        <img src={technology} alt=""  width="90%" />
+                    <div className="col-lg-12 col-4 col-sm-3 mb-3">
+                        <img src={appTechnologies} alt="" width="90%" />
                     </div>
                     
                 </div>
             </div>
         </div>
-    )
+  )
 }
 
-export default Technologies
+export default AppTechnologies

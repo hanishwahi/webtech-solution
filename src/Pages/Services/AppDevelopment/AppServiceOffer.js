@@ -22,26 +22,6 @@ function ServiceOffer() {
                                 <h2>IOS App Development</h2>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-4 col-sm-6">
-                            <div className='serviceOffer-box'>
-                                <h2>Ecommerce Web Design</h2>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-4 col-sm-6">
-                            <div className='serviceOffer-box'>
-                                <h2>WordPress Development</h2>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-4 col-sm-6">
-                            <div className='serviceOffer-box'>
-                                <h2>E-Commerce Platform</h2>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-4 col-sm-6">
-                            <div className='serviceOffer-box'>
-                                <h2>UI/UX Designing</h2>
-                            </div>
-                        </div>
                          
                     </div>
                 </div>
