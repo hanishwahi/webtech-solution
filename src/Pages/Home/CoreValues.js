@@ -22,7 +22,7 @@ function CoreValues() {
                                 <p>Innovation is at the heart of everything we do. We continually seek new ideas and creative solutions to drive progress and exceed expectations.</p>
                             </div>
                             <div className="core-icons">
-                                <img src={innovation} alt="" width={100}/>
+                                <img src={innovation} alt="" width={80}/>
                             </div>
                             <div className="border-left-dotted">
                             </div>
@@ -35,7 +35,7 @@ function CoreValues() {
                                 <p>We uphold unwavering honesty and transparency, ensuring your trust in our commitment to excellence.</p>
                             </div>
                             <div className="core-icons">
-                                <img src={integrity} alt="" width={100}/>
+                                <img src={integrity} alt="" width={80}/>
                             </div>
                             <div className="border-left-dotted">
                             </div>
@@ -48,7 +48,7 @@ function CoreValues() {
                                 <p>We prioritize your success, ensuring every digital marketing and website development solution is tailored to your unique needs and objectives.</p>
                             </div>
                             <div className="core-icons">
-                                <img src={customercent} alt="" width={100}/>
+                                <img src={customercent} alt="" width={80}/>
                             </div>
                             <div className="border-left-dotted">
                             </div>
@@ -61,7 +61,7 @@ function CoreValues() {
                                 <p>We believe in open communication and clear insights, ensuring our clients are informed every step of the way.</p>
                             </div>
                             <div className="core-icons">
-                                <img src={transparency} alt="" width={100}/>
+                                <img src={transparency} alt="" width={80}/>
                             </div>
                             <div className="border-left-dotted">
                             </div>

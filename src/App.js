@@ -16,6 +16,8 @@ import Blog3 from './Pages/Blog-New/blog-detail/Blog-3';
 import OurTeam from './Pages/Our Team/OurTeam';
 import Portfolio from './Pages/Portfolio/Portfolio';
 import PrivacyPolicy from './Pages/PrivacyPolicy/PrivacyPolicy';
+import DigitalMarketing from './Pages/Services/DigitalMarketing/DigitalMarketing';
+import GraphicDesigning from './Pages/Services/GraphicDesigning/GraphicDesigning';
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
           <Route path='/about' element={<About/>}/>
           <Route path='/web-development' element={<WebDevelopment/>}/>
           <Route path='/app-development' element={<AppDevelopment/>}/>
+          <Route path='/digital-marketing' element={<DigitalMarketing/>}/>
+          <Route path='/graphic-desiging' element={<GraphicDesigning/>}/>
           <Route path='/clients' element={<Clients/>}/> 
           <Route path='/contact-us' element={<Contact/>}/>
           <Route path='/our-team' element={<OurTeam/>} />

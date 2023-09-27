@@ -44,14 +44,12 @@ function NewNavBar() {
                                                         <div className="row">
                                                             <div className="col-md-4 col-lg-12 mb-3 mb-lg-0">
                                                                 <div className="list-group list-group-flush">
-                                                                    <Link onClick={scrollToHome} to="/" className="list-group-item list-group-item-action">Digital Marketing</Link>
+                                                                    <Link onClick={scrollToHome} to="/digital-marketing" className="list-group-item list-group-item-action">Digital Marketing</Link>
                                                                     <Link onClick={scrollToHome} to="/web-development" className="list-group-item list-group-item-action">Web Development</Link>
                                                                     <Link onClick={scrollToHome} to="/app-development" className="list-group-item list-group-item-action">App Development</Link>
-                                                                    <Link onClick={scrollToHome} to="/" className="list-group-item list-group-item-action">Graphic Designing</Link>
+                                                                    <Link onClick={scrollToHome} to="/graphic-desiging" className="list-group-item list-group-item-action">Graphic Designing</Link>
                                                                 </div>
-                                                            </div>
-
-
+                                                            </div> 
                                                         </div>
                                                     </div>
                                                 </div>
@@ -67,9 +65,7 @@ function NewNavBar() {
                                             </li>
                                             <li className="nav-item">
                                                 <Link onClick={scrollToHome} to="/our-team" className="nav-link w-nav-link">Team</Link>
-                                            </li>
-
-
+                                            </li> 
                                         </ul>
                                     </div>
                                 </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutimg from '../../Images/home-about-img.webp'
+import WhyChooseUsimg from '../../Images/whyChooseUs-img.webp'
 
 
 function WhyChooseUs() {
@@ -10,7 +10,7 @@ function WhyChooseUs() {
                 <div className="container-xl">
                     <div className="row align-items-center justify-content-lg-between justify-content-center">
                         <div className="col-lg-5 col-md-6 col-sm-6 col-8">
-                            <img src={aboutimg} alt="" className='img-fluid' />
+                            <img src={WhyChooseUsimg} alt="" className='img-fluid' />
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12 why-choose py-3">
                             <div>
