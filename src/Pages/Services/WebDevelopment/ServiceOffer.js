@@ -14,32 +14,32 @@ function ServiceOffer() {
                         </div>
                         <div className="col-lg-3 col-md-4 col-sm-6">
                             <div className='serviceOffer-box'>
-                                <h2>UI/UX Designing</h2>
+                                <h2>UI/UX </h2>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-4 col-sm-6">
                             <div className='serviceOffer-box'>
-                                <h2>Shopify Web Design</h2>
+                                <h2>Front-End Development</h2>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-4 col-sm-6">
                             <div className='serviceOffer-box'>
-                                <h2>Ecommerce Web Design</h2>
+                                <h2>Back-End Development</h2>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-4 col-sm-6">
                             <div className='serviceOffer-box'>
-                                <h2>WordPress Development</h2>
+                                <h2>WordPress/ Shopify</h2>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-4 col-sm-6">
                             <div className='serviceOffer-box'>
-                                <h2>E-Commerce Platform</h2>
+                                <h2>Website Design</h2>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-4 col-sm-6">
                             <div className='serviceOffer-box'>
-                                <h2>UI/UX Designing</h2>
+                                <h2>Mobile-Responsive Design</h2>
                             </div>
                         </div>
                          

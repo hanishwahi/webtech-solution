@@ -934,7 +934,7 @@ li.nav-item {
     font-size: 22px;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
-    color: #263045; 
+    /* color: #263045;  */
     letter-spacing: 1px;
 }
 
