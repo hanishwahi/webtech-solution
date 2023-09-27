@@ -1076,10 +1076,9 @@ input::-webkit-inner-spin-button {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 17px;
-    line-height: 26px;
+    font-size: 17px; 
     color: #263045;
-    min-height: 50px;
+    min-height: 39px;
     text-decoration: none !important;
 }
 
