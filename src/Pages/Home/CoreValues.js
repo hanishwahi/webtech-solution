@@ -1,5 +1,8 @@
 import React from 'react'
-
+import innovation from './../../Images/Innovation.png'
+import integrity from './../../Images/Integrity.png'
+import customercent from './../../Images/Customer-Centricity.png'
+import transparency from './../../Images/transparency.png'
 function CoreValues() {
     return (
         <>
@@ -11,53 +14,60 @@ function CoreValues() {
                         </div>
                     </div>
                     <div className="row corevalue-border-bottom">
-                   
-                            <div className="col-lg-3 col-md-4 col-sm-6 ">
-                                <div className="blue-bg">
-                                </div>
-                                <div className='shadow core-values-text'>
-                                    <h1>info Data</h1>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos quia alias ipsum, quod atque repellat neque blanditiis quidem obcaecati enim.</p>
-                                </div>
-                                <div className="border-left-dotted">
-                                </div>
+                        <div className="col-lg-3 col-md-4 col-sm-6 ">
+                            <div className="blue-bg">
                             </div>
-                            <div className="col-lg-3 col-md-4 col-sm-6 ">
-                                <div className="blue-bg">
-                                </div>
-                                <div className='shadow core-values-text'>
-                                    <h1>info Data</h1>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos quia alias ipsum, quod atque repellat neque blanditiis quidem obcaecati enim.</p>
-                                </div>
-                                <div className="border-left-dotted">
-                                </div>
+                            <div className='shadow core-values-text'>
+                                <h1>inovation</h1>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos quia alias ipsum, quod atque repellat neque blanditiis quidem obcaecati enim.</p>
                             </div>
-                            <div className="col-lg-3 col-md-4 col-sm-6 ">
-                                <div className="blue-bg">
-                                </div>
-                                <div className='shadow core-values-text'>
-                                    <h1>info Data</h1>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos quia alias ipsum, quod atque repellat neque blanditiis quidem obcaecati enim.</p>
-                                </div>
-                                <div className="border-left-dotted">
-                                </div>
+                            <div className="core-icons">
+                                <img src={innovation} alt="" width={100}/>
                             </div>
-                            <div className="col-lg-3 col-md-4 col-sm-6 ">
-                                <div className="blue-bg">
-                                </div>
-                                <div className='shadow core-values-text'>
-                                    <h1>info Data</h1>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos quia alias ipsum, quod atque repellat neque blanditiis quidem obcaecati enim.</p>
-                                </div>
-                                <div className="border-left-dotted">
-
-                                </div>
-
+                            <div className="border-left-dotted">
                             </div>
                         </div>
-
+                        <div className="col-lg-3 col-md-4 col-sm-6 ">
+                            <div className="blue-bg">
+                            </div>
+                            <div className='shadow core-values-text'>
+                                <h1>integrity</h1>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos quia alias ipsum, quod atque repellat neque blanditiis quidem obcaecati enim.</p>
+                            </div>
+                            <div className="core-icons">
+                                <img src={integrity} alt="" width={100}/>
+                            </div>
+                            <div className="border-left-dotted">
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-md-4 col-sm-6 ">
+                            <div className="blue-bg">
+                            </div>
+                            <div className='shadow core-values-text'>
+                                <h1>Customer Centricity</h1>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos quia alias ipsum, quod atque repellat neque blanditiis quidem obcaecati enim.</p>
+                            </div>
+                            <div className="core-icons">
+                                <img src={customercent} alt="" width={100}/>
+                            </div>
+                            <div className="border-left-dotted">
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-md-4 col-sm-6 ">
+                            <div className="blue-bg">
+                            </div>
+                            <div className='shadow core-values-text'>
+                                <h1>transparency</h1>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos quia alias ipsum, quod atque repellat neque blanditiis quidem obcaecati enim.</p>
+                            </div>
+                            <div className="core-icons">
+                                <img src={transparency} alt="" width={100}/>
+                            </div>
+                            <div className="border-left-dotted">
+                            </div>
+                        </div>
                     </div>
-                 
+                </div>
             </div>
 
         </>
