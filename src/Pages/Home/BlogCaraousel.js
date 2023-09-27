@@ -40,8 +40,7 @@ function BlogCaraousel() {
                 <div className="container-xl">
                     <div className="row py-3">
                         <div className="col industries">
-                            <h1>Blogs</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h1>Blogs</h1> 
                         </div>
                     </div>
                     <div className="row">

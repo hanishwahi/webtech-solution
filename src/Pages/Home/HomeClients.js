@@ -12,8 +12,7 @@ function HomeClients() {
                 <div className="container-xl">
                     <div className="row py-3">
                         <div className="col industries">
-                            <h1>Our Clients <span>Review</span></h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h1>Our Clients <span>Review</span></h1> 
                         </div>
                     </div>
                     <div id="carouselExampleControls" className="carousel slide text-center carousel-dark" data-mdb-ride="carousel">
