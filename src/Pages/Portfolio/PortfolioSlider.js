@@ -8,6 +8,11 @@ function PortfolioSlider() {
         <>
             <div className="container-fluid portfolio-nu-main">
                 <div className="container-xl">
+                    <div className="row">
+                        <div className="col how-we-work pb-3">
+                            <h1>Portfolio</h1>
+                        </div>
+                    </div>
                     <div className="row ">
                         <div className="col-lg-4 col-6 px-0">
                             <NuCosmetic />
@@ -16,7 +21,7 @@ function PortfolioSlider() {
                             <CarParts />
                         </div>
                         <div className="col-lg-4 col-6 px-0">
-                            <TicketMaster/>
+                            <TicketMaster />
                         </div>
                     </div>
                 </div>
