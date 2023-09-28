@@ -177,7 +177,12 @@
     .serviceOffer-box {
         margin-top: 25px;
     }
-     
+    .graphicserviceOffer {
+        padding: 0px 0px 20px 0px; 
+    }
+    .graphicserviceOffer h1 {
+        font-size: 26px; 
+    }
 
 }
 
