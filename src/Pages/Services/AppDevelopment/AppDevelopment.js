@@ -16,7 +16,7 @@ function AppDevelopment() {
         <div className="container-xl">
           <div className="row align-items-center justify-content-between">
             <div className="col-lg-6 col-md-6 col-sm-8 col-12 mb-3">
-              <img src={appdevelopmentImg} alt="" className='img-fluid'/>
+              <img src={appdevelopmentImg} alt=""  loading='lazy' className='img-fluid'/>
             </div>
             <div className="col-lg-5 web-development-inner mb-3">
               <h1><span>App Development</span> Services</h1>

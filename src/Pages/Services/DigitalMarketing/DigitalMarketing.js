@@ -15,7 +15,7 @@ function DigitalMarketing() {
         <div className="container-xl">
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-6 col-md-6 col-sm-8 col-12 mb-3">
-              <img src={webdevelopmentImg} alt="" className='img-fluid' />
+              <img src={webdevelopmentImg} alt=""  loading='lazy' className='img-fluid' />
             </div>
             <div className="col-lg-6 web-development-inner mb-3">
               <h1><span>Digital Marketing</span> Services</h1>
@@ -33,7 +33,7 @@ function DigitalMarketing() {
           <div className="row">
             <div className="col-lg-3">
               <div className="service-dm-bg">
-                <img src={icon} alt="" width={50} />
+                <img src={icon} alt=""  loading='lazy' width={50} />
                 <h1>SEO</h1>
               </div>
             </div>

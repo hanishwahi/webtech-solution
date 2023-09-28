@@ -26,7 +26,7 @@ function ServiceOffer() {
                         </div>
                         <div className="col-lg-3 col-md-4 col-sm-6">
                             <div className='serviceOffer-box'>
-                                <img src={android} alt="" />
+                                <img src={android} alt=""  loading='lazy'/>
                                 <h2>Android App Development</h2>
                                 <p>Web Tech Solutions Services specialise in creating mobile apps with strong code</p> <br />
                                 <ul>
@@ -40,7 +40,7 @@ function ServiceOffer() {
                         </div>
                         <div className="col-lg-3 col-md-4 col-sm-6 pt-md-4 pt-lg-0">
                             <div className='serviceOffer-box'>
-                                <img src={ios} alt="" />
+                                <img src={ios} alt=""  loading='lazy'/>
                                 <h2>IOS App Development</h2>
                                 <p>We offer a solution for every requirement you have, from creating an iOS application </p> <br />
                                 <ul>

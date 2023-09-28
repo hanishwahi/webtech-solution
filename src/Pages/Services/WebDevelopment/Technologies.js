@@ -10,7 +10,7 @@ function Technologies() {
                 </div>
                 <div className="row pt-5 text-center">
                     <div className="col-lg-12 mb-3">
-                        <img src={technology} alt=""  width="90%" />
+                        <img src={technology} alt="" loading='lazy' width="90%" />
                     </div>
                     
                 </div>

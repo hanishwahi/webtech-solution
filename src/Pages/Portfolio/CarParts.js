@@ -11,7 +11,7 @@ function NuCosmetic() {
                     <h1>Car Parts</h1>
                 </div>
                 <div className=''>
-                    <img src={CarParts} alt="" className='img-fluid' />
+                    <img src={CarParts} alt="" loading='lazy' className='img-fluid' />
                 </div>
                 <div className="viewMoreButton">
                     <h1>View More</h1>
@@ -28,7 +28,7 @@ function NuCosmetic() {
                         <div class="modal-body">
                             <div className="row">
                                 <div className="col">
-                                    <img width="100%" src={carsPartsCaraouselWal} alt="" />
+                                    <img width="100%" src={carsPartsCaraouselWal} alt="" loading='lazy'/>
                                 </div>
                             </div>
                         </div>

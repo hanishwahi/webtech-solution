@@ -11,7 +11,7 @@ function TicketMaster() {
                     <h1>Ticket Master</h1>
                 </div>
                 <div className=''>
-                    <img src={ticketMasterCarousel} alt="" className='img-fluid' />
+                    <img src={ticketMasterCarousel} alt="" loading='lazy' className='img-fluid' />
                 </div>
                 <div className="viewMoreButton">
                     <h1>View More</h1>
@@ -28,7 +28,7 @@ function TicketMaster() {
                         <div class="modal-body">
                             <div className="row">
                                 <div className="col">
-                                    <img width="100%" src={ticketMasterCarouselwall} alt="" />
+                                    <img width="100%" src={ticketMasterCarouselwall} alt="" loading='lazy'/>
                                 </div>
                             </div>
                         </div>

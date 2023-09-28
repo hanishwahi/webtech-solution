@@ -34,7 +34,7 @@ function NuCosmetic() {
                     <h1>NU Cosmetics</h1>
                 </div>
                 <div className=''>
-                    <img src={nuCosmeticCarousel} alt="" width="100%" />
+                    <img src={nuCosmeticCarousel} alt="" loading='lazy' width="100%" />
                 </div>
                 <div className="viewMoreButton">
                     <h1>View More</h1>
@@ -92,7 +92,7 @@ function NuCosmetic() {
                                     </div>
                                 </Carousel> */}
                                 <div className="col">
-                                    <img width="100%"  src={nuCosmeticCarouselWall} alt="" />
+                                    <img width="100%"  src={nuCosmeticCarouselWall} alt="" loading='lazy'/>
                                 </div>
                             </div>
                         </div>
