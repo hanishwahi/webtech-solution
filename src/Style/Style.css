@@ -148,7 +148,7 @@ li.nav-item {
     color: #212529 !important;
     text-decoration: none;
     background-color: #fff;
-    border: 1px solid rgba(0, 0, 0, .125);
+    border: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 /* slider  */
@@ -917,7 +917,7 @@ li.nav-item {
 .serviceOffer-box {
     background-color: #fff;
     padding: 20px;
-    min-height: 250px;
+    min-height: 367px;
     border-radius: 8px;
     margin-bottom: 25px;
     color: #000;
@@ -937,11 +937,29 @@ li.nav-item {
     font-family: 'Roboto', sans-serif;
     /* color: #263045;  */
     letter-spacing: 1px;
-    padding: 20px 0 0;
-    min-height: 66px;
+    padding: 10px 0 0;
+    min-height: 60px;
 }
 .serviceOffer-box p {
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    text-decoration: none;
+    text-align: left;
+}
+.serviceOffer ul li{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #263045;
+    text-decoration: none;
+    text-align: left;
+}
+.serviceOffer-box  ul li{
+    font-size: 16px;
     font-weight: 400;
     margin-bottom: 0;
     font-family: 'Roboto', sans-serif;
@@ -1455,17 +1473,26 @@ input::-webkit-inner-spin-button {
 
 /* services page  */
 
-.service-dm-bg{
-     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 40px;
-    background-image: url('./../Images/service-dummy.jpg');
-    overflow: hidden;
+.service-dm-bg {
+    padding: 15px 25px;
+    border: 1px solid #ccc;
     border-radius: 30px;
-    margin: 10px 0px;
+    margin: 10px 0;
+    display: flex; 
+    color: #263045;
 }
-
- 
- 
+.service-dm-bg h1{
+    font-size: 38px;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0px 20px;
+}
+.service-dm-bg:hover{
+     background-color: #42ade4;
+     color: #fff;
+}
  
