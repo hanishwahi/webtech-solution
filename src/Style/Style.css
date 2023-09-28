@@ -889,9 +889,8 @@ li.nav-item {
 .serviceOffer {
     background-color: #fff;
     padding: 20px;
-    min-height: 375px;
-    border-radius: 8px;
-    margin-bottom: 25px;
+    min-height: 384px;
+    border-radius: 8px; 
 }
 .serviceOffer h1 {
     font-size: 32px;
@@ -917,9 +916,8 @@ li.nav-item {
 .serviceOffer-box {
     background-color: #fff;
     padding: 20px;
-    min-height: 375px;
-    border-radius: 8px;
-    margin-bottom: 25px;
+    min-height: 384px;
+    border-radius: 8px; 
     color: #000;
 }
 
@@ -937,7 +935,7 @@ li.nav-item {
     font-family: 'Roboto', sans-serif;
     /* color: #263045;  */
     letter-spacing: 1px;
-    padding: 10px 0 0;
+    padding: 20px 0 0;
     min-height: 60px;
 }
 .serviceOffer-box p {

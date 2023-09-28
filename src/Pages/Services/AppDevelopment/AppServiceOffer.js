@@ -38,7 +38,7 @@ function ServiceOffer() {
 
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-4 col-sm-6">
+                        <div className="col-lg-3 col-md-4 col-sm-6 pt-md-4 pt-lg-0">
                             <div className='serviceOffer-box'>
                                 <img src={ios} alt="" />
                                 <h2>IOS App Development</h2>
