@@ -1,7 +1,6 @@
 import React from 'react'
 import Header from '../../Header/Header'
-import Footer from '../../Footer/Footer'
-import dm from './../../../Images/service-dummy.jpg'
+import Footer from '../../Footer/Footer' 
 
 function DigitalMarketing() {
   return (
@@ -26,7 +25,7 @@ function DigitalMarketing() {
               <div className="service-dm-bg">
               </div>
             </div>
-           
+
           </div>
         </div>
       </div>
