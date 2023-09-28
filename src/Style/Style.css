@@ -886,6 +886,71 @@ li.nav-item {
     background-color: #263045;
     padding: 40px 0;
 }
+
+.webserviceOffer {
+    background-color: #fff;
+    padding: 20px;
+    min-height: 262px;
+    border-radius: 8px; 
+    margin-bottom: 25px;
+}
+.webserviceOffer h1 {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #42ADE4;
+    text-decoration: none;
+}
+.serviceOffer span {
+    color: #263045;
+}
+
+.serviceOffer p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #263045;
+    text-decoration: none;
+    text-align: left;
+}
+
+.webserviceOffer-box {
+    background-color: #fff;
+    padding: 20px;
+    min-height: 262px;
+    border-radius: 8px; 
+    color: #000;
+}
+
+.webserviceOffer-box:hover {
+    /* box-shadow: inset 600px 0 0 0 #43ade6; */
+    filter: invert();
+    background-color: rgb(235 108 0);
+    /* transition: 1s; */
+}
+
+
+.webserviceOffer-box h2 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    /* color: #263045;  */
+    letter-spacing: 1px;
+    padding: 20px 0 0;
+    min-height: 60px;
+}
+.webserviceOffer-box p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    text-decoration: none;
+    text-align: left;
+}
+
+/* appservice  */
 .serviceOffer {
     background-color: #fff;
     padding: 20px;
@@ -965,6 +1030,58 @@ li.nav-item {
     margin-bottom: 0;
     font-family: 'Roboto', sans-serif;
     color: #000;
+    text-decoration: none;
+    text-align: left;
+}
+
+
+/* graphic page  */
+/* appservice  */
+.graphicserviceOffer { 
+    padding: 0px 0px 50px 0px; 
+    border-radius: 8px; 
+}
+.graphicserviceOffer h1 {
+    font-size: 38px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+ 
+
+.graphicserviceOffer p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    text-align: left;
+}
+
+.graphicserviceOffer-box {
+    background-color: #fff;
+    padding: 20px; 
+    border-radius: 8px; 
+    color: #000;
+    margin-bottom: 25px
+}
+ 
+.graphicserviceOffer-box h2 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: #263045; 
+    letter-spacing: 1px;
+    padding: 20px 0 0; 
+}
+.graphicserviceOffer-box p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #263045;
     text-decoration: none;
     text-align: left;
 }

@@ -33,16 +33,10 @@ function DigitalMarketing() {
           <div className="row">
             <div className="col-lg-3">
               <div className="service-dm-bg">
-                <img src={icon} alt="" width={50}/>
+                <img src={icon} alt="" width={50} />
                 <h1>SEO</h1>
               </div>
             </div>
-             
-               
-          
-           
-            
-
           </div>
         </div>
       </div>
