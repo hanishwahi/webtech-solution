@@ -10,7 +10,7 @@ function WhyChooseUs() {
                 <div className="container-xl">
                     <div className="row align-items-center justify-content-lg-between justify-content-center">
                         <div className="col-lg-5 col-md-6 col-sm-6 col-8">
-                            <img src={WhyChooseUsimg} alt="" className='img-fluid' />
+                            <img src={WhyChooseUsimg} alt="" loading='lazy' className='img-fluid' />
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12 why-choose py-3">
                             <div>

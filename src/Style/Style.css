@@ -891,7 +891,7 @@ li.nav-item {
     background-color: #fff;
     padding: 20px;
     min-height: 262px;
-    border-radius: 8px; 
+    border-radius: 8px;
     margin-bottom: 25px;
 }
 .webserviceOffer h1 {
@@ -919,7 +919,7 @@ li.nav-item {
     background-color: #fff;
     padding: 20px;
     min-height: 262px;
-    border-radius: 8px; 
+    border-radius: 8px;
     color: #000;
 }
 
@@ -955,7 +955,7 @@ li.nav-item {
     background-color: #fff;
     padding: 20px;
     min-height: 384px;
-    border-radius: 8px; 
+    border-radius: 8px;
 }
 .serviceOffer h1 {
     font-size: 32px;
@@ -982,7 +982,7 @@ li.nav-item {
     background-color: #fff;
     padding: 20px;
     min-height: 384px;
-    border-radius: 8px; 
+    border-radius: 8px;
     color: #000;
 }
 
@@ -1012,7 +1012,7 @@ li.nav-item {
     text-decoration: none;
     text-align: left;
 }
-.serviceOffer ul li{
+.serviceOffer ul li {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 0;
@@ -1021,10 +1021,10 @@ li.nav-item {
     text-decoration: none;
     text-align: left;
 }
-.serviceOffer-box ul{
+.serviceOffer-box ul {
     padding-left: 15px;
 }
-.serviceOffer-box  ul li{
+.serviceOffer-box ul li {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 0;
@@ -1036,10 +1036,14 @@ li.nav-item {
 
 
 /* graphic page  */
-/* appservice  */
-.graphicserviceOffer { 
-    padding: 0px 0px 50px 0px; 
-    border-radius: 8px; 
+.graphic-box-bg {
+    background-color: #263045;
+    padding: 40px 0;
+    margin-bottom: 30px;
+}
+.graphicserviceOffer {
+    padding: 0 0 50px;
+    border-radius: 8px;
 }
 .graphicserviceOffer h1 {
     font-size: 38px;
@@ -1048,7 +1052,7 @@ li.nav-item {
     color: #fff;
     text-decoration: none;
 }
- 
+
 
 .graphicserviceOffer p {
     font-size: 16px;
@@ -1062,20 +1066,20 @@ li.nav-item {
 
 .graphicserviceOffer-box {
     background-color: #fff;
-    padding: 20px; 
-    border-radius: 8px; 
+    padding: 20px;
+    border-radius: 8px;
     color: #000;
     margin-bottom: 25px
 }
- 
- 
+
+
 .graphicserviceOffer-box h2 {
     font-size: 20px;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
-    color: #263045; 
+    color: #263045;
     letter-spacing: 1px;
-    padding: 20px 0 0; 
+    padding: 20px 0 0;
 }
 .graphicserviceOffer-box p {
     font-size: 16px;
@@ -1597,10 +1601,10 @@ input::-webkit-inner-spin-button {
     border: 1px solid #ccc;
     border-radius: 30px;
     margin: 10px 0;
-    display: flex; 
+    display: flex;
     color: #263045;
 }
-.service-dm-bg h1{
+.service-dm-bg h1 {
     font-size: 38px;
     font-weight: 400;
     margin-bottom: 0;
@@ -1608,10 +1612,9 @@ input::-webkit-inner-spin-button {
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
-    padding: 0px 20px;
+    padding: 0 20px;
 }
-.service-dm-bg:hover{
-     background-color: #42ade4;
-     color: #fff;
+.service-dm-bg:hover {
+    background-color: #42ade4;
+    color: #fff;
 }
- 

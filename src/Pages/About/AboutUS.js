@@ -22,7 +22,7 @@ function AboutUS() {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-8 col-12">
-                            <img src={aboutusimg} alt="" className='img-fluid' />
+                            <img src={aboutusimg} alt=""  loading='lazy' className='img-fluid' />
                         </div>
                     </div>
                 </div>
@@ -32,20 +32,20 @@ function AboutUS() {
                 <div className="container-xl">
                     <div className="row py-4 text-center my-3 my-md-5 align-items-center justify-content-between">
                         <div className="col-lg-2 col-md-2 col-sm-3 col-4 mb-3 mb-lg-0 btnhover">
-                            <img src={clienticon1} alt="" width={130} />
+                            <img src={clienticon1} alt=""  loading='lazy' width={130} />
                         </div>
                         <div className="col-lg-2 col-md-2 col-sm-3 col-4 mb-3 mb-lg-0 btnhover">
-                            <img src={clienticon5} alt="" width={130} />
+                            <img src={clienticon5} alt=""  loading='lazy' width={130} />
                         </div>
                         <div className="col-lg-2 col-md-2 col-sm-3 col-4 mb-3 mb-lg-0 btnhover">
-                            <img src={clienticon3} alt="" width={130} />
+                            <img src={clienticon3} alt=""  loading='lazy' width={130} />
                         </div>
                         <div className="col-lg-2 col-md-2 col-sm-3 col-4 mb-3 mb-lg-0 btnhover">
-                            <img src={clienticon4} alt="" width={130} />
+                            <img src={clienticon4} alt=""  loading='lazy' width={130} />
                         </div>
                       
                         <div className="col-lg-2 col-md-2 col-sm-3 col-4 mb-3 mb-lg-0 btnhover">
-                            <img src={clienticon2} alt="" width={130} />
+                            <img src={clienticon2} alt=""  loading='lazy' width={130} />
                         </div>
                          
                     </div>

@@ -3,6 +3,7 @@ import Header from '../../Header/Header'
 import Footer from '../../Footer/Footer'
 import webdevelopmentImg from '../../../Images/web-develop-imng.webp'
 import GraphicServiceOffer from './GraphicServiceOffer'
+import GraphicTechnologies from './GraphicTechnologies'
 
 function GraphicDesigning() {
   return (
@@ -12,7 +13,7 @@ function GraphicDesigning() {
         <div className="container-xl">
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-6 col-md-6 col-sm-8 col-12 mb-3">
-              <img src={webdevelopmentImg} alt="" className='img-fluid' />
+              <img src={webdevelopmentImg} alt="" className='img-fluid'  loading='lazy'/>
             </div>
             <div className="col-lg-6 web-development-inner mb-3">
               <h1><span>Graphic Designing</span> Services</h1>
@@ -23,6 +24,7 @@ function GraphicDesigning() {
         </div>
       </div>
       <GraphicServiceOffer/>
+      <GraphicTechnologies/>
       <Footer />
     </>
   )
