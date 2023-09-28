@@ -889,7 +889,7 @@ li.nav-item {
 .serviceOffer {
     background-color: #fff;
     padding: 20px;
-    min-height: 250px;
+    min-height: 375px;
     border-radius: 8px;
     margin-bottom: 25px;
 }
@@ -917,7 +917,7 @@ li.nav-item {
 .serviceOffer-box {
     background-color: #fff;
     padding: 20px;
-    min-height: 367px;
+    min-height: 375px;
     border-radius: 8px;
     margin-bottom: 25px;
     color: #000;
@@ -957,6 +957,9 @@ li.nav-item {
     color: #263045;
     text-decoration: none;
     text-align: left;
+}
+.serviceOffer-box ul{
+    padding-left: 15px;
 }
 .serviceOffer-box  ul li{
     font-size: 16px;

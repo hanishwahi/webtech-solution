@@ -37,7 +37,7 @@ function NewNavBar() {
 
                                                 <Link className="nav-link w-nav-link dropdown-toggle " id="navbarDropdown" role="button"
                                                     data-mdb-toggle="dropdown" aria-expanded="false">Service <i className="fa-solid fa-caret-down"></i></Link>
-                                                <div  className="dropdown-menu mt-0" aria-labelledby="navbarDropdown" >
+                                                <div className="dropdown-menu mt-0" aria-labelledby="navbarDropdown" >
 
 
                                                     <div className="px-3">
@@ -47,9 +47,9 @@ function NewNavBar() {
                                                                     <Link onClick={scrollToHome} to="/digital-marketing" className="list-group-item list-group-item-action">Digital Marketing</Link>
                                                                     <Link onClick={scrollToHome} to="/web-development" className="list-group-item list-group-item-action">Web Development</Link>
                                                                     <Link onClick={scrollToHome} to="/app-development" className="list-group-item list-group-item-action">App Development</Link>
-                                                                    <Link onClick={scrollToHome} to="/graphic-desiging" className="list-group-item list-group-item-action">Graphic Designing</Link>
+                                                                    <Link onClick={scrollToHome} to="/graphic-designing" className="list-group-item list-group-item-action">Graphic Designing</Link>
                                                                 </div>
-                                                            </div> 
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -65,7 +65,7 @@ function NewNavBar() {
                                             </li>
                                             <li className="nav-item">
                                                 <Link onClick={scrollToHome} to="/our-team" className="nav-link w-nav-link">Team</Link>
-                                            </li> 
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -95,10 +95,10 @@ function NewNavBar() {
                                 <Link onClick={scrollToHome} to="/about" className="nav-link w-nav-link">About</Link>
                                 {/* <Link onClick={scrollToHome} to="/services" className="nav-link w-nav-link">Services</Link> */}
                                 <div className="dropdown">
-                                    <a className="dropdown-toggle nav-link w-nav-link" href='/'  role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Services <i className="fa-solid fa-caret-down"></i>
+                                    <a className="dropdown-toggle nav-link w-nav-link" href='/' role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Services <i className="fa-solid fa-caret-down"></i>
                                     </a>
- 
+
                                     <ul className="dropdown-menu">
                                         <li onClick={scrollToHome}><Link className="dropdown-item" to='/digital-marketing'>Digital Marketing</Link></li>
                                         <li onClick={scrollToHome}><Link className="dropdown-item" to='/web-development'>Web Development</Link></li>

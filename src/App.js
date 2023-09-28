@@ -29,7 +29,7 @@ function App() {
           <Route path='/web-development' element={<WebDevelopment/>}/>
           <Route path='/app-development' element={<AppDevelopment/>}/>
           <Route path='/digital-marketing' element={<DigitalMarketing/>}/>
-          <Route path='/graphic-desiging' element={<GraphicDesigning/>}/>
+          <Route path='/graphic-designing' element={<GraphicDesigning/>}/>
           <Route path='/clients' element={<Clients/>}/> 
           <Route path='/contact-us' element={<Contact/>}/>
           <Route path='/our-team' element={<OurTeam/>} />

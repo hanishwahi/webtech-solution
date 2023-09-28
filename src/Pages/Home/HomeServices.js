@@ -48,7 +48,7 @@ function HomeServices() {
                                                 <img width={50} src={digitalMarketing} alt="" className='pb-4' />
                                                 <h1>Digital Marketing</h1>
                                                 <p> From SEO to social media and PPC we'll help you reach your target audience and achieve remarkable results.</p>
-                                                <Link>Explore More <i className="fa-solid fa-angles-right arrow1"></i></Link>
+                                                <Link onClick={scrollToHome} to='/digital-marketing'>Explore More <i className="fa-solid fa-angles-right arrow1"></i></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -78,7 +78,7 @@ function HomeServices() {
                                                 <img width={50} src={graphicdesigning} alt="" className='pb-4' />
                                                 <h1>Graphic Designing</h1>
                                                 <p>From captivating logos to stunning visuals, we transform your ideas into compelling visual stories.</p>
-                                                <Link>Explore More <i className="fa-solid fa-angles-right arrow1"></i></Link>
+                                                <Link onClick={scrollToHome} to='/graphic-designing'>Explore More <i className="fa-solid fa-angles-right arrow1"></i></Link>
                                             </div>
                                         </div>
                                     </div> 
