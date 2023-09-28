@@ -2,8 +2,8 @@ import React from 'react'
 import appTechnologies from '../../../Images/Apptechnogies.webp'
 
 function AppTechnologies() {
-  return (
-    <div className="container-fluid technologies-main">
+    return (
+        <div className="container-fluid technologies-main">
             <div className="container-xl">
                 <div className="row technologies">
                     <h1><span>Technlogies</span> We Work on</h1>
@@ -16,7 +16,7 @@ function AppTechnologies() {
                 </div>
             </div>
         </div>
-  )
+    )
 }
 
 export default AppTechnologies

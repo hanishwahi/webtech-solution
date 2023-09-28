@@ -1431,4 +1431,29 @@ input::-webkit-inner-spin-button {
 }
 
 
+/* portfolio page  */
+.portfolio-nu-main {
+    padding: 70px 0;
+}
+
+ 
+
+.modal-dialog {
+    max-width: 50%;
+    margin: 4rem auto;
+}
+
+.viewMoreButton h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #fff; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    width: 100%;
+    padding: 10px;
+    background: #000;
+    width: 100%;
+}
+
+
  
