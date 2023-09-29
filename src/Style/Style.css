@@ -1091,6 +1091,77 @@ li.nav-item {
     text-align: left;
 }
 
+/* digital marketing  */
+.DM-box-bg {
+    background-color: #263045;
+    padding: 40px 0;
+    margin-bottom: 30px;
+}
+.DMserviceOffer {
+    padding: 0 0 50px;
+    border-radius: 8px;
+}
+.DMserviceOffer h1 {
+    font-size: 38px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.DMserviceOffer p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    text-align: left;
+}
+
+.DMserviceOffer-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    color: #000;
+    margin-bottom: 25px
+}
+
+
+.DMserviceOffer-box h2 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: #263045;
+    letter-spacing: 1px;
+    padding: 20px 0 0; 
+    text-align: center;
+}
+.DMserviceOffer-box ul{
+    padding-top: 20px; 
+    padding-left: 0px;
+}
+.DMserviceOffer-box ul li {
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #263045;
+    text-decoration: none;
+    text-align: left;
+    list-style-type: none;
+}
+.DMserviceOffer-box a{
+    text-decoration: none; 
+    color: #43ade6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+
+}
+
+
 /* technologies  */
 .technologies-main {
     padding: 90px 0 45px;
