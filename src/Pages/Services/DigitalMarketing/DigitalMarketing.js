@@ -8,9 +8,7 @@ import icon from './../../../Images/Travel.png'
 function DigitalMarketing() {
   return (
     <>
-      <Header />
-
-
+      <Header /> 
       <div className="container-fluid web-development-main">
         <div className="container-xl">
           <div className="row align-items-center justify-content-center">
