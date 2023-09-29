@@ -3,6 +3,7 @@ import Header from '../../Header/Header'
 import Footer from '../../Footer/Footer'
 import digitalMarketingImg from '../../../Images/digitalMarketingImg.webp'
 import DMServiceOffer from './DMServiceOffer'
+import DMFaq from './DMFaq'
 
 
 function DigitalMarketing() {
@@ -24,6 +25,7 @@ function DigitalMarketing() {
         </div>
       </div>
       <DMServiceOffer />
+      <DMFaq/>
       <Footer />
     </>
   )
