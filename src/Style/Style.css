@@ -1218,6 +1218,44 @@ li.nav-item {
     text-align: center;
     padding: 5px 0px;
 }
+.seo-work{
+    padding-bottom: 30px;
+}
+.seo-work h1{
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #263045;
+    text-decoration: none;
+    text-align: center; 
+}
+.seo-work p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #263045;
+    text-decoration: none;
+    text-align: center;
+}
+.seo-work-text h3{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #263045;
+    text-decoration: none;
+    text-align: left;
+}
+.seo-work-text p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #263045;
+    text-decoration: none;
+    text-align: left;
+}
 
 /* technologies  */
 .technologies-main {
