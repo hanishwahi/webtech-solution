@@ -1094,8 +1094,7 @@ li.nav-item {
 /* digital marketing  */
 .DM-box-bg {
     background-color: #263045;
-    padding: 40px 0;
-    margin-bottom: 30px;
+    padding: 40px 0; 
 }
 .DMserviceOffer {
     padding: 0 0 50px;

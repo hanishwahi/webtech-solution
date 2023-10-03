@@ -8,7 +8,7 @@ function ServiceOffer() {
             <div className="container-fluid service-box-bg">
                 <div className="container-xl">
                     <div className="row">
-                        <div className="col-lg-6 col-md-8">
+                        <div className="col-lg-6 col-md-12">
                             <div className='serviceOffer'>
                                 <h1>Service <span>We Offer</span></h1>
                                 <p>Whether you're an enterprise client or a unicorn startup, our extensive range of app development services has you covered.
@@ -24,7 +24,7 @@ function ServiceOffer() {
 
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-4 col-sm-6">
+                        <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className='serviceOffer-box'>
                                 <img src={android} alt=""  loading='lazy'/>
                                 <h2>Android App Development</h2>
@@ -38,7 +38,7 @@ function ServiceOffer() {
 
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-4 col-sm-6 pt-md-4 pt-lg-0">
+                        <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className='serviceOffer-box'>
                                 <img src={ios} alt=""  loading='lazy'/>
                                 <h2>IOS App Development</h2>

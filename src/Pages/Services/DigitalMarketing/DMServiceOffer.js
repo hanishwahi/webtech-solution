@@ -17,7 +17,7 @@ function DMServiceOffer() {
             <div className="container-fluid DM-box-bg">
                 <div className="container-xl">
                     <div className="row">
-                        <div className="col-lg-4 col-md-8">
+                        <div className="col-lg-4 col-md-4">
                             <div className='DMserviceOffer'>
                                 <h1>Service We Offer</h1>
                             </div>

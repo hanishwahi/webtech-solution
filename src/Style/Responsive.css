@@ -93,19 +93,25 @@
         padding: 30px 0;
     }
     .web-development-inner h1 {
-        font-size: 26px; 
+        font-size: 22px; 
+    }
+    .webserviceOffer h1 {
+        font-size: 22px; 
+    }
+    .webserviceOffer-box { 
+        margin-bottom: 10px;
     }
     .serviceOffer h1 {
-        font-size: 26px; 
+        font-size: 22px; 
     }
     .technologies h1 {
-        font-size: 26px; 
+        font-size: 22px; 
     }
     .technologies-main {
         padding: 30px 0px;
     }
     .faq-main h1 {
-        font-size: 26px; 
+        font-size: 22px; 
     }
     .accordion-button { 
         font-size: 15px; 
@@ -181,7 +187,7 @@
         padding: 0px 0px 20px 0px; 
     }
     .graphicserviceOffer h1 {
-        font-size: 26px; 
+        font-size: 22px; 
     }
     .growbusiness-text h1 {
         font-size: 20px; 
@@ -190,7 +196,7 @@
         padding: 0 0 25px; 
     }
     .DMserviceOffer h1 {
-        font-size: 28px; 
+        font-size: 22px; 
     }
     .seo-work h1 {
         font-size: 22px; 
@@ -254,16 +260,22 @@
         width: 30%; 
     }
     .web-development-inner h1 {
-        font-size: 30px; 
+        font-size: 26px; 
     }
     .web-development-main {
         padding: 40px 0;
     }
+    .webserviceOffer h1 {
+        font-size: 26px; 
+    }
+    .webserviceOffer-box { 
+        margin-bottom: 10px;
+    }
     .technologies h1 {
-        font-size: 30px; 
+        font-size: 26px; 
     }
     .faq-main h1 {
-        font-size: 30px; 
+        font-size: 26px; 
     }
     .technologies-main {
         padding: 40px 0px;
@@ -305,6 +317,24 @@
     }
     .serviceOffer-box {
         margin-top: 25px;
+    }
+    .DMserviceOffer {
+        padding: 0 0 12px; 
+    }
+    .growbusiness-text h1 {
+        font-size: 22px; 
+    }
+    .DMserviceOffer h1 {
+        font-size: 26px; 
+    }
+    .graphicserviceOffer {
+        padding: 0 0 20px; 
+    }
+    .graphicserviceOffer h1 {
+        font-size: 26px; 
+    }
+    .serviceOffer h1 {
+        font-size: 26px; 
     }
 }
 @media screen and (min-width: 768px) and (max-width: 992px){
@@ -390,7 +420,27 @@
     .growbusiness-text h1 {
         font-size: 22px; 
     }
-    
+    .DMserviceOffer h1 {
+        font-size: 24px; 
+    }
+    .DMserviceOffer p {
+        font-size: 15px; 
+    }
+    .webserviceOffer-box {
+       margin-bottom: 10px;
+    }
+    .web-development-inner h1 {
+        font-size: 28px; 
+    }
+    .webserviceOffer h1 {
+        font-size: 28px; 
+    }
+    .technologies h1 {
+        font-size: 28px; 
+    }
+    .serviceOffer-box {
+        margin-top: 25px;
+    }
 }
 @media screen and (min-width: 993px) and (max-width: 1024px){
     .how-we-work p {

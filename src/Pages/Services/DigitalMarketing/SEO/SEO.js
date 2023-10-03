@@ -17,7 +17,7 @@ function SEO() {
             <div className="container-fluid web-development-main">
                 <div className="container-xl">
                     <div className="row align-items-center justify-content-center">
-                        <div className="col-lg-6 col-md-6 col-sm-8 col-12 mb-3">
+                        <div className="col-lg-6 col-md-6 col-sm-7 col-12 mb-3">
                             <img src={SEOImg} alt="" loading='lazy' className='img-fluid' />
                         </div>
                         <div className="col-lg-6 web-development-inner mb-3">
