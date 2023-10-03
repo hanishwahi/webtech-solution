@@ -8,6 +8,10 @@ import ContentMark from '../../../Images/Content M.png'
 import ORM from '../../../Images/ORM.png'
 
 function DMServiceOffer() {
+    const scrollToHome = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
     return (
         <>
             <div className="container-fluid DM-box-bg">
@@ -43,7 +47,7 @@ function DMServiceOffer() {
                                     <li>Local SEO</li>
                                 </ul>
 
-                                <Link>More Info <i class="fa-solid fa-arrow-right"></i></Link>
+                                <Link onClick={scrollToHome} to='/digital-marketing/seo'>More Info <i class="fa-solid fa-arrow-right"></i></Link>
 
                             </div>
                         </div>

@@ -1162,6 +1162,63 @@ li.nav-item {
 }
 
 
+/* seo page  */
+.SEOserviceOffer-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    color: #000;
+    margin-bottom: 25px
+}
+
+
+.SEOserviceOffer-box h2 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: #263045;
+    letter-spacing: 1px;
+    padding: 20px 0 0; 
+    text-align: center;
+}
+.SEOserviceOffer-box p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #263045;
+    text-decoration: none;
+    text-align: center;
+}
+.seo-growbusiness{
+    padding: 70px 0px;
+}
+.growbusiness-text h1{
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #263045;
+    text-decoration: none;
+    text-align: center;
+    padding: 0px 0px 30px 0px;
+}
+
+.growbusiness-box{
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 50%;
+    padding: 35px 30px;
+}
+.growbusiness-box h2{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 0px;
+}
+
 /* technologies  */
 .technologies-main {
     padding: 90px 0 45px;

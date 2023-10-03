@@ -7,10 +7,7 @@ function NewNavBar() {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
-
-
-
-
+ 
     return (
         <>
             <div className="container-fluid sticky-top py-1 py-lg-0 border-bottom bg-white">

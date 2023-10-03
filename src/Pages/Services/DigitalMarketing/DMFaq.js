@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Faq() {
+function DMFaq() {
     return (
         <>
             <div className="container-fluid faq-main-top">
@@ -85,4 +85,4 @@ function Faq() {
     )
 }
 
-export default Faq
+export default DMFaq

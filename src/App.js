@@ -18,6 +18,8 @@ import Portfolio from './Pages/Portfolio/Portfolio';
 import PrivacyPolicy from './Pages/PrivacyPolicy/PrivacyPolicy';
 import DigitalMarketing from './Pages/Services/DigitalMarketing/DigitalMarketing';
 import GraphicDesigning from './Pages/Services/GraphicDesigning/GraphicDesigning';
+import SEO from './Pages/Services/DigitalMarketing/SEO/SEO';
+import PPC from './Pages/Services/DigitalMarketing/PPC/PPC';
 
 function App() {
   return (
@@ -28,8 +30,10 @@ function App() {
           <Route path='/about' element={<About/>}/>
           <Route path='/web-development' element={<WebDevelopment/>}/>
           <Route path='/app-development' element={<AppDevelopment/>}/>
-          <Route path='/digital-marketing' element={<DigitalMarketing/>}/>
           <Route path='/graphic-designing' element={<GraphicDesigning/>}/>
+          <Route path='/digital-marketing' element={<DigitalMarketing/>}/>
+          <Route path='/digital-marketing/seo' element={<SEO/>}/>
+          <Route path='/digital-marketing/ppc' element={<PPC/>}/>
           <Route path='/clients' element={<Clients/>}/> 
           <Route path='/contact-us' element={<Contact/>}/>
           <Route path='/our-team' element={<OurTeam/>} />
