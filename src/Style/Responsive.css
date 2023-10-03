@@ -201,6 +201,16 @@
     .seo-work h1 {
         font-size: 22px; 
     }
+    .smoimg-left{
+        width: 100%;
+    }
+    .smotext-right{
+        padding:20px; 
+        width: 100%;  
+    }
+    .smo-main{
+        display: inline; 
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width: 767px){
@@ -336,6 +346,16 @@
     .serviceOffer h1 {
         font-size: 26px; 
     }
+    .smoimg-left{
+        width: 60%;
+    }
+    .smotext-right{
+        padding:20px; 
+        width: 100%;  
+    }
+    .smo-main{
+        display: inline; 
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 992px){
     .navbar-001-hide {
@@ -440,6 +460,16 @@
     }
     .serviceOffer-box {
         margin-top: 25px;
+    }
+    .smoimg-left{
+        width: 50%;
+    }
+    .smotext-right{
+        padding:20px; 
+        width: 100%;  
+    }
+    .smo-main{
+        display: inline; 
     }
 }
 @media screen and (min-width: 993px) and (max-width: 1024px){

@@ -1317,6 +1317,19 @@ li.nav-item {
     text-align: left;
 }
 
+/* smo page  */
+.smo-main{
+    display: flex;
+align-items: center;
+}
+.smoimg-left{
+    width: 40%;
+}
+.smotext-right{
+    padding-right:70px;
+    padding-left: 30px;
+    width: 60%;  
+}
 /* technologies  */
 .technologies-main {
     padding: 90px 0 45px;
