@@ -1,74 +1,75 @@
-import React from 'react'
-import seo from '../../../../Images/seo icon.png'
-import ranking from '../../../../Images/ranking.png'
-import traffic from '../../../../Images/traffic.png'
-import leads from '../../../../Images/Leads.png'
-import roi from '../../../../Images/ROI.png'
-import websiteaudit from '../../../../Images/website Audit.png'
-import keywordresearch from '../../../../Images/Keyword Resarch.png'
-import linkbuilding from '../../../../Images/Link buildig.png'
-import urlopt from '../../../../Images/URL opt.png'
-import contentcreation from '../../../../Images/SEO content.png'
-import Reporting from '../../../../Images/Reporting & analysis.png'
+import React from 'react' 
+import profilecreation from '../../../../Images/Profile creation.png'
+import PromoteConversions from '../../../../Images/Promote Conversions.png'
+import Amplification from '../../../../Images/Content Amplification.png'
+import Measure from '../../../../Images/Performance Measure.png'
+import Hashtag from '../../../../Images/Hashtag.png'
+import Scheduled from '../../../../Images/Scheduled Posting.png'  
+import promotion  from '../../../../Images/Promoting Your Services.png' 
+import trafficc from '../../../../Images/Most inbound traffic.png' 
+import leads from '../../../../Images/Leads.png' 
+import awareness from '../../../../Images/Brand awareness.png' 
+import csatis from '../../../../Images/Better Customer Satisfaction.png' 
 
-function GrowBusiness() {
+function SMOGrowBusiness() {
     return (
         <>
             <div className="container-fluid seo-growbusiness">
                 <div className="container-xl">
                     <div className="row growbusiness-text">
-                        <h1>How Can We Help You Grow Your Business through SEO? </h1>
+                        <h1>How Can We Help You Grow Your Business through SMO? </h1>
                     </div>
                     <div className="row justify-content-around">
                         <div className="col-lg-2 col-6 col-sm-4 col-md-3 mb-3">
-                            <div className='growbusiness-box'>
-                                <img src={seo} alt="" width={55} />
-                                <h2>seo</h2>
+                            <div className='growbusiness-box  '>
+                                <img src={awareness} alt="" width={55} />
+                                <h2>Brand Awareness</h2>
                             </div>
                         </div>
                         <div className="col-lg-2 col-6 col-sm-4 col-md-3 mb-3">
                             <div className='growbusiness-box '>
-                                <img src={ranking} alt="" width={55} />
-                                <h2>Ranking</h2>
+                                <img src={trafficc} alt="" width={55} />
+                                <h2>More inbound Traffic</h2>
                             </div>
                         </div>
                         <div className="col-lg-2 col-6 col-sm-4 col-md-3 mb-3">
                             <div className='growbusiness-box '>
-                                <img src={traffic} alt="" width={62} />
-                                <h2>Traffic</h2>
+                                <img src={promotion} alt="" width={55} />
+                                <h2>Services Promotion</h2>
                             </div>
                         </div>
                          
                         <div className="col-lg-2 col-6 col-sm-4 col-md-3 mb-3">
                             <div className='growbusiness-box '>
-                                <img src={leads} alt="" width={55} />
-                                <h2>More Leads</h2>
+                                <img src={csatis} alt="" width={55} />
+                                <h2>Customer Satisfaction</h2>
                             </div>
                         </div>
                         <div className="col-lg-2 col-6 col-sm-4 col-md-3 mb-3">
                             <div className='growbusiness-box '>
-                                <img src={roi} alt="" width={55} />
-                                <h2>Increase ROI</h2>
+                                <img src={leads} alt="" width={55} />
+                                <h2>Higher Conversion Rates</h2>
                             </div>
                         </div>
+                         
                     </div>
                 </div>
             </div>
 
-            <div className="container-fluid">
+            <div className="container-fluid  mb-5">
                 <div className="container-xl">
                     <div className="row seo-work">
-                        <h1>Our Seo Work Includes</h1>
+                        <h1>Our Smo Work Includes</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sunt fuga minima, expedita esse amet quam praesentium voluptatem quas inventore. Quibusdam tenetur corrupti ullam harum, pariatur quam obcaecati facilis maxime?</p>
                     </div>
                     <div className="row">
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
-                            <div className="row pb-3">
+                            <div className="row">
                                 <div className="col-md-3 col-sm-4 col-3">
-                                    <img src={websiteaudit} alt="" width={60} />
+                                    <img src={profilecreation} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
-                                    <h3>Website Audit</h3>
+                                    <h3>Profile Creation & Optimization</h3>
                                 </div>
                             </div>
                             <div className="row pb-3 seo-work-text">
@@ -76,12 +77,12 @@ function GrowBusiness() {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
-                            <div className="row pb-3">
+                            <div className="row">
                                 <div className="col-md-3 col-sm-4 col-3">
-                                    <img src={keywordresearch} alt="" width={60} />
+                                    <img src={PromoteConversions} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
-                                    <h3>Keyword Search & Analysis</h3>
+                                    <h3>Promote Conversions</h3>
                                 </div>
                             </div>
                             <div className="row pb-3 seo-work-text">
@@ -89,12 +90,12 @@ function GrowBusiness() {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
-                            <div className="row pb-3">
+                            <div className="row">
                                 <div className="col-md-3 col-sm-4 col-3">
-                                    <img src={linkbuilding} alt="" width={60} />
+                                    <img src={Amplification} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
-                                    <h3>Link Building</h3>
+                                    <h3>Content Amplification</h3>
                                 </div>
                             </div>
                             <div className="row pb-3 seo-work-text">
@@ -102,12 +103,12 @@ function GrowBusiness() {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
-                            <div className="row pb-3">
+                            <div className="row">
                                 <div className="col-md-3 col-sm-4 col-3">
-                                    <img src={urlopt} alt="" width={60} />
+                                    <img src={Measure} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
-                                    <h3>Keyword & URL Optimization</h3>
+                                    <h3>Performance Measure</h3>
                                 </div>
                             </div>
                             <div className="row pb-3 seo-work-text">
@@ -115,12 +116,12 @@ function GrowBusiness() {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
-                            <div className="row pb-3">
+                            <div className="row">
                                 <div className="col-md-3 col-sm-4 col-3">
-                                    <img src={contentcreation} alt="" width={60} />
+                                    <img src={Scheduled} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
-                                    <h3>SEO Content Creation</h3>
+                                    <h3>Scheduled Posting</h3>
                                 </div>
                             </div>
                             <div className="row pb-3 seo-work-text">
@@ -128,12 +129,12 @@ function GrowBusiness() {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
-                            <div className="row pb-3">
+                            <div className="row">
                                 <div className="col-md-3 col-sm-4 col-3">
-                                    <img src={Reporting} alt="" width={60} />
+                                    <img src={Hashtag} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
-                                    <h3>Reporting & Analysis</h3>
+                                    <h3>Hashtag Strategy</h3>
                                 </div>
                             </div>
                             <div className="row pb-3 seo-work-text">
@@ -151,4 +152,4 @@ function GrowBusiness() {
     )
 }
 
-export default GrowBusiness
+export default SMOGrowBusiness
