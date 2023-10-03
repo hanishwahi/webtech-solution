@@ -1193,6 +1193,16 @@ li.nav-item {
 .seo-growbusiness{
     padding: 70px 0px;
 }
+
+ 
+.circlee {
+    background-image: url('../Images/cir.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 39px 1px;
+    text-align: center;
+}
 .growbusiness-text h1{
     font-size: 28px;
     font-weight: 700;
@@ -1203,12 +1213,7 @@ li.nav-item {
     padding: 0px 0px 30px 0px;
 }
 
-.growbusiness-box{
-    border: 1px solid #ccc;
-    text-align: center;
-    border-radius: 50%;
-    padding: 35px 30px;
-}
+ 
 .growbusiness-box h2{
     font-size: 18px;
     font-weight: 700;

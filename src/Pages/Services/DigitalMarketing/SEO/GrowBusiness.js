@@ -1,5 +1,15 @@
 import React from 'react'
-import icon from '../../../../Images/Global SEO.png'
+import seo from '../../../../Images/seo icon.png'
+import ranking from '../../../../Images/ranking.png'
+import traffic from '../../../../Images/traffic.png'
+import leads from '../../../../Images/Leads.png'
+import roi from '../../../../Images/ROI.png'
+import websiteaudit from '../../../../Images/website Audit.png'
+import keywordresearch from '../../../../Images/Keyword Resarch.png'
+import linkbuilding from '../../../../Images/Link buildig.png'
+import urlopt from '../../../../Images/URL opt.png'
+import contentcreation from '../../../../Images/SEO content.png'
+import Reporting from '../../../../Images/Reporting & analysis.png'
 
 function GrowBusiness() {
     return (
@@ -11,32 +21,33 @@ function GrowBusiness() {
                     </div>
                     <div className="row justify-content-around">
                         <div className="col-lg-2 col-6 col-sm-4 col-md-3 mb-3">
-                            <div className='growbusiness-box'>
-                                <img src={icon} alt="" width={50} />
+                            <div className='growbusiness-box  circlee'>
+                                <img src={seo} alt="" width={55} />
                                 <h2>seo</h2>
                             </div>
                         </div>
                         <div className="col-lg-2 col-6 col-sm-4 col-md-3 mb-3">
-                            <div className='growbusiness-box'>
-                                <img src={icon} alt="" width={50} />
+                            <div className='growbusiness-box circlee'>
+                                <img src={ranking} alt="" width={55} />
                                 <h2>Ranking</h2>
                             </div>
                         </div>
                         <div className="col-lg-2 col-6 col-sm-4 col-md-3 mb-3">
-                            <div className='growbusiness-box'>
-                                <img src={icon} alt="" width={50} />
+                            <div className='growbusiness-box circlee'>
+                                <img src={traffic} alt="" width={62} />
                                 <h2>Traffic</h2>
                             </div>
                         </div>
+                         
                         <div className="col-lg-2 col-6 col-sm-4 col-md-3 mb-3">
-                            <div className='growbusiness-box'>
-                                <img src={icon} alt="" width={50} />
+                            <div className='growbusiness-box circlee'>
+                                <img src={leads} alt="" width={55} />
                                 <h2>More Leads</h2>
                             </div>
                         </div>
                         <div className="col-lg-2 col-6 col-sm-4 col-md-3 mb-3">
-                            <div className='growbusiness-box'>
-                                <img src={icon} alt="" width={50} />
+                            <div className='growbusiness-box circlee'>
+                                <img src={roi} alt="" width={55} />
                                 <h2>Increase ROI</h2>
                             </div>
                         </div>
@@ -54,7 +65,7 @@ function GrowBusiness() {
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className="row pb-3">
                                 <div className="col-md-3 col-sm-4 col-3">
-                                    <img src={icon} alt="" width={60} />
+                                    <img src={websiteaudit} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
                                     <h3>Website Audit</h3>
@@ -67,7 +78,7 @@ function GrowBusiness() {
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className="row pb-3">
                                 <div className="col-md-3 col-sm-4 col-3">
-                                    <img src={icon} alt="" width={60} />
+                                    <img src={keywordresearch} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
                                     <h3>Keyword Search & Analysis</h3>
@@ -80,7 +91,7 @@ function GrowBusiness() {
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className="row pb-3">
                                 <div className="col-md-3 col-sm-4 col-3">
-                                    <img src={icon} alt="" width={60} />
+                                    <img src={linkbuilding} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
                                     <h3>Link Building</h3>
@@ -93,7 +104,7 @@ function GrowBusiness() {
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className="row pb-3">
                                 <div className="col-md-3 col-sm-4 col-3">
-                                    <img src={icon} alt="" width={60} />
+                                    <img src={urlopt} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
                                     <h3>Keyword & URL Optimization</h3>
@@ -106,7 +117,7 @@ function GrowBusiness() {
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className="row pb-3">
                                 <div className="col-md-3 col-sm-4 col-3">
-                                    <img src={icon} alt="" width={60} />
+                                    <img src={contentcreation} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
                                     <h3>SEO Content Creation</h3>
@@ -119,7 +130,7 @@ function GrowBusiness() {
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className="row pb-3">
                                 <div className="col-md-3 col-sm-4 col-3">
-                                    <img src={icon} alt="" width={60} />
+                                    <img src={Reporting} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
                                     <h3>Reporting & Analysis</h3>
