@@ -20,6 +20,7 @@ import DigitalMarketing from './Pages/Services/DigitalMarketing/DigitalMarketing
 import GraphicDesigning from './Pages/Services/GraphicDesigning/GraphicDesigning';
 import SEO from './Pages/Services/DigitalMarketing/SEO/SEO';
 import PPC from './Pages/Services/DigitalMarketing/PPC/PPC';
+import Career from './Pages/Career/Career';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           <Route path='/digital-marketing/ppc' element={<PPC/>}/>
           <Route path='/clients' element={<Clients/>}/> 
           <Route path='/contact-us' element={<Contact/>}/>
+          <Route path='/career' element={<Career/>}/>
           <Route path='/our-team' element={<OurTeam/>} />
           <Route path='/portfolio' element={<Portfolio/>}/>
           <Route path='/privacy-policy' element={<PrivacyPolicy/>}/>
