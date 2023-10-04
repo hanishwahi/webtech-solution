@@ -48,7 +48,7 @@ function BlogCaraousel() {
                             <div className="row justify-content-around">
                                 <div className="col-11">
                                     <div className="card">
-                                        <Link onClick={scrollToHome} to={`/blogs/Golden-Rules-for-Elevating-Your-Creative-Vision`}>
+                                        <Link onClick={scrollToHome} to={`/blogs/Golden-Rules-for-Elevating-Your-Creative-Vision`} className='text-decoration-none'>
                                             <div className="card-body p-0 shadow home-blog-box">
                                                 <div className='row ratio ratio-16x9 object-fit m-0'>
                                                     <img className='img-fluid p-0' src="https://img.freepik.com/premium-photo/having-great-idea_102671-6148.jpg?w=360" alt='' />
@@ -77,7 +77,7 @@ function BlogCaraousel() {
                             <div className="row justify-content-around">
                                 <div className="col-11">
                                     <div className="card">
-                                        <Link onClick={scrollToHome} to={`/blogs/How-to-Improve-Your-Website-Visibility`}>
+                                        <Link onClick={scrollToHome} to={`/blogs/How-to-Improve-Your-Website-Visibility`} className='text-decoration-none'>
                                             <div className="card-body p-0 shadow home-blog-box">
                                                 <div className='row ratio ratio-16x9 object-fit m-0'>
                                                     <img className='img-fluid p-0' src="https://www.modalyst.co/wp-content/uploads/2016/08/SEO.jpg" alt='' />
@@ -106,7 +106,7 @@ function BlogCaraousel() {
                             <div className="row justify-content-around">
                                 <div className="col-11">
                                     <div className="card">
-                                        <Link onClick={scrollToHome} to={`/blogs/Exploring-the-Future-of-Website-Development`}>
+                                        <Link onClick={scrollToHome} to={`/blogs/Exploring-the-Future-of-Website-Development`} className='text-decoration-none'>
                                             <div className="card-body p-0 shadow home-blog-box">
                                                 <div className='row ratio ratio-16x9 object-fit m-0'>
                                                     <img className='img-fluid p-0' src="https://www.appsdevpro.com/blog/wp-content/uploads/2022/09/Top-Web-Design-Development-Trends-You-Need-to-Know-in-2023.png" alt='' />
@@ -136,7 +136,7 @@ function BlogCaraousel() {
                             <div className="row justify-content-around">
                                 <div className="col-11">
                                     <div className="card">
-                                        <Link onClick={scrollToHome} to={`/blogs/Golden-Rules-for-Elevating-Your-Creative-Vision`}>
+                                        <Link onClick={scrollToHome} to={`/blogs/Golden-Rules-for-Elevating-Your-Creative-Vision`} className='text-decoration-none'>
                                             <div className="card-body p-0 shadow home-blog-box">
                                                 <div className='row ratio ratio-16x9 object-fit m-0'>
                                                     <img className='img-fluid p-0' src="https://img.freepik.com/premium-photo/having-great-idea_102671-6148.jpg?w=360" alt='' />
