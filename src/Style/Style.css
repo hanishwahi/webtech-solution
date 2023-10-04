@@ -944,6 +944,15 @@ li.nav-item {
     border-radius: 8px;
     margin-bottom: 25px;
 }
+.webserviceOffer p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #263045;
+    text-decoration: none;
+    text-align: left;
+}
 .webserviceOffer h1 {
     font-size: 32px;
     font-weight: 700;
@@ -1295,6 +1304,9 @@ li.nav-item {
     color: #263045;
     text-decoration: none;
     text-align: center;
+}
+.seo-work-text{
+    align-self: center;
 }
 .seo-work-text h3{
     font-size: 16px;

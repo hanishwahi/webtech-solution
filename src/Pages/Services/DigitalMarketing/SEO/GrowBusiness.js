@@ -61,9 +61,9 @@ function GrowBusiness() {
                         <h1>Our Seo Work Includes</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sunt fuga minima, expedita esse amet quam praesentium voluptatem quas inventore. Quibusdam tenetur corrupti ullam harum, pariatur quam obcaecati facilis maxime?</p>
                     </div>
-                    <div className="row">
+                    <div className="row mb-5">
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
-                            <div className="row pb-3">
+                            <div className="row">
                                 <div className="col-md-3 col-sm-4 col-3">
                                     <img src={websiteaudit} alt="" width={60} />
                                 </div>
@@ -76,7 +76,7 @@ function GrowBusiness() {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
-                            <div className="row pb-3">
+                            <div className="row">
                                 <div className="col-md-3 col-sm-4 col-3">
                                     <img src={keywordresearch} alt="" width={60} />
                                 </div>
@@ -89,7 +89,7 @@ function GrowBusiness() {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
-                            <div className="row pb-3">
+                            <div className="row">
                                 <div className="col-md-3 col-sm-4 col-3">
                                     <img src={linkbuilding} alt="" width={60} />
                                 </div>
@@ -102,7 +102,7 @@ function GrowBusiness() {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
-                            <div className="row pb-3">
+                            <div className="row">
                                 <div className="col-md-3 col-sm-4 col-3">
                                     <img src={urlopt} alt="" width={60} />
                                 </div>
@@ -115,7 +115,7 @@ function GrowBusiness() {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
-                            <div className="row pb-3">
+                            <div className="row">
                                 <div className="col-md-3 col-sm-4 col-3">
                                     <img src={contentcreation} alt="" width={60} />
                                 </div>
@@ -128,7 +128,7 @@ function GrowBusiness() {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
-                            <div className="row pb-3">
+                            <div className="row">
                                 <div className="col-md-3 col-sm-4 col-3">
                                     <img src={Reporting} alt="" width={60} />
                                 </div>
