@@ -14,14 +14,20 @@ function PortfolioSlider() {
                         </div>
                     </div>
                     <div className="row ">
-                        <div className="col-lg-4 col-6 px-0">
-                            <NuCosmetic />
+                        <div className="col-lg-4 col-6">
+                            <div>
+                                <NuCosmetic />
+                            </div>
                         </div>
-                        <div className="col-lg-4 col-6 px-0">
-                            <CarParts />
+                        <div className="col-lg-4 col-6">
+                            <div>
+                                <CarParts />
+                            </div>
                         </div>
-                        <div className="col-lg-4 col-6 px-0">
-                            <TicketMaster />
+                        <div className="col-lg-4 col-6">
+                            <div>
+                                <TicketMaster />
+                            </div>
                         </div>
                     </div>
                 </div>

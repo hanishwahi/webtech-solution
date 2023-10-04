@@ -1,12 +1,25 @@
 import React from 'react'
 import CarParts from '../../Images/carsPartPortfolio.webp'
-import carsPartsCaraouselWal from '../../Images/carsPartsCaraouselWall.webp'
+import { Link } from 'react-router-dom'
 
 function NuCosmetic() {
 
     return (
         <>
-            <button type="button" class="btn shadow-none position-rel" data-bs-toggle="modal" data-bs-target="#exampleModal">
+
+            <Link to='https://carsparts99.com/' target='_blank' className='text-decoration-none'>
+                <div className="viewMoreButton">
+                    <h1>Car Parts</h1>
+                </div>
+                <div className=''>
+                    <img src={CarParts} alt="" loading='lazy' className='img-fluid' />
+                </div>
+                <div className="viewMoreButton">
+                    <h1>View More</h1>
+                </div>
+            </Link>
+
+            {/* <button type="button" class="btn shadow-none position-rel" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 <div className="viewMoreButton">
                     <h1>Car Parts</h1>
                 </div>
@@ -28,13 +41,13 @@ function NuCosmetic() {
                         <div class="modal-body">
                             <div className="row">
                                 <div className="col">
-                                    <img width="100%" src={carsPartsCaraouselWal} alt="" loading='lazy'/>
+                                    <img width="100%" src={carsPartsCaraouselWal} alt="" loading='lazy' />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }

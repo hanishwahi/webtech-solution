@@ -2,7 +2,7 @@ import React from 'react'
 // import Carousel from "react-multi-carousel";
 // import "react-multi-carousel/lib/styles.css";
 import nuCosmeticCarousel from '../../Images/NuCosmeticCarousel.webp'
-import nuCosmeticCarouselWall from '../../Images/Nu CosmeticCaraouselWall.webp'
+ import { Link } from 'react-router-dom'
 
 
 
@@ -28,8 +28,19 @@ function NuCosmetic() {
     // };
     return (
         <>
+            <Link to='https://nucosmetics.in/' target='_blank' className='text-decoration-none'>
+                <div className="viewMoreButton">
+                    <h1>NU Cosmetics</h1>
+                </div>
+                <div className=''>
+                    <img src={nuCosmeticCarousel} alt="" loading='lazy' width="100%" />
+                </div>
+                <div className="viewMoreButton">
+                    <h1>View More</h1>
+                </div>
+            </Link>
 
-            <button type="button" class="btn shadow-none position-rel" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+            {/* <button type="button" class="btn shadow-none position-rel" data-bs-toggle="modal" data-bs-target="#exampleModal1">
                 <div className="viewMoreButton">
                     <h1>NU Cosmetics</h1>
                 </div>
@@ -50,7 +61,7 @@ function NuCosmetic() {
                         </div>
                         <div class="modal-body">
                             <div className="row">
-                                {/* <Carousel responsive={responsive} swipeable={false}
+                                <Carousel responsive={responsive} swipeable={false}
                                     draggable={true}
                                     showDots={true}
                                     ssr={true}  
@@ -90,16 +101,14 @@ function NuCosmetic() {
                                             <img src={NUIMG1} alt="" className='img-fluid' />
                                         </div>
                                     </div>
-                                </Carousel> */}
-                                <div className="col">
-                                    <img width="100%"  src={nuCosmeticCarouselWall} alt="" loading='lazy'/>
-                                </div>
+                                </Carousel>
+                                 
                             </div>
                         </div>
 
                     </div>
                 </div>
-            </div>
+            </div> */}
 
 
         </>
