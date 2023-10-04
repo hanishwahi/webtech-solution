@@ -89,7 +89,7 @@ function DMServiceOffer() {
                                     <li>Local SEO</li>
                                 </ul>
 
-                                <Link>More Info <i class="fa-solid fa-arrow-right"></i></Link>
+                                <Link onClick={scrollToHome} to='/digital-marketing/ppc'>More Info <i class="fa-solid fa-arrow-right"></i></Link>
 
                             </div>
                         </div>
