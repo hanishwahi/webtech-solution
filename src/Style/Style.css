@@ -15,6 +15,9 @@ body {
     color: #fff;
     text-decoration: none;
 }
+.top-Nav-contact a:hover{
+    color: #43ade6;
+}
 
 .social-icon-nav {
     font-size: 18px;

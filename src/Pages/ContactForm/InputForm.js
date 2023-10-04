@@ -57,27 +57,18 @@ function InputForm() {
                 </div>
 
                 <div className="form-outline mb-4 row">
-                    <div className='col-sm-6 col-12'>
+                    <div className='col-sm-12 col-12'>
                         <label className="form-label text-dark fw-bold" htmlFor="form4Example2">Service</label>
-                        <select required defaultValue='' name='service' className="form-select" aria-label="Default select example">
-                            <option value="" disabled>Select the service</option>
+                        <select  required defaultValue='' name='service' className="form-select" aria-label="Default select example">
+                            <option value="" disabled>Select the services</option>
                             <option value="Digital Marketing">Digital Marketing</option>
                             <option value="Web Development">Web Development</option>
                             <option value="App Development">App Development</option>
                             <option value="Graphic Designing">Graphic Designing</option>
                         </select>
                     </div>
-                    <div className='col-sm-6 col-12'>
-                        <label className="form-label text-dark fw-bold" htmlFor="form4Example2">Package</label>
-                        <select required defaultValue='' name='package' className="form-select" aria-label="Default select example">
-                            <option value="" disabled>Select Package</option>
-                            <option value="Silver">Silver</option>
-                            <option value="Gold">Gold</option>
-                            <option value="Platinum">Platinum</option>
-                        </select>
-                    </div>
-
                 </div>
+               
                 <div className="form-outline mb-4">
                     <label className="form-label fw-bold" htmlFor="form4Example2">Website</label>
                     <input type="url" name="website" id="form4Example5" required className="form-control" placeholder='Optional' />

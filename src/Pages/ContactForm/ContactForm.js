@@ -36,7 +36,7 @@ function ContactForm() {
                             </div>
 
                             <div className='d-flex align-items-center gap-2 contact-us'>
-                                <i className="fa-brands fa-whatsapp" style={{ color: "green" }}></i>
+                                <i className="fa-brands fa-whatsapp"></i>
                                 <Link to='https://wa.me/+918427682603?text=Welcome to webtech solutions' target='_blank'>+91 8427682603 </Link>
                                 <strong>(INDIA)</strong>
                             </div>
