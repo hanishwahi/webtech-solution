@@ -58,7 +58,7 @@ function HomeServices() {
                                         <div className="">
                                             <Link onClick={scrollToHome} to='/web-development' className='text-decoration-none'>
                                                 <div className='home-service-box'>
-                                                    <img width={50} src={webdevelopment} alt="" className='pb-4' />
+                                                    <img width={53} src={webdevelopment} alt="" className='pb-4' />
                                                     <h1>Web Development</h1>
                                                     <p>We bring your digital vision to life with sleek designs and seamless functionality.</p>
                                                     <Link>Explore More <i className="fa-solid fa-angles-right arrow1"></i></Link>
@@ -83,7 +83,7 @@ function HomeServices() {
                                         <div className="">
                                             <Link onClick={scrollToHome} to='/graphic-designing' className='text-decoration-none'>
                                                 <div className='home-service-box'>
-                                                    <img width={50} src={graphicdesigning} alt="" className='pb-4' />
+                                                    <img width={54} src={graphicdesigning} alt="" className='pb-4' />
                                                     <h1>Graphic Designing</h1>
                                                     <p>From captivating logos to stunning visuals, we transform your ideas into compelling visual stories.</p>
                                                     <Link>Explore More <i className="fa-solid fa-angles-right arrow1"></i></Link>

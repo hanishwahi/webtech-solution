@@ -12,11 +12,11 @@ function Slider() {
                         </div>
                         <div className='py-3'>
                             <div className='slider-list'>
-                                <i className="fa-solid fa-check" style={{ color:"#42ADE4"}}></i>
+                                <i className="fa-solid fa-check" style={{ color:"#42ADE6"}}></i>
                                 <h2>Cost Effective & Scalable Solutions</h2>
                             </div>
                             <div className='slider-list'>
-                                <i className="fa-solid fa-check" style={{ color: "#42ADE4" }}></i>
+                                <i className="fa-solid fa-check" style={{ color: "#42ADE6" }}></i>
                                 <h2>Staying Updated with Industry Trends</h2>
                             </div>
                         </div> 
