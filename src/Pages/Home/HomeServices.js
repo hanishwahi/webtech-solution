@@ -39,6 +39,7 @@ function HomeServices() {
                                 </div>
                             </div>
                         </div>
+                        
                         <div className="col-lg-8">
                             <div className="">
                                 <div className="row">
