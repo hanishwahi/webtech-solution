@@ -25,11 +25,11 @@ function Footer() {
                                     <h1>Quick Links</h1>
                                 </div>
                                 <div className="footer-list">
-                                    {/* <Link><p> <i className="fa-solid fa-caret-right footer-arrow"></i>Home</p></Link> */}
-                                    <Link><p><i className="fa-solid fa-caret-right footer-arrow"></i>Career</p></Link>
-                                    <Link onClick={scrollToHome} to='/our-team'><p><i className="fa-solid fa-caret-right footer-arrow"></i>Our Team</p></Link>
-                                    <Link onClick={scrollToHome} to='/blogs'><p><i className="fa-solid fa-caret-right footer-arrow"></i>Blog</p></Link>
-                                    <Link onClick={scrollToHome} to='/privacy-policy'><p><i className="fa-solid fa-caret-right footer-arrow"></i>Privacy & Policy</p></Link>
+                                    {/* <Link><p> Home</p></Link> */}
+                                    <Link><p>Career</p></Link>
+                                    <Link onClick={scrollToHome} to='/our-team'><p> Our Team</p></Link>
+                                    <Link onClick={scrollToHome} to='/blogs'><p>Blog</p></Link>
+                                    <Link onClick={scrollToHome} to='/privacy-policy'><p>Privacy & Policy</p></Link>
                                 </div>
                             </div>
                         </div>
@@ -39,10 +39,10 @@ function Footer() {
                                     <h1>Services</h1>
                                 </div>
                                 <div className="footer-list">
-                                    <Link onClick={scrollToHome} to='/digital-marketing'><p> <i className="fa-solid fa-caret-right footer-arrow"></i>Digital Marketing</p></Link>
-                                    <Link onClick={scrollToHome} to="/web-development"><p><i className="fa-solid fa-caret-right footer-arrow"></i>Web Development</p></Link>
-                                    <Link onClick={scrollToHome} to="/app-development"><p><i className="fa-solid fa-caret-right footer-arrow"></i>App Development</p></Link>
-                                    <Link onClick={scrollToHome} to='/graphic-designing'><p> <i className="fa-solid fa-caret-right footer-arrow"></i>Graphic Designing</p></Link>
+                                    <Link onClick={scrollToHome} to='/digital-marketing'><p> Digital Marketing</p></Link>
+                                    <Link onClick={scrollToHome} to="/web-development"><p>Web Development</p></Link>
+                                    <Link onClick={scrollToHome} to="/app-development"><p>App Development</p></Link>
+                                    <Link onClick={scrollToHome} to='/graphic-designing'><p> Graphic Designing</p></Link>
                                 </div>
                             </div>
                         </div>
