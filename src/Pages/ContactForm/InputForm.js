@@ -5,7 +5,6 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 function InputForm() {
-
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
@@ -26,7 +25,6 @@ function InputForm() {
     };
     return (
         <>
-
             <div className='row contact-us'>
                 <h1>Write to Us</h1>
             </div>
@@ -59,7 +57,7 @@ function InputForm() {
                 <div className="form-outline mb-4 row">
                     <div className='col-sm-12 col-12'>
                         <label className="form-label text-dark fw-bold" htmlFor="form4Example2">Service</label>
-                        <select  required defaultValue='' name='service' className="form-select" aria-label="Default select example">
+                        <select required defaultValue='' name='service' className="form-select" aria-label="Default select example">
                             <option value="" disabled>Select the services</option>
                             <option value="Digital Marketing">Digital Marketing</option>
                             <option value="Web Development">Web Development</option>
@@ -68,7 +66,7 @@ function InputForm() {
                         </select>
                     </div>
                 </div>
-               
+
                 <div className="form-outline mb-4">
                     <label className="form-label fw-bold" htmlFor="form4Example2">Website</label>
                     <input type="url" name="website" id="form4Example5" required className="form-control" placeholder='Optional' />
