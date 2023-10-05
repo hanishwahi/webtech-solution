@@ -20,11 +20,9 @@ function ContactForm() {
 
                             <div className='d-flex  gap-2 contact-us'>
                                 <i className="fa-solid fa-location-dot"></i>
-                                <Link to='mailto:info@webtechsolutionsservice.com'>Bestech Business Tower<br />
+                                <Link to='https://maps.app.goo.gl/v7ANnqKVYZStYaxA7'>Bestech Business Tower<br />
                                     Office No: 412 Tower-A, 4th Floor, Sahibzada Ajit Singh Nagar, Punjab 160066</Link>
-                            </div>
-
-
+                            </div> 
                             <div className='d-flex align-items-center gap-2 contact-us'>
                                 <i className="fa-solid fa-envelope"></i>
                                 <Link to='mailto:info@webtechsolutionsservice.com'>info@webtechsolutionsservice.com</Link>
