@@ -22,6 +22,7 @@ import SEO from './Pages/Services/DigitalMarketing/SEO/SEO';
 import PPC from './Pages/Services/DigitalMarketing/PPC/PPC';
 import Career from './Pages/Career/Career';
 import SMO from './Pages/Services/DigitalMarketing/SMO/SMO';
+import SMM from './Pages/Services/DigitalMarketing/SMM/SMM';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
           <Route path='/digital-marketing/seo' element={<SEO/>}/>
           <Route path='/digital-marketing/smo' element={<SMO/>}/>
           <Route path='/digital-marketing/ppc' element={<PPC/>}/>
+          <Route path='/digital-marketing/smm' element={<SMM/>}/>
           <Route path='/clients' element={<Clients/>}/> 
           <Route path='/contact-us' element={<Contact/>}/>
           <Route path='/career' element={<Career/>}/>
