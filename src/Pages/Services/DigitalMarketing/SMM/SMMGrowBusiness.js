@@ -141,9 +141,7 @@ function SMOGrowBusiness() {
                                 <p>Lorem ipsum dolor sit amet consectetur adipisi elit. Sint voluptatem eaque nulla saepe, ullam reiciendis ullam reiciendis ullam reiciendis. </p>
                             </div>
                         </div>
-
-
-
+ 
                     </div>
                 </div>
             </div>
