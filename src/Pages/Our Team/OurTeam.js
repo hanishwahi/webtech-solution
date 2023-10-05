@@ -29,7 +29,7 @@ function OurTeam() {
                     <div className="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
                         <div className="col-lg-3 text-center mb-3">
                             <img loading="lazy" src={Ankit_Mishra}
-                                className="team-image"
+                                className="team-image" alt=''
                             />
                             <h5 className="card-title pt-3">Ankit Mishra
                             </h5>
@@ -40,81 +40,81 @@ function OurTeam() {
                         <div className="col-lg-3 text-center mb-3">
                             <img loading="lazy" src={Simar}
                                 className="team-image"
-                            />
+                                alt='' />
                             <h5 className="card-title pt-3">Simarjit Kaur
                             </h5>
                             <p className="card-text">
-                            Sr. HR Executive
+                                Sr. HR Executive
                             </p>
                         </div>
                         <div className="col-lg-3 text-center mb-3">
                             <img loading="lazy" src={Kuldeep}
                                 className="team-image"
-                            />
+                                alt='' />
                             <h5 className="card-title pt-3">Kuldeep Singh
                             </h5>
                             <p className="card-text">
-                            Sr. Digital Marketing Expert
+                                Sr. Digital Marketing Expert
                             </p>
                         </div>
                         <div className="col-lg-3 text-center mb-3">
                             <img loading="lazy" src={Hanish}
                                 className="team-image"
-                            />
+                                alt='' />
                             <h5 className="card-title pt-3">Hanish Wahi
                             </h5>
                             <p className="card-text">
-                            Web Developer
+                                Web Developer
                             </p>
                         </div>
                         <div className="col-lg-3 text-center mb-3">
                             <img loading="lazy" src={Param}
                                 className="team-image"
-                            />
+                                alt='' />
                             <h5 className="card-title pt-3">Parampreet kaur
                             </h5>
                             <p className="card-text">
-                            SMM (Social Media Marketer)
+                                SMM (Social Media Marketer)
                             </p>
                         </div>
                         <div className="col-lg-3 text-center mb-3">
                             <img loading="lazy" src={Nidhi}
                                 className="team-image"
-                            />
+                                alt='' />
                             <h5 className="card-title pt-3">Nidhi Jaswal
                             </h5>
                             <p className="card-text">
-                            SMO (Social Media Optimization)
+                                SMO (Social Media Optimization)
                             </p>
                         </div>
                         <div className="col-lg-3 text-center mb-3">
                             <img loading="lazy" src={Anuj}
                                 className="team-image"
-                            />
+                                alt='' />
                             <h5 className="card-title pt-3">Anuj Thakur
                             </h5>
                             <p className="card-text">
-                            Sr. SEO Executive
+                                Sr. SEO Executive
                             </p>
                         </div>
                         <div className="col-lg-3 text-center mb-3">
                             <img loading="lazy" src={Shamse}
                                 className="team-image"
-                            />
+                                alt='' />
                             <h5 className="card-title pt-3">Shamse Alam
                             </h5>
                             <p className="card-text">
-                            Wordpress Developer
+                                Wordpress Developer
                             </p>
                         </div>
                         <div className="col-lg-3 text-center mb-3">
                             <img loading="lazy" src={Meenakshi}
-                                className="team-image"
+                                className="team-image" alt=''
                             />
                             <h5 className="card-title pt-3">Meenakshi Goyal
                             </h5>
                             <p className="card-text">
-                            Graphic Designer
+                                Graphic Designer
                             </p>
                         </div>
                     </div>
@@ -123,7 +123,7 @@ function OurTeam() {
                         <div className="col">
                             <div className="card">
                                 <img loading="lazy" src={Ankit_Mishra}
-                                    className="card-img-top"
+                                    className="caralt=''d-img-top"
                                     alt="Hollywood Sign on The Hill" />
                                 <div className="card-body">
                                     <h5 className="card-title">Ankit Mishra
@@ -137,7 +137,7 @@ function OurTeam() {
                         <div className="col">
                             <div className="card">
                                 <img loading="lazy" src={Simar}
-                                    className="card-img-top"
+                                    className="card-img-talt=''op"
                                     alt="Hollywood Sign on The Hill" />
                                 <div className="card-body">
                                     <h5 className="card-title">Simarjit Kaur
@@ -151,7 +151,7 @@ function OurTeam() {
                         <div className="col">
                             <div className="card">
                                 <img loading="lazy" src={Kuldeep}
-                                    className="card-img-top"
+                                    className="card-imgalt=''-top"
                                     alt="Palm Springs Road" />
                                 <div className="card-body">
                                     <h5 className="card-title">Kuldeep Singh</h5>
@@ -164,7 +164,7 @@ function OurTeam() {
                         <div className="col">
                             <div className="card">
                                 <img loading="lazy" src={Hanish}
-                                    className="card-img-top"
+                                    className="card-img-alt=''top"
                                     alt="Los Angeles Skyscrapers" />
                                 <div className="card-body">
                                     <h5 className="card-title">Hanish Wahi</h5>
@@ -176,7 +176,7 @@ function OurTeam() {
                         <div className="col">
                             <div className="card">
                                 <img loading="lazy" src={Param}
-                                    className="card-img-top"
+                                    className="card-img-talt=''op"
                                     alt="Skyscrapers" />
                                 <div className="card-body">
                                     <h5 className="card-title">Parampreet kaur</h5>
@@ -192,7 +192,7 @@ function OurTeam() {
                         <div className="col">
                             <div className="card">
                                 <img loading="lazy" src={Nidhi}
-                                    className="card-img-top"
+                                    className="card-img-talt=''op"
                                     alt="Skyscrapers" />
                                 <div className="card-body">
                                     <h5 className="card-title">Nidhi Jaswal</h5>
@@ -206,7 +206,7 @@ function OurTeam() {
                         <div className="col">
                             <div className="card">
                                 <img loading="lazy" src={Anuj}
-                                    className="card-img-top"
+                                    className="card-img-toalt=''p"
                                     alt="Skyscrapers" />
                                 <div className="card-body">
                                     <h5 className="card-title">Anuj Thakur</h5>
@@ -220,7 +220,7 @@ function OurTeam() {
                         <div className="col">
                             <div className="card">
                                 <img loading="lazy" src={Shamse}
-                                    className="card-img-top"
+                                    className="card-img-alt=''top"
                                     alt="Skyscrapers" />
                                 <div className="card-body">
                                     <h5 className="card-title">Shamse Alam</h5>

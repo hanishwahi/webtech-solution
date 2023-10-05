@@ -82,7 +82,7 @@ function CounterRecord() {
                                 </div>
                                 <div className='col-lg-12 col-sm-12 col-12 Counter-content'>
                                     <h2>Success Rate</h2>
-                                    <p>As technology layers deeper and deeper into the fabricof our</p>
+                                    <p>Deliver outstanding ROI and surpass predefined KPIs</p>
                                 </div>
                             </div>
                         </div>
@@ -93,7 +93,7 @@ function CounterRecord() {
                                 </div>
                                 <div className='col-lg-12 col-sm-12 col-12 Counter-content'>
                                     <h2>Commitment</h2>
-                                    <p>As technology layers deeper and deeper into the fabricof our</p>
+                                    <p>Maintaining a long-lasting, valuable partnership for your digital success</p>
                                 </div>
 
                             </div>
@@ -104,7 +104,7 @@ function CounterRecord() {
                                     <div className="col-lg-12 col-sm-12 col-12 Counter-1"><h1>{counter4}%</h1></div>
                                 </div>
                                 <div className='col-lg-12 col-sm-12 col-12 Counter-content'><h2>Return Customer</h2>
-                                    <p>As technology layers deeper and deeper into the fabricof our</p>
+                                    <p>Converting returning customers into repeat customers.</p>
                                 </div>
                             </div>
                         </div>
@@ -115,7 +115,7 @@ function CounterRecord() {
                                 </div>
                                 <div className='col-lg-12 col-sm-12 col-12 Counter-content'>
                                     <h2>Credibility</h2>
-                                    <p>As technology layers deeper and deeper into the fabricof our</p></div>
+                                    <p>Increase revenue while enhancing your brand's reputation.</p></div>
                             </div>
                         </div>
                     </div>

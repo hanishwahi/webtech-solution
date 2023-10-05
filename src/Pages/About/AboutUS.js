@@ -14,11 +14,11 @@ function AboutUS() {
                     <div className="row justify-content-center">
                         <div className="col-lg-8 aboutus-content">
                             <h1>About <span>Us</span> </h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto officia dolor nostrum consequatur, obcaecati officiis tempora voluptatem vitae illum, totam exercitationem voluptas. Quae, cupiditate voluptates reprehenderit officiis eius fugiat ratione omnis illum harum impedit minima eos non ducimus autem delectus itaque quam corporis quo porro repellendus fugit rerum ipsa. Sint aperiam esse excepturi laborum labore et praesentium quisquam laboriosam eveniet.</p>
+                            <p>Welcome to Web Tech Solutions Service! A results-driven digital marketing agency in Mohali, India We're a dynamic blend of web design and development, app development, digital marketing, and graphic design. Our actionable strategies benefit startups, large enterprises, and family-run businesses. We craft solutions that resonate with your business, elevating your bottom line. Our dedicated specialists engage with each stage of your project, from research and planning to technical and creative execution. Join us in shaping success together</p>
                             <div className="why-choose-checkbox">
-                                <p><i className="fa-solid fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <p><i className="fa-solid fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <p><i className="fa-solid fa-check"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <p><i className="fa-solid fa-check"></i> Prioritize quality over profit, valuing our client relationships.</p>
+                                <p><i className="fa-solid fa-check"></i> Engage in open strategy sessions to understand your growth needs.</p>
+                                <p><i className="fa-solid fa-check"></i> Turn growth obstacles into exciting possibilities for your business.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-8 col-12">
