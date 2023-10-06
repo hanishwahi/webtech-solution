@@ -25,8 +25,7 @@ function Footer() {
                                     <h1>Quick Links</h1>
                                 </div>
                                 <div className="footer-list">
-                                    {/* <Link><p> Home</p></Link> */}
-                                    <Link><p>Career</p></Link>
+                                    <Link onClick={scrollToHome} to='/career'><p>Career</p></Link>
                                     <Link onClick={scrollToHome} to='/our-team'><p> Our Team</p></Link>
                                     <Link onClick={scrollToHome} to='/blogs'><p>Blog</p></Link>
                                     <Link onClick={scrollToHome} to='/privacy-policy'><p>Privacy & Policy</p></Link>

@@ -40,10 +40,10 @@ function DMServiceOffer() {
                                 <h2>Search Engine Optimization</h2>
                                 <div className="border-bottom"></div>
                                 <ul>
-                                    <li>Local SEO</li>
-                                    <li>Local SEO</li>
-                                    <li>Local SEO</li>
-                                    <li>Local SEO</li>
+                                    <li>Keyword Research & Strategy</li>
+                                    <li>Technical SEO</li>
+                                    <li>On-Page SEO</li>
+                                    <li>Off-Page SEO</li>
                                     <li>Local SEO</li>
                                 </ul>
 
@@ -61,11 +61,11 @@ function DMServiceOffer() {
                                 <h2>Social Media Marketing</h2>
                                 <div className="border-bottom"></div>
                                 <ul>
-                                    <li>Local SEO</li>
-                                    <li>Local SEO</li>
-                                    <li>Local SEO</li>
-                                    <li>Local SEO</li>
-                                    <li>Local SEO</li>
+                                    <li>Social Media Strategy</li>
+                                    <li>Content Creation and Management</li>
+                                    <li>Community Management</li>
+                                    <li>Paid Social Advertising</li>
+                                    <li>Analytics and Reporting</li>
                                 </ul>
 
                                 <Link onClick={scrollToHome} to='/digital-marketing/smm'>More Info <i class="fa-solid fa-arrow-right"></i></Link>
@@ -82,11 +82,11 @@ function DMServiceOffer() {
                                 <h2>Pay Per Click</h2>
                                 <div className="border-bottom"></div>
                                 <ul>
-                                    <li>Local SEO</li>
-                                    <li>Local SEO</li>
-                                    <li>Local SEO</li>
-                                    <li>Local SEO</li>
-                                    <li>Local SEO</li>
+                                    <li>Keyword Research and Analysis</li>
+                                    <li>Ad Campaign Setup and Management</li>
+                                    <li>Bid Management</li>
+                                    <li>Ad Copywriting and A/B Testing</li>
+                                    <li>Performance Tracking and Reporting</li>
                                 </ul>
 
                                 <Link onClick={scrollToHome} to='/digital-marketing/ppc'>More Info <i class="fa-solid fa-arrow-right"></i></Link>
@@ -103,11 +103,11 @@ function DMServiceOffer() {
                                 <h2>Social Media Optimization</h2>
                                 <div className="border-bottom"></div>
                                 <ul>
-                                    <li>Local SEO</li>
-                                    <li>Local SEO</li>
-                                    <li>Local SEO</li>
-                                    <li>Local SEO</li>
-                                    <li>Local SEO</li>
+                                    <li>Profile Setup and Optimization</li>
+                                    <li>Content Strategy</li>
+                                    <li>Audience Engagement</li>
+                                    <li>Hashtag Research and Usage</li>
+                                    <li>Analytics and Performance Tracking</li>
                                 </ul>
 
                                 <Link onClick={scrollToHome} to='/digital-marketing/smo'>More Info <i class="fa-solid fa-arrow-right"></i></Link>
@@ -124,11 +124,11 @@ function DMServiceOffer() {
                                 <h2>Content Marketing</h2>
                                 <div className="border-bottom"></div>
                                 <ul>
-                                    <li>Local SEO</li>
-                                    <li>Local SEO</li>
-                                    <li>Local SEO</li>
-                                    <li>Local SEO</li>
-                                    <li>Local SEO</li>
+                                    <li>Content Strategy Development</li>
+                                    <li>Content Creation</li>
+                                    <li>Content Distribution and Promotion</li>
+                                    <li>SEO Optimization</li>
+                                    <li>Content Performance Analysis</li>
                                 </ul>
 
                                 <Link>More Info <i class="fa-solid fa-arrow-right"></i></Link>
@@ -145,11 +145,11 @@ function DMServiceOffer() {
                                 <h2>Online Reputation management</h2>
                                 <div className="border-bottom"></div>
                                 <ul>
-                                    <li>Local SEO</li>
-                                    <li>Local SEO</li>
-                                    <li>Local SEO</li>
-                                    <li>Local SEO</li>
-                                    <li>Local SEO</li>
+                                    <li>Reputation Monitoring</li>
+                                    <li>Review Management</li>
+                                    <li>Content Suppression</li>
+                                    <li>Online Profile Optimization</li>
+                                    <li>Crisis Management</li>
                                 </ul>
 
                                 <Link>More Info <i class="fa-solid fa-arrow-right"></i></Link>

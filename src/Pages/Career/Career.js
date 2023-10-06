@@ -12,7 +12,7 @@ function Career() {
             <div className='container-fluid career-main'>
                 <div className='container-lg'>
                     <div className='row py-3 mb-3 career-001 text-center'>
-                        <h1>Career at Web tech Solutions service</h1>
+                        <h1>Career at Webtech Solutions service</h1>
                         <p>We want to make agency life peasant, productive and empowering</p>
                     </div>
                     <div className='row'>
@@ -59,6 +59,7 @@ function Career() {
                                     </div>
                                 </div>
                             </div>
+                          
                         </div>
                     </div>
                     <div className='row'>
@@ -114,7 +115,7 @@ function Career() {
                     <div className='row career-001 text-center'>
                         <div className='col'>
                             <h1>Don’t see  a suitable position?</h1>
-                            <p>We are for everyone. Write to us to  <Link className='text-decoration-none' to='mailto:career@webtechsolutionsservice.com'>career@webtechsolutionsservice.com</Link></p>
+                            <p>We are for everyone. Write to us to  <Link className='text-decoration-none' to='mailto:info@webtechsolutionsservice.com'>info@webtechsolutionsservice.com</Link></p>
                         </div>
                     </div>
                 </div >
