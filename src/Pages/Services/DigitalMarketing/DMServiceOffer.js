@@ -24,7 +24,7 @@ function DMServiceOffer() {
                         </div>
                         <div className="col-lg-8 col-md-8">
                             <div className='DMserviceOffer'>
-                                <p>Whether you're an enterprise client or a unicorn startup, our extensive range of app development services has you covered. Customised iOS & Android apps engineered to perfection. Tailored to your needs from scratch.Your vision, our expertise.</p>
+                                <p>Discover our integrated digital marketing services, designed for online success. From strategic planning to result-driven execution, we're your partner in boosting customer acquisition and retention. Explore our key services below.</p>
 
                             </div>
                         </div>
