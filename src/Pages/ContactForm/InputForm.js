@@ -25,7 +25,7 @@ function InputForm() {
             );
 
         e.target.reset();
-        Navigate('/thank-you')
+        Navigate('/thankyou')
         // toast.success('Message sent Successfully!');
     };
     return (

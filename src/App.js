@@ -24,7 +24,7 @@ import Career from './Pages/Career/Career';
 import SMO from './Pages/Services/DigitalMarketing/SMO/SMO';
 import SMM from './Pages/Services/DigitalMarketing/SMM/SMM';
 import Thankyou from './Pages/ContactForm/Thankyou';
-
+  
 function App() {
   return (
     <>
@@ -42,8 +42,8 @@ function App() {
           <Route path='/digital-marketing/smm' element={<SMM/>}/>
           <Route path='/clients' element={<Clients/>}/> 
           <Route path='/contact-us' element={<Contact/>}/>
-          <Route path='/thank-you' element={<Thankyou/>}/>
-          <Route path='/career' element={<Career/>}/>
+          <Route path='/thankyou' element={<Thankyou/>}/>
+           <Route path='/career' element={<Career/>}/>
           <Route path='/our-team' element={<OurTeam/>} />
           <Route path='/portfolio' element={<Portfolio/>}/>
           <Route path='/privacy-policy' element={<PrivacyPolicy/>}/>
