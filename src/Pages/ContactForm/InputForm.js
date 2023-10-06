@@ -1,10 +1,13 @@
 import React from 'react'
 import emailjs from 'emailjs-com';
 import { useRef } from 'react';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { useNavigate } from 'react-router-dom';
+// import { ToastContainer, toast } from 'react-toastify';
+// import 'react-toastify/dist/ReactToastify.css';
 
 function InputForm() {
+
+    const Navigate= useNavigate()
 
     const form = useRef();
     const sendEmail = (e) => {
@@ -22,7 +25,8 @@ function InputForm() {
             );
 
         e.target.reset();
-        toast.success('Message sent Successfully!');
+        Navigate('/thank-you')
+        // toast.success('Message sent Successfully!');
     };
     return (
         <>
@@ -78,9 +82,9 @@ function InputForm() {
                     <label className="form-label fw-bold" htmlFor="form4Example3">*Message</label>
                     <textarea className="form-control" name="message" required id="form4Example6" rows="2" placeholder='Message...'></textarea>
                 </div>
-                <input className='form-Button' type="submit" value="Submit" />
+                <input  className='form-Button' type="submit" value="Submit" />
             </form>
-            <ToastContainer />
+            {/* <ToastContainer /> */}
         </>
     )
 }

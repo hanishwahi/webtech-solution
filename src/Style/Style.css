@@ -1903,3 +1903,82 @@ input::-webkit-inner-spin-button {
     text-align: left;  
     color: #263045;
 }
+
+ 
+/* thankyou page  */
+
+#thankyou {
+    background-color: white;
+    border-radius: 10px;
+    height: 190px;
+    width: 300px;
+    border: 6px solid #43ade6;
+    box-shadow: 7px 7px 4px #4999b6;
+    margin: 250px auto 50px;
+    text-align: center;
+    -webkit-animation: flash 1.2s ease 0s infinite;
+    animation: flash 1.2s ease 0s infinite;
+  }
+  
+  #h2thankyou {
+    color: #4999b6;
+    padding: 32px;
+    font-size: 44px;
+    font-family: 'Open Sans', 'sans-serif';
+    -webkit-animation: flashtwo 1.2s linear 0s infinite;
+    animation: flashtwo 1.2s linear 0s infinite;
+  }
+  a {
+    text-decoration: none;
+    color: #4999b6;
+  }
+  
+  #linkback {
+    font-family: 'Roboto', sans-serif;    
+    text-decoration: none;
+    padding: 16px;
+    border: 2px solid #43ade6;
+    background-color: white;
+    border-radius: 4px;
+    margin: 50px auto;
+    width: 200px;
+    font-weight: 400;
+  }
+  
+  #linkback:hover {
+    background-color: #43ade6;
+  }
+  
+  a:hover {
+    color: white;
+  }
+  
+  @keyframes flash {
+    0% {
+      background-color: white;
+    }
+    49% {
+      background-color: white;
+    }
+    50% {
+      background-color: #43ade6;
+    }
+    100% {
+      background-color: #43ade6;
+    }
+  }
+  
+  @keyframes flashtwo {
+    0% {
+      color: #43ade6;
+    }
+    49% {
+      color: #43ade6;
+    }
+    50% {
+      color: white;
+    }
+    100% {
+      color: white;
+    }
+  }

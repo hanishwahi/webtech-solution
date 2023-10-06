@@ -55,8 +55,7 @@ function Footer() {
                                         <i className="fa-solid fa-location-dot footer-social-icon" style={{ color: "#fff" }}></i>
                                     </div>
                                     <div className="col-11">
-                                        <p> Bestech Business Tower
-                                            Office No: 412 Tower-A, 4th Floor, Sahibzada Ajit Singh Nagar, Punjab 160066.</p>
+                                        <p><Link to='https://maps.app.goo.gl/v7ANnqKVYZStYaxA7' style={{ color: "#fff" }}>Bestech Business Tower, Office No: 412 Tower-A, 4th Floor, Sahibzada Ajit Singh Nagar, Punjab 160066.</Link> </p>
                                     </div>
                                 </div>
                                 <div className="row">
@@ -72,7 +71,7 @@ function Footer() {
                                         <i className="fa-solid fa-envelope footer-social-icon" style={{ color: "#fff" }}></i>
                                     </div>
                                     <div className="col-11">
-                                        <Link to="mailto:info@webtechsolutionsservie.com"><p>  info@webtechsolutionsservie.com</p></Link>
+                                        <Link to="mailto:info@webtechsolutionsservie.com"><p>info@webtechsolutionsservie.com</p></Link>
                                     </div>
                                 </div>
 
