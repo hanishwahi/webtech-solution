@@ -15,7 +15,7 @@ body {
     color: #fff;
     text-decoration: none;
 }
-.top-Nav-contact a:hover{
+.top-Nav-contact a:hover {
     color: #43ade6;
 }
 
@@ -295,7 +295,7 @@ li.nav-item {
     padding: 30px 20px;
     text-align: center;
     height: 100%;
-    position: relative; 
+    position: relative;
 }
 .caraousel h1 {
     font-size: 19px;
@@ -313,7 +313,7 @@ li.nav-item {
     padding: 30px 20px;
     text-align: center;
     height: 100%;
-    position: relative; 
+    position: relative;
 }
 
 .caraousel:before {
@@ -347,7 +347,7 @@ li.nav-item {
     padding: 30px 20px;
     text-align: center;
     height: 100%;
-    position: relative; 
+    position: relative;
 }
 
 .caraousel2:before {
@@ -373,7 +373,7 @@ li.nav-item {
     padding: 30px 20px;
     text-align: center;
     height: 100%;
-    position: relative; 
+    position: relative;
 }
 
 .caraousel3:after {
@@ -600,7 +600,7 @@ li.nav-item {
     padding-right: 15px;
 }
 .footer-social-icon {
-    font-size: 17px; 
+    font-size: 17px;
 }
 
 .border-right-footer {
@@ -701,56 +701,57 @@ li.nav-item {
 }
 @-webkit-keyframes scroll {
     0% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
     }
     100% {
-    -webkit-transform: translateX(calc(-250px * 7));
-    transform: translateX(calc(-250px * 7));
+        -webkit-transform: translateX(calc(-250px * 7));
+        transform: translateX(calc(-250px * 7));
     }
-    }
-    @keyframes scroll {
+}
+@keyframes scroll {
     0% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
     }
     100% {
-    -webkit-transform: translateX(calc(-250px * 7));
-    transform: translateX(calc(-250px * 7));
+        -webkit-transform: translateX(calc(-250px * 7));
+        transform: translateX(calc(-250px * 7));
     }
-    }
-    .slider { 
+}
+.slider {
     margin: auto;
     overflow: hidden;
-    position: relative; 
-    }
-    .slider::before, .slider::after {
-     content: "";
+    position: relative;
+}
+.slider::before,
+.slider::after {
+    content: "";
     height: 100px;
-    position: absolute; 
+    position: absolute;
     z-index: 2;
-    }
-    .slider::after {
+}
+.slider::after {
     right: 0;
     top: 0;
     -webkit-transform: rotateZ(180deg);
     transform: rotateZ(180deg);
-    }
-    .slider::before {
+}
+.slider::before {
     left: 0;
     top: 0;
-    }
-    .slider .slide-track {
+}
+.slider .slide-track {
     -webkit-animation: scroll 40s linear infinite;
     animation: scroll 20s linear infinite;
     display: flex;
     width: calc(250px * 14);
-    }
-    .slider .slide { 
+}
+.slider .slide {
     width: 250px;
     align-self: center;
     display: flex;
-    }
+}
 
 
 /* counter  */
@@ -1153,7 +1154,7 @@ li.nav-item {
 /* digital marketing  */
 .DM-box-bg {
     background-color: #263045;
-    padding: 40px 0; 
+    padding: 40px 0;
 }
 .DMserviceOffer {
     padding: 0 0 50px;
@@ -1193,12 +1194,12 @@ li.nav-item {
     font-family: 'Roboto', sans-serif;
     color: #263045;
     letter-spacing: 1px;
-    padding: 20px 0 0; 
+    padding: 20px 0 0;
     text-align: center;
 }
-.DMserviceOffer-box ul{
-    padding-top: 20px; 
-    padding-left: 0px;
+.DMserviceOffer-box ul {
+    padding-top: 20px;
+    padding-left: 0;
 }
 .DMserviceOffer-box ul li {
     line-height: 30px;
@@ -1211,8 +1212,8 @@ li.nav-item {
     text-align: left;
     list-style-type: none;
 }
-.DMserviceOffer-box a{
-    text-decoration: none; 
+.DMserviceOffer-box a {
+    text-decoration: none;
     color: #43ade6;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -1236,10 +1237,10 @@ li.nav-item {
     font-family: 'Roboto', sans-serif;
     color: #263045;
     letter-spacing: 1px;
-    padding: 20px 0 0; 
+    padding: 20px 0 0;
     text-align: center;
 }
-.SEOserviceOffer-box p{
+.SEOserviceOffer-box p {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 0;
@@ -1248,11 +1249,11 @@ li.nav-item {
     text-decoration: none;
     text-align: center;
 }
-.seo-growbusiness{
-    padding: 70px 0px;
+.seo-growbusiness {
+    padding: 70px 0;
 }
 
- 
+
 .circlee {
     background-image: url('../Images/cir.png');
     background-position: center;
@@ -1261,42 +1262,42 @@ li.nav-item {
     padding: 39px 1px;
     text-align: center;
 }
-.growbusiness-text h1{
+.growbusiness-text h1 {
     font-size: 28px;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
     color: #263045;
     text-decoration: none;
     text-align: center;
-    padding: 0px 0px 30px 0px;
+    padding: 0 0 30px;
 }
-.growbusiness-box{
+.growbusiness-box {
     text-align: center;
     border-bottom: 1px solid #ccc;
 }
- 
-.growbusiness-box h2{
+
+.growbusiness-box h2 {
     font-size: 18px;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
     color: #000;
     text-decoration: none;
     text-align: center;
-    padding: 5px 0px;
+    padding: 5px 0;
     min-height: 53px;
 }
-.seo-work{
+.seo-work {
     padding-bottom: 30px;
 }
-.seo-work h1{
+.seo-work h1 {
     font-size: 28px;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
     color: #263045;
     text-decoration: none;
-    text-align: center; 
+    text-align: center;
 }
-.seo-work p{
+.seo-work p {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 0;
@@ -1305,10 +1306,10 @@ li.nav-item {
     text-decoration: none;
     text-align: center;
 }
-.seo-work-text{
+.seo-work-text {
     align-self: center;
 }
-.seo-work-text h3{
+.seo-work-text h3 {
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 0;
@@ -1317,7 +1318,7 @@ li.nav-item {
     text-decoration: none;
     text-align: left;
 }
-.seo-work-text p{
+.seo-work-text p {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 0;
@@ -1328,17 +1329,17 @@ li.nav-item {
 }
 
 /* smo page  */
-.smo-main{
+.smo-main {
     display: flex;
-align-items: center;
+    align-items: center;
 }
-.smoimg-left{
+.smoimg-left {
     width: 40%;
 }
-.smotext-right{
-    padding-right:118px;
+.smotext-right {
+    padding-right: 118px;
     padding-left: 30px;
-    width: 60%;  
+    width: 60%;
 }
 /* technologies  */
 .technologies-main {
@@ -1867,17 +1868,14 @@ input::-webkit-inner-spin-button {
     background-color: #42ade4;
     color: #fff;
 }
- 
-
-
 
 
 /* career page  */
 
-.career-main{
-    padding: 70px 0px;
+.career-main {
+    padding: 70px 0;
 }
-.career-001 h1{
+.career-001 h1 {
     font-size: 28px;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
@@ -1885,26 +1883,53 @@ input::-webkit-inner-spin-button {
     text-decoration: none;
     letter-spacing: 1px;
 }
-.career-001 p{
+.career-001 p {
     font-size: 17px;
     font-weight: 400;
     margin-bottom: 0;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    text-align: center;  
+    text-align: center;
     color: #263045;
 }
-.jobrequiremnt ul li{
+.jobrequiremnt ul li {
     font-size: 15px;
     font-weight: 400;
     margin-bottom: 0;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    text-align: left;  
+    text-align: left;
     color: #263045;
 }
 
- 
+
 /* thankyou page  */
 
- 
+.thankyou-para p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #263045;
+    width: 55%;
+}
+.thankyou-para a {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    background-color: #42ade4;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.backTohome {
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+}
