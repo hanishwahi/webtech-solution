@@ -19,7 +19,7 @@ function GraphicServiceOffer() {
                         </div>
                         <div className="col-lg-8 col-md-8">
                             <div className='graphicserviceOffer'>
-                                <p>Whether you're an enterprise client or a unicorn startup, our extensive range of app development services has you covered. Customised iOS & Android apps engineered to perfection. Tailored to your needs from scratch.Your vision, our expertise.</p>
+                                <p>Discover our graphic design expertise crafting your vision into reality. We excel in logos, brand identity, print materials, web graphics, and more. Elevate your ideas with our captivating visuals. Explore our services below.</p>
 
                             </div>
                         </div>
@@ -33,7 +33,7 @@ function GraphicServiceOffer() {
                                     </div>
                                 </div>
                                 <h2>Logo Designing</h2>
-                                <p>Web Tech Solutions Services specialise in creating mobile apps with strong code</p>
+                                <p>Craft a unique brand identity through our professional logo design expertise.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
@@ -44,7 +44,7 @@ function GraphicServiceOffer() {
                                     </div>
                                 </div>
                                 <h2>Social Media Design</h2>
-                                <p>Web Tech Solutions Services specialise in creating mobile apps with strong code</p>
+                                <p>Eye-catching, engaging social media graphics that make your brand shine</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
@@ -55,7 +55,7 @@ function GraphicServiceOffer() {
                                     </div>
                                 </div>
                                 <h2>Web Banners</h2>
-                                <p>Web Tech Solutions Services specialise in creating mobile apps with strong code</p>
+                                <p>Captivate your audience with stunning web banners that drive engagement.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
@@ -66,7 +66,7 @@ function GraphicServiceOffer() {
                                     </div>
                                 </div>
                                 <h2>Broucher Design</h2>
-                                <p>Web Tech Solutions Services specialise in creating mobile apps with strong code</p>
+                                <p>Communicate your message effectively through professionally designed brochures.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
@@ -77,7 +77,7 @@ function GraphicServiceOffer() {
                                     </div>
                                 </div>
                                 <h2>Flyer Design</h2>
-                                <p>Web Tech Solutions Services specialise in creating mobile apps with strong code</p>
+                                <p>Make a strong impact with persuasive flyer designs for your marketing needs.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
@@ -88,7 +88,7 @@ function GraphicServiceOffer() {
                                     </div>
                                 </div>
                                 <h2>Visiting Card Design</h2>
-                                <p>Web Tech Solutions Services specialise in creating mobile apps with strong code</p>
+                                <p>Leave a lasting impression with well-crafted, unique visiting card designs.</p>
                             </div>
                         </div>
 

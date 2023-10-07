@@ -15,7 +15,7 @@ function ServiceOffer() {
                         <div className="col-lg-6 col-md-8">
                             <div className='webserviceOffer'>
                                 <h1>Service <span>We Offer</span></h1>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis illo, error, beatae, quod ut minus molestias ea sint quae id quaerat quis et eligendi blanditiis placeat. Fuga esse ipsa ad. beatae, quod ut minus molestias ea sint quae id quaerat quis et eligendi blanditiis placeat. Fuga esse ipsa ad beatae, quod ut minus molestias ea sint quae id quaerat quis et eligendi blanditiis placeat. </p>
+                                <p>Our services revolve around elevating user satisfaction through enhanced website usability. We handle end-to-end development, specializing in crafting captivating websites from the ground up. This includes creating visually appealing layouts and intuitive user interfaces and ensuring mobile responsiveness. Explore our comprehensive services below to unlock the full potential of your online presence.</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-4 col-sm-6">
