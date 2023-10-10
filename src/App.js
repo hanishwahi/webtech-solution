@@ -23,7 +23,9 @@ import PPC from './Pages/Services/DigitalMarketing/PPC/PPC';
 import Career from './Pages/Career/Career';
 import SMO from './Pages/Services/DigitalMarketing/SMO/SMO';
 import SMM from './Pages/Services/DigitalMarketing/SMM/SMM';
+import ORM from './Pages/Services/DigitalMarketing/ORM/ORM';
 import Thankyou from './Pages/ContactForm/Thankyou';
+import ContentMarketing from './Pages/Services/DigitalMarketing/ContentMarketing/ContentMarketing';
   
 function App() {
   return (
@@ -40,6 +42,8 @@ function App() {
           <Route path='/digital-marketing/smo' element={<SMO/>}/>
           <Route path='/digital-marketing/ppc' element={<PPC/>}/>
           <Route path='/digital-marketing/smm' element={<SMM/>}/>
+          <Route path='/digital-marketing/Content-Marketing' element={<ContentMarketing/>}/>
+          <Route path='/digital-marketing/orm' element={<ORM/>}/>
           <Route path='/clients' element={<Clients/>}/> 
           <Route path='/contact-us' element={<Contact/>}/>
           <Route path='/thankyou' element={<Thankyou/>}/>

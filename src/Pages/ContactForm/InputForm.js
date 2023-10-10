@@ -28,6 +28,11 @@ function InputForm() {
         Navigate('/thankyou')
         // toast.success('Message sent Successfully!');
     };
+
+
+    const scrollToHome = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
     return (
         <>
 
@@ -82,7 +87,7 @@ function InputForm() {
                     <label className="form-label fw-bold" htmlFor="form4Example3">*Message</label>
                     <textarea className="form-control" name="message" required id="form4Example6" rows="2" placeholder='Message...'></textarea>
                 </div>
-                <input  className='form-Button' type="submit" value="Submit" />
+                <input onClick={scrollToHome}  className='form-Button' type="submit" value="Submit" />
             </form>
             {/* <ToastContainer /> */}
         </>

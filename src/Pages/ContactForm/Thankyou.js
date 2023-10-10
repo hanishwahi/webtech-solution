@@ -1,6 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import pdf from '../../Images/WebtechSolutions.pdf'
+ import pdf from '../../Images/WebtechSolutions.pdf'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 
@@ -33,6 +32,9 @@ function Thankyou() {
                     </div> */}
                 </div>
             </div>
+
+
+            
             <Footer/>
         </>
     )

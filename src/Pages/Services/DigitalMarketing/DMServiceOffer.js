@@ -131,7 +131,7 @@ function DMServiceOffer() {
                                     <li>Content Performance Analysis</li>
                                 </ul>
 
-                                <Link>More Info <i class="fa-solid fa-arrow-right"></i></Link>
+                                <Link onClick={scrollToHome} to='/digital-marketing/Content-Marketing'>More Info <i class="fa-solid fa-arrow-right"></i></Link>
 
                             </div>
                         </div>
@@ -152,7 +152,7 @@ function DMServiceOffer() {
                                     <li>Crisis Management</li>
                                 </ul>
 
-                                <Link>More Info <i class="fa-solid fa-arrow-right"></i></Link>
+                                <Link onClick={scrollToHome} to='/digital-marketing/orm'>More Info <i class="fa-solid fa-arrow-right"></i></Link>
 
                             </div>
                         </div>
