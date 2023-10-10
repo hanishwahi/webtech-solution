@@ -411,8 +411,7 @@ li.nav-item {
     padding-left: 5px;
 }
 .arrow1 {
-    animation: slide1 2s ease-in-out infinite;
-    margin-left: 5px;
+    animation: slide1 2s ease-in-out infinite; 
 }
 @keyframes slide1 {
     0%,

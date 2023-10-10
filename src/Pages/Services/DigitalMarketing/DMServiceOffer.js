@@ -1,4 +1,4 @@
-import React from 'react' 
+import React from 'react'
 import { Link } from 'react-router-dom'
 import SEO from '../../../Images/SEO.png'
 import SMM from '../../../Images/SMM.png'
@@ -47,7 +47,7 @@ function DMServiceOffer() {
                                     <li>Local SEO</li>
                                 </ul>
 
-                                <Link onClick={scrollToHome} to='/digital-marketing/seo'>More Info <i class="fa-solid fa-arrow-right"></i></Link>
+                                <Link onClick={scrollToHome} to='/digital-marketing/seo'>More Info <i class="fa-solid fa-arrow-right arrow1"></i></Link>
 
                             </div>
                         </div>
@@ -68,7 +68,7 @@ function DMServiceOffer() {
                                     <li>Analytics and Reporting</li>
                                 </ul>
 
-                                <Link onClick={scrollToHome} to='/digital-marketing/smm'>More Info <i class="fa-solid fa-arrow-right"></i></Link>
+                                <Link onClick={scrollToHome} to='/digital-marketing/smm'>More Info <i class="fa-solid fa-arrow-right arrow1"></i></Link>
 
                             </div>
                         </div>
@@ -89,7 +89,7 @@ function DMServiceOffer() {
                                     <li>Performance Tracking and Reporting</li>
                                 </ul>
 
-                                <Link onClick={scrollToHome} to='/digital-marketing/ppc'>More Info <i class="fa-solid fa-arrow-right"></i></Link>
+                                <Link onClick={scrollToHome} to='/digital-marketing/ppc'>More Info <i class="fa-solid fa-arrow-right arrow1"></i></Link>
 
                             </div>
                         </div>
@@ -110,7 +110,7 @@ function DMServiceOffer() {
                                     <li>Analytics and Performance Tracking</li>
                                 </ul>
 
-                                <Link onClick={scrollToHome} to='/digital-marketing/smo'>More Info <i class="fa-solid fa-arrow-right"></i></Link>
+                                <Link onClick={scrollToHome} to='/digital-marketing/smo'>More Info <i class="fa-solid fa-arrow-right arrow1"></i></Link>
 
                             </div>
                         </div>
@@ -131,7 +131,7 @@ function DMServiceOffer() {
                                     <li>Content Performance Analysis</li>
                                 </ul>
 
-                                <Link onClick={scrollToHome} to='/digital-marketing/Content-Marketing'>More Info <i class="fa-solid fa-arrow-right"></i></Link>
+                                <Link onClick={scrollToHome} to='/digital-marketing/Content-Marketing'>More Info <i class="fa-solid fa-arrow-right arrow1"></i></Link>
 
                             </div>
                         </div>
@@ -152,11 +152,11 @@ function DMServiceOffer() {
                                     <li>Crisis Management</li>
                                 </ul>
 
-                                <Link onClick={scrollToHome} to='/digital-marketing/orm'>More Info <i class="fa-solid fa-arrow-right"></i></Link>
+                                <Link onClick={scrollToHome} to='/digital-marketing/orm'>More Info <i class="fa-solid fa-arrow-right arrow1"></i></Link>
 
                             </div>
                         </div>
- 
+
                     </div>
                 </div>
             </div>
