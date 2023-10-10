@@ -42,7 +42,7 @@ function App() {
           <Route path='/digital-marketing/smo' element={<SMO/>}/>
           <Route path='/digital-marketing/ppc' element={<PPC/>}/>
           <Route path='/digital-marketing/smm' element={<SMM/>}/>
-          <Route path='/digital-marketing/Content-Marketing' element={<ContentMarketing/>}/>
+          <Route path='/digital-marketing/content-marketing' element={<ContentMarketing/>}/>
           <Route path='/digital-marketing/orm' element={<ORM/>}/>
           <Route path='/clients' element={<Clients/>}/> 
           <Route path='/contact-us' element={<Contact/>}/>
