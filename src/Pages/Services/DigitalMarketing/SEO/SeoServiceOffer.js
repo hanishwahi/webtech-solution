@@ -21,7 +21,7 @@ function SeoServiceOffer() {
                         </div>
                         <div className="col-lg-8 col-md-8">
                             <div className='DMserviceOffer'>
-                                <p>Whether you're an enterprise client or a unicorn startup, our extensive range of app development services has you covered. Customised iOS & Android apps engineered to perfection. Tailored to your needs from scratch.Your vision, our expertise.</p>
+                                <p>As a leading SEO company, we have a proven track record of guiding clients through Google's ever-evolving algorithms. Let us lead you on your SEO journey, enhancing your online presence, increasing sales, and generating valuable leads. Explore our key services below.</p>
 
                             </div>
                         </div>
@@ -34,8 +34,8 @@ function SeoServiceOffer() {
                                         <img src={globalSEO} alt="" loading='lazy' width={61} />
                                     </div>
                                 </div>
-                                <h2>Global SEO</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eos, impedit dfd aspernatur ipsam magnam consequatur.</p>
+                                <h2>Keyword Research & Strategy</h2>
+                                <p>Efficiently uncover high-impact keywords and develop strategic plans for optimal search engine visibility.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
@@ -45,8 +45,8 @@ function SeoServiceOffer() {
                                         <img src={nationalSEO} alt="" loading='lazy' width={55} />
                                     </div>
                                 </div>
-                                <h2>National SEO</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eos, impedit dfd aspernatur ipsam magnam consequatur.</p>
+                                <h2>Technical SEO</h2>
+                                <p> Ensure website performance and indexing by addressing technical issues and enhancing site architecture.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
@@ -56,8 +56,8 @@ function SeoServiceOffer() {
                                         <img src={localSEO} alt="" loading='lazy' width={59} />
                                     </div>
                                 </div>
-                                <h2>Local SEO</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eos, impedit dfd aspernatur ipsam magnam consequatur.</p>
+                                <h2>On-Page SEO</h2>
+                                <p>On-Page SEO focuses on optimizing individual web pages to improve their search engine rankings and user experience.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
@@ -67,19 +67,19 @@ function SeoServiceOffer() {
                                         <img src={enterpriceSEO} alt="" loading='lazy' width={58} />
                                     </div>
                                 </div>
-                                <h2>Enterprise SEO</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eos, impedit dfd aspernatur ipsam magnam consequatur.</p>
+                                <h2>Off-Page SEO</h2>
+                                <p>Off-page SEO involves building a strong online presence through strategies like link-building and social signals.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
                             <div className='SEOserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
-                                        <img src={ecommerceSEO} alt="" loading='lazy' width={62} />
+                                        <img src={localSEO} alt="" loading='lazy' width={62} />
                                     </div>
                                 </div>
-                                <h2>E-Commerce SEO</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eos, impedit dfd aspernatur ipsam magnam consequatur.</p>
+                                <h2>Local SEO</h2>
+                                <p>Local SEO targets geographic search results, ensuring your business shines in local listings and maps.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
@@ -89,8 +89,8 @@ function SeoServiceOffer() {
                                         <img src={startupSEO} alt="" loading='lazy' width={58} />
                                     </div>
                                 </div>
-                                <h2>Start-Up SEO</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eos, impedit dfd aspernatur ipsam magnam consequatur.</p>
+                                <h2>Competitor Analysis</h2>
+                                <p>Stay ahead in your industry by leveraging competitor analysis to make informed decisions and gain a competitive edge.</p>
                             </div>
                         </div>
                          

@@ -22,16 +22,23 @@ function SEO() {
                         </div>
                         <div className="col-lg-6 web-development-inner mb-3">
                             <h1><span>Search Engine</span> Optimization</h1>
-                            <p>Unleash the power of your online presence with our cutting-edge web development solutions. From stunning designs to seamless functionality, we create websites that captivate your audience and drive success. Elevate your digital game with our expert team. with a great user Interface with the best design for your own website. We help you establish your business, brand and other things online. Elevate your digital game with our expert team. with a great user Interface with the best design for your own website. We help you establish your business, brand and other things online. Elevate your digital game with our expert team. with a great user Interface with the best design for your own website. We help you establish your business, brand and other things online.</p>
+                            <p>SEO can seem complex, involving tasks like analyzing your business, building links, researching keywords, creating content, and structuring your site. That's where we come in. You might have a clear vision of your needs, but the path to achieving them remains unclear. Our SEO specialists frequently hear this from clients who reach out to WebTech Solutions Service. You're likely visiting us for one or more of the following reasons:</p>
+                            <div className="why-choose-checkbox">
+                                <p><i className="fa-solid fa-check"></i> Your website struggles to gain online visibility.</p>
+                                <p><i className="fa-solid fa-check"></i> Recent declines in website traffic have left you puzzled.</p>
+                                <p><i className="fa-solid fa-check"></i> A sudden drop in incoming calls and leads has raised concerns.</p> 
+                                <p><i className="fa-solid fa-check"></i> You're launching a new website and need a rapid boost in business.</p> 
+                            </div>
+                            <p>Rest assured, you're in the hands of the right SEO company. WebTech serves hundreds of SEO clients, delivering solutions that adapt to Google's ever-changing algorithms.</p>
                             <div className="row">
                                 <div className="col-lg-4 col-sm-4 col-6">
-                                    <img src={sales} alt="" className='img-fluid'/>
+                                    <img src={sales} alt="" className='img-fluid' />
                                 </div>
                                 <div className="col-lg-4 col-sm-4 col-6">
-                                    <img src={appearence} alt="" className='img-fluid'/>
+                                    <img src={appearence} alt="" className='img-fluid' />
                                 </div>
                                 <div className="col-lg-4 col-sm-4 col-6">
-                                    <img src={lg} alt="" className='img-fluid'/>
+                                    <img src={lg} alt="" className='img-fluid' />
                                 </div>
                             </div>
                         </div>
@@ -39,9 +46,9 @@ function SEO() {
                     </div>
                 </div>
             </div>
-            <SeoServiceOffer/>
-            <GrowBusiness/>
-            <ContactForm/>
+            <SeoServiceOffer />
+            <GrowBusiness />
+            <ContactForm />
             <Footer />
         </>
     )

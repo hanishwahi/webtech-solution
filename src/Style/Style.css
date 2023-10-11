@@ -916,6 +916,7 @@ li.nav-item {
     color: #263045;
     text-decoration: none;
     letter-spacing: 1px;
+    margin-bottom: 10px;
 }
 .web-development-inner h1 span {
     color: #43ade6;
@@ -927,8 +928,7 @@ li.nav-item {
     margin-bottom: 0;
     font-family: 'Roboto', sans-serif;
     color: #263045;
-    text-decoration: none;
-    padding: 15px 0;
+    text-decoration: none; 
     text-align: justify;
 }
 
@@ -1231,7 +1231,7 @@ li.nav-item {
 
 
 .SEOserviceOffer-box h2 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
     color: #263045;

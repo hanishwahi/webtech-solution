@@ -21,8 +21,7 @@ function SMOServiceOffer() {
                         </div>
                         <div className="col-lg-8 col-md-8">
                             <div className='DMserviceOffer'>
-                                <p>Whether you're an enterprise client or a unicorn startup, our extensive range of app development services has you covered. Customised iOS & Android apps engineered to perfection. Tailored to your needs from scratch.Your vision, our expertise.</p>
-
+                                <p>Specializing in SMO,  a vital part of modern digital marketing. Elevate brand presence and engagement via tailored strategies. In the dynamic social media landscape, SMO is essential for crafting an engaging online persona, connecting with your audience, and driving business growth.</p>
                             </div>
                         </div>
                     </div>
@@ -34,8 +33,8 @@ function SMOServiceOffer() {
                                         <img src={contentpromotion} alt="" loading='lazy' width={61} />
                                     </div>
                                 </div>
-                                <h2>Content Promotion</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eos, impedit dfd aspernatur ipsam magnam consequatur.</p>
+                                <h2>Profile Optimization</h2>
+                                <p>Enhancing and optimizing social media profiles to establish a strong and consistent online brand presence.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
@@ -45,8 +44,8 @@ function SMOServiceOffer() {
                                         <img src={multichannel} alt="" loading='lazy' width={60} />
                                     </div>
                                 </div>
-                                <h2>Multichannel</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eos, impedit dfd aspernatur ipsam magnam consequatur.</p>
+                                <h2>Content Strategy</h2>
+                                <p>Tailoring content to engage the audience and align with brand goals is essential for social media success.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
@@ -56,8 +55,8 @@ function SMOServiceOffer() {
                                         <img src={socialmediaadv} alt="" loading='lazy' width={59} />
                                     </div>
                                 </div>
-                                <h2>Social Media Advertising</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eos, impedit dfd aspernatur ipsam magnam consequatur.</p>
+                                <h2>Audience Engagement</h2>
+                                <p>Building and nurturing an active and loyal online community through interactions, comments, likes, and shares.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
@@ -67,8 +66,8 @@ function SMOServiceOffer() {
                                         <img src={socialmediaaud} alt="" loading='lazy' width={58} />
                                     </div>
                                 </div>
-                                <h2>Social Media Audit</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eos, impedit dfd aspernatur ipsam magnam consequatur.</p>
+                                <h2>Hashtag Optimization</h2>
+                                <p>Researching and implementing strategic hashtags to increase content discoverability and reach a broader audience.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
@@ -78,8 +77,8 @@ function SMOServiceOffer() {
                                         <img src={socialmonitoring} alt="" loading='lazy' width={58} />
                                     </div>
                                 </div>
-                                <h2>Social Monitoring</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eos, impedit dfd aspernatur ipsam magnam consequatur.</p>
+                                <h2>Content Sharing</h2>
+                                <p>Ensuring your content reaches a broader audience through strategic sharing and cross-promotion across platforms.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
@@ -89,8 +88,8 @@ function SMOServiceOffer() {
                                         <img src={trackingreporting} alt="" loading='lazy' width={58} />
                                     </div>
                                 </div>
-                                <h2>Tracking Reporting</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eos, impedit dfd aspernatur ipsam magnam consequatur.</p>
+                                <h2>Analytics and Reporting</h2>
+                                <p>Monitoring and analyzing social media activities to measure the effectiveness of campaigns and strategies.</p>
                             </div>
                         </div>
 

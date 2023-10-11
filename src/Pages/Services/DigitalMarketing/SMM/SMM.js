@@ -16,7 +16,18 @@ function SMM() {
                 </div>
                 <div className="web-development-inner smotext-right">
                     <h1><span>Social Media</span> Marketing</h1>
-                    <p>Unleash the power of your online presence with our cutting-edge web development solutions. From stunning designs to seamless functionality, we create websites that captivate your audience and drive success. Elevate your digital game with our expert team. with a great user Interface with the best design for your own website. We help you establish your business, brand and other things online. Elevate your digital game with our expert team. with a great user Interface with the best design for your own website. We help you establish your business, brand and other things online. Elevate your digital game with our expert team. with a great user Interface with the best design for your own website. We help you establish your business, brand and other things online.</p>
+                    <p>Social media marketing means using platforms like Facebook, Twitter, and LinkedIn to boost your brand's visibility, engage with customers, and reach new ones. It's a powerful tool for businesses, big or small, to connect with potential customers who spend time online. <br /> <br />
+
+                        With a well-thought-out social media plan backed by data, you can achieve remarkable results. It can turn customers into loyal brand advocates, improve your website's search engine visibility, and drive more customers and revenue to your business.
+                    </p><br /> 
+                    <p>Here's what it does in simple terms:</p>
+                    <div className="why-choose-checkbox">
+                        <p><i className="fa-solid fa-check"></i>It makes people notice your brand.</p>
+                        <p><i className="fa-solid fa-check"></i>It lets you talk to customers while they're online.</p>
+                        <p><i className="fa-solid fa-check"></i>It can turn customers into fans.</p>
+                        <p><i className="fa-solid fa-check"></i>It helps your website show up better on Google.</p>
+                        <p><i className="fa-solid fa-check"></i>It brings in more customers and money.</p>
+                    </div>
                 </div>
             </div>
             <SMMServiceOffer />
