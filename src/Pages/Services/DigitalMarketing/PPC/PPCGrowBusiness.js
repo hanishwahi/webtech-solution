@@ -60,7 +60,7 @@ function PPCGrowBusiness() {
                 <div className="container-xl">
                     <div className="row seo-work">
                         <h1>Our PPC Work Includes</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sunt fuga minima, expedita esse amet quam praesentium voluptatem quas inventore. Quibusdam tenetur corrupti ullam harum, pariatur quam obcaecati facilis maxime?</p>
+                        <p>Unlock PPC success through our services: Keyword research, ad optimization, campaign management, landing page enhancement, budget tracking, and comprehensive performance reporting. Experience the power of our PPC expertise.</p>
                     </div>
                     <div className="row">
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
@@ -69,11 +69,11 @@ function PPCGrowBusiness() {
                                     <img src={keywoardsuggest} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
-                                    <h3>Keyword Suggestions</h3>
+                                    <h3>Keyword Research and Selection</h3>
                                 </div>
                             </div>
                             <div className="row pb-3 seo-work-text">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisi elit. Sint voluptatem eaque nulla saepe, ullam reiciendis ullam reiciendis ullam reiciendis. </p>
+                                <p>Keyword research is essential for PPC success. It identifies the right keywords for ads to reach a search audience effectively.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
@@ -82,11 +82,11 @@ function PPCGrowBusiness() {
                                     <img src={Copywriting} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
-                                    <h3>PPC Copywriting</h3>
+                                    <h3>Ad Creation and Optimization</h3>
                                 </div>
                             </div>
                             <div className="row pb-3 seo-work-text">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisi elit. Sint voluptatem eaque nulla saepe, ullam reiciendis ullam reiciendis ullam reiciendis. </p>
+                                <p>Compelling ad copy is crucial for customer engagement. Optimization refines ad elements to boost clicks and conversions, aligning with campaign goals.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
@@ -95,11 +95,11 @@ function PPCGrowBusiness() {
                                     <img src={BidManagement} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
-                                    <h3>Bid Management</h3>
+                                    <h3>Campaign Management</h3>
                                 </div>
                             </div>
                             <div className="row pb-3 seo-work-text">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisi elit. Sint voluptatem eaque nulla saepe, ullam reiciendis ullam reiciendis ullam reiciendis. </p>
+                                <p>Experienced campaign management involves constant adjustments for competitive and cost-effective PPC success.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
@@ -108,11 +108,11 @@ function PPCGrowBusiness() {
                                     <img src={Advertising} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
-                                    <h3>Search Advertising</h3>
+                                    <h3>Landing Page Optimization</h3>
                                 </div>
                             </div>
                             <div className="row pb-3 seo-work-text">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisi elit. Sint voluptatem eaque nulla saepe, ullam reiciendis ullam reiciendis ullam reiciendis. </p>
+                                <p>Optimized landing pages are essential for converting ad clicks into leads or sales. They align with the ad, load fast, and boost conversions.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
@@ -121,11 +121,11 @@ function PPCGrowBusiness() {
                                     <img src={Scheduled} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
-                                    <h3>Conversions/sales tracking</h3>
+                                    <h3>Budget and ROI Tracking</h3>
                                 </div>
                             </div>
                             <div className="row pb-3 seo-work-text">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisi elit. Sint voluptatem eaque nulla saepe, ullam reiciendis ullam reiciendis ullam reiciendis. </p>
+                                <p>Efficiently manage PPC budgets, meticulously track ad spend, and adjust for maximum ROI, ensuring you make the most of your advertising budget.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
@@ -134,11 +134,11 @@ function PPCGrowBusiness() {
                                     <img src={Reporting} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
-                                    <h3>Performance Reporting</h3>
+                                    <h3>Performance Analytics and Reporting</h3>
                                 </div>
                             </div>
                             <div className="row pb-3 seo-work-text">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisi elit. Sint voluptatem eaque nulla saepe, ullam reiciendis ullam reiciendis ullam reiciendis. </p>
+                                <p>Detailed performance analytics and transparent reporting reveal the impact of our efforts on your PPC strategy and business growth.</p>
                             </div>
                         </div>
                     </div>

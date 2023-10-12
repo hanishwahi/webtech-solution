@@ -15,11 +15,21 @@ function PPC() {
         </div>
         <div className="  web-development-inner smotext-right">
           <h1><span>Pay Per</span> Click</h1>
-          <p>Unleash the power of your online presence with our cutting-edge web development solutions. From stunning designs to seamless functionality, we create websites that captivate your audience and drive success. Elevate your digital game with our expert team. with a great user Interface with the best design for your own website. We help you establish your business, brand and other things online. Elevate your digital game with our expert team. with a great user Interface with the best design for your own website. We help you establish your business, brand and other things online. Elevate your digital game with our expert team. with a great user Interface with the best design for your own website. We help you establish your business, brand and other things online.</p>
+          <p>In the ever-expanding digital landscape, websites are multiplying rapidly. From small businesses to eCommerce giants, everyone is exploring online advertising possibilities to enhance conversions. However, this growth in marketing opportunities is accompanied by significant challenges.</p>
+          <div className="why-choose-checkbox">
+            <p>Key Challenges for Online Businesses:</p>
+            <p><i className="fa-solid fa-check"></i> Intense Competition</p>
+            <p><i className="fa-solid fa-check"></i> Ad Blockers</p>
+            <p><i className="fa-solid fa-check"></i> Stringent Regulations</p>
+            <p><i className="fa-solid fa-check"></i> Shifting Consumer Demands</p>
+            <p><i className="fa-solid fa-check"></i> High Digital Ad Costs</p>
+            <p><i className="fa-solid fa-check"></i> Evolving Market Standards</p>
+            <p><i className="fa-solid fa-check"></i> Elusive Consumers</p>
+          </div>
         </div>
       </div>
-      <PPCServiceOffer/>
-      <PPCGrowBusiness/>
+      <PPCServiceOffer />
+      <PPCGrowBusiness />
       <Footer />
 
     </>
