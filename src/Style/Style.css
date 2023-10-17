@@ -1342,6 +1342,16 @@ li.nav-item {
     padding-left: 30px;
     width: 60%;
 }
+
+/* smm page  */
+.smm-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+}
+ 
+ 
 /* technologies  */
 .technologies-main {
     padding: 90px 0 45px;
