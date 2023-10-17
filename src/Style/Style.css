@@ -478,6 +478,7 @@ li.nav-item {
     padding: 20px;
     border: 1px solid #fff;
     border-radius: 10px;
+    min-height: 260px !important;
 }
 .home-service-box:hover {
     background-color: #43ade6;
@@ -1357,6 +1358,91 @@ li.nav-item {
 .technologies h1 span {
     color: #43ade6;
 }
+
+/* ppc page  */
+.PPCserviceOffer-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    color: #000;
+    margin-bottom: 25px
+}
+
+.PPCserviceOffer-box h2 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: #263045;
+    letter-spacing: 1px;
+    padding: 20px 0 0;
+    text-align: center;
+}
+.PPCserviceOffer-box p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #263045;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* cont page  */
+.contserviceOffer-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    color: #000;
+    margin-bottom: 25px
+}
+
+.contserviceOffer-box h2 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: #263045;
+    letter-spacing: 1px;
+    padding: 20px 0 0;
+    text-align: center;
+}
+.contserviceOffer-box p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #263045;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* cont page  */
+.ormserviceOffer-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    color: #000;
+    margin-bottom: 25px
+}
+
+.ormserviceOffer-box h2 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: #263045;
+    letter-spacing: 1px;
+    padding: 20px 0 0;
+    text-align: center;
+}
+.ormserviceOffer-box p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #263045;
+    text-decoration: none;
+    text-align: center;
+}
+
 
 
 /* faq  */

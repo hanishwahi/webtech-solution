@@ -477,12 +477,35 @@
         width: 60%; 
     } 
 }
-@media screen and (min-width: 1025px) and (max-width: 1200px){
+@media screen and (min-width: 1025px) and (max-width: 1199px){
     .slider-head {
         padding: 70px 30px 70px 0px;
     }
     .how-we-work p {
         width: 70%; 
+    }
+     
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+    .home-service-box { 
+        min-height: 260px !important;
+    }
+}
+
+
+@media screen and (min-width: 1401px){
+    .home-service-box { 
+        min-height: 278px !important;
+    }
+    .PPCserviceOffer-box {
+        min-height: 220px !important;
+    }
+    .contserviceOffer-box {
+        min-height: 244px !important;
+    }
+    .ormserviceOffer-box {
+        min-height: 270px !important;
     }
 }
 

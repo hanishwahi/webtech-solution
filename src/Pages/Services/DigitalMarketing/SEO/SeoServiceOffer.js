@@ -57,7 +57,7 @@ function SeoServiceOffer() {
                                     </div>
                                 </div>
                                 <h2>On-Page SEO</h2>
-                                <p>On-Page SEO focuses on optimizing individual web pages to improve their search engine rankings and user experience.</p>
+                                <p>On-Page SEO focuses on optimizing web pages to improve their search engine rankings and user experience.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
@@ -75,7 +75,7 @@ function SeoServiceOffer() {
                             <div className='SEOserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
-                                        <img src={localSEO} alt="" loading='lazy' width={62} />
+                                        <img src={localSEO} alt="" loading='lazy' width={55} />
                                     </div>
                                 </div>
                                 <h2>Local SEO</h2>

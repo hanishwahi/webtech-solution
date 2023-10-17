@@ -27,7 +27,7 @@ function ContentMarketingOffer() {
                     </div>
                     <div className="row">
                         <div className="col-lg-4 col-md-4 col-sm-6">
-                            <div className='SEOserviceOffer-box'>
+                            <div className='contserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
                                         <img src={SearchAds} alt="" loading='lazy' width={61} />
@@ -38,29 +38,29 @@ function ContentMarketingOffer() {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
-                            <div className='SEOserviceOffer-box'>
+                            <div className='contserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
                                         <img src={DisplayAds} alt="" loading='lazy' width={60} />
                                     </div>
                                 </div>
                                 <h2>Content Creation</h2>
-                                <p>Content creation is the campaign's heart, bringing ideas to life as blog posts, articles, and videos. It aims for relevance, value, and engagement, keeping the audience engaged.</p>
+                                <p>Content creation is the campaign's heart, bringing ideas to life as blog posts, articles, and videos. It aims for relevance, value, and engagement.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
-                            <div className='SEOserviceOffer-box'>
+                            <div className='contserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
                                         <img src={Remarketing} alt="" loading='lazy' width={59} />
                                     </div>
                                 </div>
-                                <h2>Content Distribution and Promotion</h2>
+                                <h2>Distribution and Promotion</h2>
                                 <p>Creating top content is just the start. Distributing and promoting it via social media, email, and partnerships maximizes its reach and impact.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
-                            <div className='SEOserviceOffer-box'>
+                            <div className='contserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
                                         <img src={ListingAds} alt="" loading='lazy' width={58} />
@@ -71,7 +71,7 @@ function ContentMarketingOffer() {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
-                            <div className='SEOserviceOffer-box'>
+                            <div className='contserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
                                         <img src={ShoppingAds} alt="" loading='lazy' width={58} />
@@ -82,7 +82,7 @@ function ContentMarketingOffer() {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
-                            <div className='SEOserviceOffer-box'>
+                            <div className='contserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
                                         <img src={MobileAdvertising} alt="" loading='lazy' width={58} />

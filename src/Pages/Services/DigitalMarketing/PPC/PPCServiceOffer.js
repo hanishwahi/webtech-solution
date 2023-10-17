@@ -27,7 +27,7 @@ function PPCServiceOffer() {
                     </div>
                     <div className="row">
                         <div className="col-lg-4 col-md-4 col-sm-6">
-                            <div className='SEOserviceOffer-box'>
+                            <div className='PPCserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
                                         <img src={SearchAds} alt="" loading='lazy' width={61} />
@@ -38,7 +38,7 @@ function PPCServiceOffer() {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
-                            <div className='SEOserviceOffer-box'>
+                            <div className='PPCserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
                                         <img src={DisplayAds} alt="" loading='lazy' width={60} />
@@ -49,7 +49,7 @@ function PPCServiceOffer() {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
-                            <div className='SEOserviceOffer-box'>
+                            <div className='PPCserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
                                         <img src={Remarketing} alt="" loading='lazy' width={59} />
@@ -60,7 +60,7 @@ function PPCServiceOffer() {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
-                            <div className='SEOserviceOffer-box'>
+                            <div className='PPCserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
                                         <img src={ListingAds} alt="" loading='lazy' width={58} />
@@ -71,7 +71,7 @@ function PPCServiceOffer() {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
-                            <div className='SEOserviceOffer-box'>
+                            <div className='PPCserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
                                         <img src={ShoppingAds} alt="" loading='lazy' width={58} />
@@ -82,7 +82,7 @@ function PPCServiceOffer() {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
-                            <div className='SEOserviceOffer-box'>
+                            <div className='PPCserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
                                         <img src={MobileAdvertising} alt="" loading='lazy' width={58} />
