@@ -1,15 +1,18 @@
 import React from 'react'
 import keywoardsuggest from '../../../../Images/Keyword Suggestions.png'
-import Copywriting from '../../../../Images/PPC Copywriting.png'
-import BidManagement from '../../../../Images/Bid Management.png'
+import Social from '../../../../Images/ORM_in_ Social.png'
+import Profile from '../../../../Images/ORM_in_ Profile.png'
 import Advertising from '../../../../Images/Search Advertising.png'
-import Reporting from '../../../../Images/Performance Reporting.png'
+import Legal from '../../../../Images/ORM_in_ Legal.png'
 import Scheduled from '../../../../Images/Scheduled Posting.png'
-import payonclick from '../../../../Images/Pay on Clicks.png'
-import moreleads from '../../../../Images/More Leads.png'
-import increasesale from '../../../../Images/Increased Sales.png'
-import boosttraffic from '../../../../Images/Boost Traffic.png'
-import ImmediateResult from '../../../../Images/Immediate Results.png'
+
+import Strategy from '../../../../Images/ORM2_ Strategy.png'
+import Promotion from '../../../../Images/ORM2_ content.png'
+import Review from '../../../../Images/ORM2_ Review.png'
+import SEO from '../../../../Images/ORM2_ SEO.png'
+import Analysis from '../../../../Images/ORM2_ Analysis.png'
+
+
 
 function ORMGrowBusiness() {
     return (
@@ -22,32 +25,32 @@ function ORMGrowBusiness() {
                     <div className="row justify-content-around">
                         <div className="col-lg-2 col-6 col-sm-4 col-md-3 mb-3">
                             <div className='growbusiness-box  '>
-                                <img src={ImmediateResult} alt="" width={55} />
+                                <img src={Strategy} alt="" width={55} />
                                 <h2>(ORM) Strategy</h2>
                             </div>
                         </div>
                         <div className="col-lg-2 col-6 col-sm-4 col-md-3 mb-3">
                             <div className='growbusiness-box '>
-                                <img src={boosttraffic} alt="" width={55} />
+                                <img src={Promotion} alt="" width={55} />
                                 <h2>Content Creation and Promotion</h2>
                             </div>
                         </div>
                         <div className="col-lg-2 col-6 col-sm-4 col-md-3 mb-3">
                             <div className='growbusiness-box '>
-                                <img src={payonclick} alt="" width={55} />
+                                <img src={Review} alt="" width={55} />
                                 <h2>Review and Feedback</h2>
                             </div>
                         </div>
 
                         <div className="col-lg-2 col-6 col-sm-4 col-md-3 mb-3">
                             <div className='growbusiness-box '>
-                                <img src={moreleads} alt="" width={55} />
+                                <img src={SEO} alt="" width={55} />
                                 <h2>SEO and Online Visibility</h2>
                             </div>
                         </div>
                         <div className="col-lg-2 col-6 col-sm-4 col-md-3 mb-3">
                             <div className='growbusiness-box '>
-                                <img src={increasesale} alt="" width={55} />
+                                <img src={Analysis} alt="" width={55} />
                                 <h2> Analysis and Benchmarking</h2>
                             </div>
                         </div>
@@ -79,7 +82,7 @@ function ORMGrowBusiness() {
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className="row">
                                 <div className="col-md-3 col-sm-4 col-3">
-                                    <img src={Copywriting} alt="" width={60} />
+                                    <img src={Social} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
                                     <h3>Social Media Management</h3>
@@ -92,7 +95,7 @@ function ORMGrowBusiness() {
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className="row">
                                 <div className="col-md-3 col-sm-4 col-3">
-                                    <img src={BidManagement} alt="" width={60} />
+                                    <img src={Profile} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
                                     <h3>Profile Building</h3>
@@ -131,7 +134,7 @@ function ORMGrowBusiness() {
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className="row">
                                 <div className="col-md-3 col-sm-4 col-3">
-                                    <img src={Reporting} alt="" width={60} />
+                                    <img src={Legal} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
                                     <h3> Legal and Takedown Services</h3>

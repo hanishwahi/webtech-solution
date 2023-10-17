@@ -1,10 +1,10 @@
 import React from 'react'
-import SearchAds from '../../../../Images/Search Ads.png'
-import DisplayAds from '../../../../Images/Display Ads.png'
-import Remarketing from '../../../../Images/Remarketing.png'
-import ListingAds from '../../../../Images/Product Listing Ads.png'
-import ShoppingAds from '../../../../Images/Google Shopping Ads.png'
-import MobileAdvertising from '../../../../Images/Mobile Advertising.png'
+import Reputation from '../../../../Images/ORM_ Monitoring.png' 
+import Review from '../../../../Images/ORM_ Review.png' 
+import Crisis from '../../../../Images/ORM_ Crisis.png' 
+import Profile from '../../../../Images/ORM_ Online.png' 
+import Suppression from '../../../../Images/ORM_ Suppression.png' 
+import Reporting from '../../../../Images/ORM_ Analysis.png' 
 
 function ORMServiceOffer() {
 
@@ -30,7 +30,7 @@ function ORMServiceOffer() {
                             <div className='ormserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
-                                        <img src={SearchAds} alt="" loading='lazy' width={61} />
+                                        <img src={Reputation} alt="" loading='lazy' width={61} />
                                     </div>
                                 </div>
                                 <h2>Reputation Monitoring</h2>
@@ -41,7 +41,7 @@ function ORMServiceOffer() {
                             <div className='ormserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
-                                        <img src={DisplayAds} alt="" loading='lazy' width={60} />
+                                        <img src={Review} alt="" loading='lazy' width={60} />
                                     </div>
                                 </div>
                                 <h2>Review Management</h2>
@@ -52,7 +52,7 @@ function ORMServiceOffer() {
                             <div className='ormserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
-                                        <img src={Remarketing} alt="" loading='lazy' width={59} />
+                                        <img src={Crisis} alt="" loading='lazy' width={59} />
                                     </div>
                                 </div>
                                 <h2>Crisis Management</h2>
@@ -63,7 +63,7 @@ function ORMServiceOffer() {
                             <div className='ormserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
-                                        <img src={ListingAds} alt="" loading='lazy' width={58} />
+                                        <img src={Profile} alt="" loading='lazy' width={58} />
                                     </div>
                                 </div>
                                 <h2>Online Profile Optimization</h2>
@@ -74,7 +74,7 @@ function ORMServiceOffer() {
                             <div className='ormserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
-                                        <img src={ShoppingAds} alt="" loading='lazy' width={58} />
+                                        <img src={Suppression} alt="" loading='lazy' width={58} />
                                     </div>
                                 </div>
                                 <h2>Content Suppression</h2>
@@ -85,7 +85,7 @@ function ORMServiceOffer() {
                             <div className='ormserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
-                                        <img src={MobileAdvertising} alt="" loading='lazy' width={58} />
+                                        <img src={Reporting} alt="" loading='lazy' width={58} />
                                     </div>
                                 </div>
                                 <h2>Reporting and Analysis</h2>

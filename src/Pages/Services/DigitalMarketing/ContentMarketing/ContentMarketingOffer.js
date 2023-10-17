@@ -1,5 +1,4 @@
-import React from 'react'
-import SearchAds from '../../../../Images/Search Ads.png' 
+import React from 'react' 
 import content from '../../../../Images/CM_ Strategy.png' 
 import creation from '../../../../Images/CM_ Creation.png' 
 import distribution from '../../../../Images/CM_ Distribution.png' 
