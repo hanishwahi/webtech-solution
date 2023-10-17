@@ -33,8 +33,8 @@ function ContentMarketingOffer() {
                                         <img src={SearchAds} alt="" loading='lazy' width={61} />
                                     </div>
                                 </div>
-                                <h2>Search Ads</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eos, impedit dfd aspernatur ipsam magnam consequatur.</p>
+                                <h2>Content Strategy Development:</h2>
+                                <p>Content strategy development is the roadmap to success, aligning your content with business goals for a purposeful and impactful online presence.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
@@ -44,8 +44,8 @@ function ContentMarketingOffer() {
                                         <img src={DisplayAds} alt="" loading='lazy' width={60} />
                                     </div>
                                 </div>
-                                <h2>Display Ads</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eos, impedit dfd aspernatur ipsam magnam consequatur.</p>
+                                <h2>Content Creation</h2>
+                                <p>Content creation is the campaign's heart, bringing ideas to life as blog posts, articles, and videos. It aims for relevance, value, and engagement, keeping the audience engaged.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
@@ -55,8 +55,8 @@ function ContentMarketingOffer() {
                                         <img src={Remarketing} alt="" loading='lazy' width={59} />
                                     </div>
                                 </div>
-                                <h2>Remarketing</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eos, impedit dfd aspernatur ipsam magnam consequatur.</p>
+                                <h2>Content Distribution and Promotion</h2>
+                                <p>Creating top content is just the start. Distributing and promoting it via social media, email, and partnerships maximizes its reach and impact.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
@@ -66,8 +66,8 @@ function ContentMarketingOffer() {
                                         <img src={ListingAds} alt="" loading='lazy' width={58} />
                                     </div>
                                 </div>
-                                <h2>Product Listing Ads</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eos, impedit dfd aspernatur ipsam magnam consequatur.</p>
+                                <h2>SEO Optimization</h2>
+                                <p>SEO boosts content visibility in search results through keyword research and on-page optimization. It's vital for attracting organic website traffic.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
@@ -77,8 +77,8 @@ function ContentMarketingOffer() {
                                         <img src={ShoppingAds} alt="" loading='lazy' width={58} />
                                     </div>
                                 </div>
-                                <h2>Google Shopping Ads</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eos, impedit dfd aspernatur ipsam magnam consequatur.</p>
+                                <h2>Content Performance Analysis</h2>
+                                <p>Analyzing content performance is vital for refining your strategy. Tracking metrics like engagement and demographics guides data-driven optimizations.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
@@ -88,8 +88,8 @@ function ContentMarketingOffer() {
                                         <img src={MobileAdvertising} alt="" loading='lazy' width={58} />
                                     </div>
                                 </div>
-                                <h2>Mobile Advertising</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eos, impedit dfd aspernatur ipsam magnam consequatur.</p>
+                                <h2>Social Media Management</h2>
+                                <p>Social media management boosts engagement through content creation on different platforms, reaching and interacting with your audience effectively.</p>
                             </div>
                         </div>
 

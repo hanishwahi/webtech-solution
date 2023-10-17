@@ -17,38 +17,38 @@ function ORMGrowBusiness() {
             <div className="container-fluid seo-growbusiness">
                 <div className="container-xl">
                     <div className="row growbusiness-text">
-                        <h1>How Can We Help You Grow Your Business through PPC? </h1>
+                        <h1>How Can We Help You Grow Your Business through ORM? </h1>
                     </div>
                     <div className="row justify-content-around">
                         <div className="col-lg-2 col-6 col-sm-4 col-md-3 mb-3">
                             <div className='growbusiness-box  '>
                                 <img src={ImmediateResult} alt="" width={55} />
-                                <h2>Immediate Results</h2>
+                                <h2>(ORM) Strategy</h2>
                             </div>
                         </div>
                         <div className="col-lg-2 col-6 col-sm-4 col-md-3 mb-3">
                             <div className='growbusiness-box '>
                                 <img src={boosttraffic} alt="" width={55} />
-                                <h2>Boost Traffic</h2>
+                                <h2>Content Creation and Promotion</h2>
                             </div>
                         </div>
                         <div className="col-lg-2 col-6 col-sm-4 col-md-3 mb-3">
                             <div className='growbusiness-box '>
                                 <img src={payonclick} alt="" width={55} />
-                                <h2>Pay on Clicks</h2>
+                                <h2>Review and Feedback</h2>
                             </div>
                         </div>
 
                         <div className="col-lg-2 col-6 col-sm-4 col-md-3 mb-3">
                             <div className='growbusiness-box '>
                                 <img src={moreleads} alt="" width={55} />
-                                <h2>More Leads</h2>
+                                <h2>SEO and Online Visibility</h2>
                             </div>
                         </div>
                         <div className="col-lg-2 col-6 col-sm-4 col-md-3 mb-3">
                             <div className='growbusiness-box '>
                                 <img src={increasesale} alt="" width={55} />
-                                <h2>Increased Sales</h2>
+                                <h2> Analysis and Benchmarking</h2>
                             </div>
                         </div>
 
@@ -59,8 +59,8 @@ function ORMGrowBusiness() {
             <div className="container-fluid  mb-5">
                 <div className="container-xl">
                     <div className="row seo-work">
-                        <h1>Our PPC Work Includes</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sunt fuga minima, expedita esse amet quam praesentium voluptatem quas inventore. Quibusdam tenetur corrupti ullam harum, pariatur quam obcaecati facilis maxime?</p>
+                        <h1>Our ORM Work Includes</h1>
+                        <p>ORM is a monitoring and improving business model to drive traffic to websites. It analyses potential customers, reporters, and partners to discover products and services when someone searches on Google.</p>
                     </div>
                     <div className="row">
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
@@ -69,11 +69,11 @@ function ORMGrowBusiness() {
                                     <img src={keywoardsuggest} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
-                                    <h3>Keyword Suggestions</h3>
+                                    <h3>Search Engine Optimization (SEO)</h3>
                                 </div>
                             </div>
                             <div className="row pb-3 seo-work-text">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisi elit. Sint voluptatem eaque nulla saepe, ullam reiciendis ullam reiciendis ullam reiciendis. </p>
+                                <p>Optimising SEO content helps in improving SERP ranking and visibility and also push down the negative content and feedback down on Google search results.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
@@ -82,11 +82,11 @@ function ORMGrowBusiness() {
                                     <img src={Copywriting} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
-                                    <h3>PPC Copywriting</h3>
+                                    <h3>Social Media Management</h3>
                                 </div>
                             </div>
                             <div className="row pb-3 seo-work-text">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisi elit. Sint voluptatem eaque nulla saepe, ullam reiciendis ullam reiciendis ullam reiciendis. </p>
+                                <p>SMM monitors and manages social media profile to maintain its online image which includes content creation, targeting audience.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
@@ -95,11 +95,11 @@ function ORMGrowBusiness() {
                                     <img src={BidManagement} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
-                                    <h3>Bid Management</h3>
+                                    <h3>Profile Building</h3>
                                 </div>
                             </div>
                             <div className="row pb-3 seo-work-text">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisi elit. Sint voluptatem eaque nulla saepe, ullam reiciendis ullam reiciendis ullam reiciendis. </p>
+                                <p>By building strong profile and optimising profile on different platform helps to build positive image on various Social Media Platforms and websites.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
@@ -108,11 +108,11 @@ function ORMGrowBusiness() {
                                     <img src={Advertising} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
-                                    <h3>Search Advertising</h3>
+                                    <h3>Competitor Analysis</h3>
                                 </div>
                             </div>
                             <div className="row pb-3 seo-work-text">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisi elit. Sint voluptatem eaque nulla saepe, ullam reiciendis ullam reiciendis ullam reiciendis. </p>
+                                <p>By developing latest strategies and evaluating online reputation of brand’s competitors helps to outperform them.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
@@ -121,11 +121,11 @@ function ORMGrowBusiness() {
                                     <img src={Scheduled} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
-                                    <h3>Conversions/sales tracking</h3>
+                                    <h3>Content Creation and Management</h3>
                                 </div>
                             </div>
                             <div className="row pb-3 seo-work-text">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisi elit. Sint voluptatem eaque nulla saepe, ullam reiciendis ullam reiciendis ullam reiciendis. </p>
+                                <p>It includes creating blog posts, articles, and other media for promoting brand and business to enhance online reputation.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
@@ -134,11 +134,11 @@ function ORMGrowBusiness() {
                                     <img src={Reporting} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
-                                    <h3>Performance Reporting</h3>
+                                    <h3> Legal and Takedown Services</h3>
                                 </div>
                             </div>
                             <div className="row pb-3 seo-work-text">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisi elit. Sint voluptatem eaque nulla saepe, ullam reiciendis ullam reiciendis ullam reiciendis. </p>
+                                <p>ORM offers legal assistance and to the companies for whom the negative content is published. It includes sending cease letters and taking legal action to protect your reputation.</p>
                             </div>
                         </div>
                     </div>

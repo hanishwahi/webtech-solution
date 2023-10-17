@@ -15,11 +15,21 @@ function ORMService() {
         </div>
         <div className="  web-development-inner smotext-right">
           <h1><span>Online Reputation</span> Marketing</h1>
-          <p>Unleash the power of your online presence with our cutting-edge web development solutions. From stunning designs to seamless functionality, we create websites that captivate your audience and drive success. Elevate your digital game with our expert team. with a great user Interface with the best design for your own website. We help you establish your business, brand and other things online. Elevate your digital game with our expert team. with a great user Interface with the best design for your own website. We help you establish your business, brand and other things online. Elevate your digital game with our expert team. with a great user Interface with the best design for your own website. We help you establish your business, brand and other things online.</p>
+          <p>ORM is about monitoring and improving business reputation. It is a strategy to build and maintain the trust that customers have in business. Some of the related challenges business facing are Negative feedback, illegal content on websites, and false information. To overcome these negative comments and reviews on the internet it is essential to build an online image. To achieve successful and positive results ORM plays an important role.
+            This includes integration of Owned, Paid, Earned, and Shared media to achieve positive brand image and repeated purchases by customers. Company-provided content such as employees´ and consumers´ narratives, UGCs, reviews, webinars and company´s very own content.
+          </p>
+          <div className="why-choose-checkbox">
+            <p>Monitoring, managing and measuring your online health.</p>
+            <p><i className="fa-solid fa-check"></i> Collecting Online Buzz & Reviews About Your Brand on Every Major Review Site.</p>
+            <p><i className="fa-solid fa-check"></i>  Post Your Customer Testimonials on Social media.</p>
+            <p><i className="fa-solid fa-check"></i> Stringent Regulations</p>
+            <p><i className="fa-solid fa-check"></i> How to Fight Back on Negative Posts and Comments for Reputation Management.</p>
+            <p><i className="fa-solid fa-check"></i> Keeping a track of your brand reputation.</p> 
+          </div>
         </div>
       </div>
-      <ORMServiceOffer/>
-      <ORMGrowBusiness/>
+      <ORMServiceOffer />
+      <ORMGrowBusiness />
       <Footer />
 
     </>
