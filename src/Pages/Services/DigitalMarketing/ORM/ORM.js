@@ -21,7 +21,7 @@ function ORMService() {
           <div className="why-choose-checkbox">
             <p>Monitoring, managing and measuring your online health.</p>
             <p><i className="fa-solid fa-check"></i> Collecting Online Buzz & Reviews About Your Brand on Every Major Review Site.</p>
-            <p><i className="fa-solid fa-check"></i>  Post Your Customer Testimonials on Social media.</p>
+            <p><i className="fa-solid fa-check"></i> Post Your Customer Testimonials on Social media.</p>
             <p><i className="fa-solid fa-check"></i> Stringent Regulations</p>
             <p><i className="fa-solid fa-check"></i> How to Fight Back on Negative Posts and Comments for Reputation Management.</p>
             <p><i className="fa-solid fa-check"></i> Keeping a track of your brand reputation.</p> 

@@ -22,11 +22,11 @@ function SMM() {
                     </p><br /> 
                     <p>Here's what it does in simple terms:</p>
                     <div className="why-choose-checkbox">
-                        <p><i className="fa-solid fa-check"></i>It makes people notice your brand.</p>
-                        <p><i className="fa-solid fa-check"></i>It lets you talk to customers while they're online.</p>
-                        <p><i className="fa-solid fa-check"></i>It can turn customers into fans.</p>
-                        <p><i className="fa-solid fa-check"></i>It helps your website show up better on Google.</p>
-                        <p><i className="fa-solid fa-check"></i>It brings in more customers and money.</p>
+                        <p><i className="fa-solid fa-check"></i> It makes people notice your brand.</p>
+                        <p><i className="fa-solid fa-check"></i> It lets you talk to customers while they're online.</p>
+                        <p><i className="fa-solid fa-check"></i> It can turn customers into fans.</p>
+                        <p><i className="fa-solid fa-check"></i> It helps your website show up better on Google.</p>
+                        <p><i className="fa-solid fa-check"></i> It brings in more customers and money.</p>
                     </div>
                 </div>
             </div>

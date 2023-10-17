@@ -22,7 +22,7 @@ function ContentMarketing() {
           <p><i className="fa-solid fa-check"></i> Regular posts make people trust your brand.</p>
           <p><i className="fa-solid fa-check"></i> Getting people interested helps you sell more.</p>
           <p><i className="fa-solid fa-check"></i> Content marketing helps you keep customers for a long time.</p>
-          <p><i className="fa-solid fa-check"></i>It's a smart, valuable investment for the future.</p>
+          <p><i className="fa-solid fa-check"></i> It's a smart, valuable investment for the future.</p>
         </div>
         </div>
         
