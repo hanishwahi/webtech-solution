@@ -1307,7 +1307,8 @@ li.nav-item {
     text-align: center;
 }
 .seo-work-text {
-    align-self: center;
+   padding: 10px 0px;
+   align-self: center
 }
 .seo-work-text h3 {
     font-size: 16px;
