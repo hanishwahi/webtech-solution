@@ -80,14 +80,14 @@ function InputForm() {
 
                 <div className="form-outline mb-4">
                     <label className="form-label fw-bold" htmlFor="form4Example2">Website</label>
-                    <input type="url" name="website" id="form4Example5" required className="form-control" placeholder='Optional' />
+                    <input type="text" name="website" id="form4Example5" required className="form-control" placeholder='Optional' />
                 </div>
 
                 <div className="form-outline mb-4">
                     <label className="form-label fw-bold" htmlFor="form4Example3">*Message</label>
                     <textarea className="form-control" name="message" required id="form4Example6" rows="2" placeholder='Message...'></textarea>
                 </div>
-                <input className='form-Button' type="submit" value="Submit" />
+                <input onClick={scrollToHome} className='form-Button' type="submit" value="Submit" />
             </form>
             {/* <ToastContainer /> */}
         </>
