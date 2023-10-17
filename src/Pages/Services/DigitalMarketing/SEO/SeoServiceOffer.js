@@ -1,11 +1,10 @@
 import React from 'react'
-import globalSEO from '../../../../Images/Global SEO.png'
-import nationalSEO from '../../../../Images/National SEO.png'
-import localSEO from '../../../../Images/Local SEO.png'
-import enterpriceSEO from '../../../../Images/enterprise SEO.png'
-import ecommerceSEO from '../../../../Images/ecommerce SEO.png'
-import startupSEO from '../../../../Images/start-up SEO.png'
-
+import keyword from '../../../../Images/SEO_ Keyword.png' 
+import technical from '../../../../Images/SEO_ Technical.png' 
+import onpage from '../../../../Images/SEO_ On-Page.png' 
+import offpage from '../../../../Images/SEO_ Off-Page.png' 
+import localseo from '../../../../Images/SEO_ Local.png' 
+import competitor from '../../../../Images/SEO_ Competitor.png' 
 function SeoServiceOffer() {
 
 
@@ -31,7 +30,7 @@ function SeoServiceOffer() {
                             <div className='SEOserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
-                                        <img src={globalSEO} alt="" loading='lazy' width={61} />
+                                        <img src={keyword} alt="" loading='lazy' width={61} />
                                     </div>
                                 </div>
                                 <h2>Keyword Research & Strategy</h2>
@@ -42,7 +41,7 @@ function SeoServiceOffer() {
                             <div className='SEOserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
-                                        <img src={nationalSEO} alt="" loading='lazy' width={55} />
+                                        <img src={technical} alt="" loading='lazy' width={55} />
                                     </div>
                                 </div>
                                 <h2>Technical SEO</h2>
@@ -53,7 +52,7 @@ function SeoServiceOffer() {
                             <div className='SEOserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
-                                        <img src={localSEO} alt="" loading='lazy' width={59} />
+                                        <img src={onpage} alt="" loading='lazy' width={59} />
                                     </div>
                                 </div>
                                 <h2>On-Page SEO</h2>
@@ -64,7 +63,7 @@ function SeoServiceOffer() {
                             <div className='SEOserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
-                                        <img src={enterpriceSEO} alt="" loading='lazy' width={58} />
+                                        <img src={offpage} alt="" loading='lazy' width={58} />
                                     </div>
                                 </div>
                                 <h2>Off-Page SEO</h2>
@@ -75,7 +74,7 @@ function SeoServiceOffer() {
                             <div className='SEOserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
-                                        <img src={localSEO} alt="" loading='lazy' width={55} />
+                                        <img src={localseo} alt="" loading='lazy' width={55} />
                                     </div>
                                 </div>
                                 <h2>Local SEO</h2>
@@ -86,7 +85,7 @@ function SeoServiceOffer() {
                             <div className='SEOserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
-                                        <img src={startupSEO} alt="" loading='lazy' width={58} />
+                                        <img src={competitor} alt="" loading='lazy' width={58} />
                                     </div>
                                 </div>
                                 <h2>Competitor Analysis</h2>

@@ -1,15 +1,18 @@
 import React from 'react' 
-import profilecreation from '../../../../Images/Profile creation.png'
-import PromoteConversions from '../../../../Images/Promote Conversions.png'
-import Amplification from '../../../../Images/Content Amplification.png'
-import Measure from '../../../../Images/Performance Measure.png'
-import Hashtag from '../../../../Images/Hashtag.png'
-import Scheduled from '../../../../Images/Scheduled Posting.png'  
 import promotion  from '../../../../Images/Promoting Your Services.png' 
 import trafficc from '../../../../Images/Most inbound traffic.png' 
 import leads from '../../../../Images/Leads.png' 
 import awareness from '../../../../Images/Brand awareness.png' 
 import csatis from '../../../../Images/Better Customer Satisfaction.png' 
+
+
+import Influencer from '../../../../Images/SMO_In_ Partnerships.png' 
+import paidadv from '../../../../Images/SMO_In_ Paid Advertising.png' 
+import community from '../../../../Images/SMO_In_ Community.png' 
+import posting from '../../../../Images/SMO_In_ Posting.png' 
+import Competitor  from '../../../../Images/SMO_In_ Competitor.png' 
+import Monitoring  from '../../../../Images/SMO_In_ Monitoring.png' 
+
 
 function SMOGrowBusiness() {
     return (
@@ -66,7 +69,7 @@ function SMOGrowBusiness() {
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className="row">
                                 <div className="col-md-3 col-sm-4 col-3">
-                                    <img src={profilecreation} alt="" width={60} />
+                                    <img src={Influencer} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
                                     <h3>Influencer Partnerships</h3>
@@ -79,7 +82,7 @@ function SMOGrowBusiness() {
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className="row">
                                 <div className="col-md-3 col-sm-4 col-3">
-                                    <img src={PromoteConversions} alt="" width={60} />
+                                    <img src={paidadv} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
                                     <h3>Paid Advertising Campaigns</h3>
@@ -92,7 +95,7 @@ function SMOGrowBusiness() {
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className="row">
                                 <div className="col-md-3 col-sm-4 col-3">
-                                    <img src={Amplification} alt="" width={60} />
+                                    <img src={community} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
                                     <h3>Community Management</h3>
@@ -105,7 +108,7 @@ function SMOGrowBusiness() {
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className="row">
                                 <div className="col-md-3 col-sm-4 col-3">
-                                    <img src={Measure} alt="" width={60} />
+                                    <img src={posting} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
                                     <h3>Regular Posting Schedule</h3>
@@ -118,7 +121,7 @@ function SMOGrowBusiness() {
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className="row">
                                 <div className="col-md-3 col-sm-4 col-3">
-                                    <img src={Scheduled} alt="" width={60} />
+                                    <img src={Competitor} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
                                     <h3>Competitor Analysis</h3>
@@ -131,7 +134,7 @@ function SMOGrowBusiness() {
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className="row">
                                 <div className="col-md-3 col-sm-4 col-3">
-                                    <img src={Hashtag} alt="" width={60} />
+                                    <img src={Monitoring} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
                                     <h3>Monitoring Trends</h3>

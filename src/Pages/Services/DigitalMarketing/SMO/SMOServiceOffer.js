@@ -1,10 +1,10 @@
 import React from 'react'
-import contentpromotion from '../../../../Images/Content Promotion.png'
-import multichannel from '../../../../Images/Multichannel.png'
-import socialmediaadv from '../../../../Images/Social media advertising.png'
-import socialmediaaud from '../../../../Images/Social media Audit.png'
-import socialmonitoring from '../../../../Images/Social monitoring.png'
-import trackingreporting from '../../../../Images/Tracking reporting.png'
+import Profile from '../../../../Images/SMO_ Profile.png' 
+import strategy from '../../../../Images/SMO_ Strategy.png' 
+import Audience from '../../../../Images/SMO_ Audience.png' 
+import Hashtag from '../../../../Images/SMO_ Hashtag.png' 
+import Content from '../../../../Images/SMO_ Sharing.png' 
+import Analytics from '../../../../Images/SMO_ Analytics.png' 
 
 function SMOServiceOffer() {
 
@@ -30,7 +30,7 @@ function SMOServiceOffer() {
                             <div className='SEOserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
-                                        <img src={contentpromotion} alt="" loading='lazy' width={61} />
+                                        <img src={Profile} alt="" loading='lazy' width={61} />
                                     </div>
                                 </div>
                                 <h2>Profile Optimization</h2>
@@ -41,7 +41,7 @@ function SMOServiceOffer() {
                             <div className='SEOserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
-                                        <img src={multichannel} alt="" loading='lazy' width={60} />
+                                        <img src={strategy} alt="" loading='lazy' width={60} />
                                     </div>
                                 </div>
                                 <h2>Content Strategy</h2>
@@ -52,7 +52,7 @@ function SMOServiceOffer() {
                             <div className='SEOserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
-                                        <img src={socialmediaadv} alt="" loading='lazy' width={59} />
+                                        <img src={Audience} alt="" loading='lazy' width={59} />
                                     </div>
                                 </div>
                                 <h2>Audience Engagement</h2>
@@ -63,7 +63,7 @@ function SMOServiceOffer() {
                             <div className='SEOserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
-                                        <img src={socialmediaaud} alt="" loading='lazy' width={58} />
+                                        <img src={Hashtag} alt="" loading='lazy' width={58} />
                                     </div>
                                 </div>
                                 <h2>Hashtag Optimization</h2>
@@ -74,7 +74,7 @@ function SMOServiceOffer() {
                             <div className='SEOserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
-                                        <img src={socialmonitoring} alt="" loading='lazy' width={58} />
+                                        <img src={Content} alt="" loading='lazy' width={58} />
                                     </div>
                                 </div>
                                 <h2>Content Sharing</h2>
@@ -85,7 +85,7 @@ function SMOServiceOffer() {
                             <div className='SEOserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
-                                        <img src={trackingreporting} alt="" loading='lazy' width={58} />
+                                        <img src={Analytics} alt="" loading='lazy' width={58} />
                                     </div>
                                 </div>
                                 <h2>Analytics and Reporting</h2>
