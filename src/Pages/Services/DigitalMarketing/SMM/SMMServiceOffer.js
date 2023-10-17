@@ -34,7 +34,7 @@ function SMOServiceOffer() {
                                         <img src={contentpromotion} alt="" loading='lazy' width={61} />
                                     </div>
                                 </div>
-                                <h2>Community Management:</h2>
+                                <h2>Community Management</h2>
                                 <p>Nurture and grow your online community through active interaction, fostering meaningful connections and brand loyalty.</p>
                             </div>
                         </div>
@@ -79,7 +79,7 @@ function SMOServiceOffer() {
                                     </div>
                                 </div>
                                 <h2>Content Creation and Management</h2>
-                                <p>Craft and manage top-notch content reflecting your brand's voice and objectives while maintaining consistency and relevance.</p>
+                                <p>Craft and manage top-notch content reflecting your brand's voice and objectives while maintaining consistency.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6">
