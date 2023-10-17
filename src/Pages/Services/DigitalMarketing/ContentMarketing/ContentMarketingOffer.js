@@ -1,10 +1,11 @@
 import React from 'react'
-import SearchAds from '../../../../Images/Search Ads.png'
-import DisplayAds from '../../../../Images/Display Ads.png'
-import Remarketing from '../../../../Images/Remarketing.png'
-import ListingAds from '../../../../Images/Product Listing Ads.png'
-import ShoppingAds from '../../../../Images/Google Shopping Ads.png'
-import MobileAdvertising from '../../../../Images/Mobile Advertising.png'
+import SearchAds from '../../../../Images/Search Ads.png' 
+import content from '../../../../Images/CM_ Strategy.png' 
+import creation from '../../../../Images/CM_ Creation.png' 
+import distribution from '../../../../Images/CM_ Distribution.png' 
+import seo from '../../../../Images/CM_ SEO Optimization.png' 
+import performance from '../../../../Images/CM_ Content Performance.png' 
+import socialmedia from '../../../../Images/CM_ Social Media.png' 
 
 function ContentMarketingOffer() {
 
@@ -30,7 +31,7 @@ function ContentMarketingOffer() {
                             <div className='contserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
-                                        <img src={SearchAds} alt="" loading='lazy' width={61} />
+                                        <img src={content} alt="" loading='lazy' width={61} />
                                     </div>
                                 </div>
                                 <h2>Content Strategy Development:</h2>
@@ -41,7 +42,7 @@ function ContentMarketingOffer() {
                             <div className='contserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
-                                        <img src={DisplayAds} alt="" loading='lazy' width={60} />
+                                        <img src={creation} alt="" loading='lazy' width={60} />
                                     </div>
                                 </div>
                                 <h2>Content Creation</h2>
@@ -52,7 +53,7 @@ function ContentMarketingOffer() {
                             <div className='contserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
-                                        <img src={Remarketing} alt="" loading='lazy' width={59} />
+                                        <img src={distribution} alt="" loading='lazy' width={59} />
                                     </div>
                                 </div>
                                 <h2>Distribution and Promotion</h2>
@@ -63,7 +64,7 @@ function ContentMarketingOffer() {
                             <div className='contserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
-                                        <img src={ListingAds} alt="" loading='lazy' width={58} />
+                                        <img src={seo} alt="" loading='lazy' width={58} />
                                     </div>
                                 </div>
                                 <h2>SEO Optimization</h2>
@@ -74,7 +75,7 @@ function ContentMarketingOffer() {
                             <div className='contserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
-                                        <img src={ShoppingAds} alt="" loading='lazy' width={58} />
+                                        <img src={performance} alt="" loading='lazy' width={58} />
                                     </div>
                                 </div>
                                 <h2>Content Performance Analysis</h2>
@@ -85,7 +86,7 @@ function ContentMarketingOffer() {
                             <div className='contserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
-                                        <img src={MobileAdvertising} alt="" loading='lazy' width={58} />
+                                        <img src={socialmedia} alt="" loading='lazy' width={58} />
                                     </div>
                                 </div>
                                 <h2>Social Media Management</h2>

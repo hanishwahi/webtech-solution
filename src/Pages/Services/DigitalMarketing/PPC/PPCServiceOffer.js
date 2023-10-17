@@ -1,10 +1,11 @@
 import React from 'react'
-import SearchAds from '../../../../Images/Search Ads.png'
-import DisplayAds from '../../../../Images/Display Ads.png'
-import Remarketing from '../../../../Images/Remarketing.png'
-import ListingAds from '../../../../Images/Product Listing Ads.png'
-import ShoppingAds from '../../../../Images/Google Shopping Ads.png'
-import MobileAdvertising from '../../../../Images/Mobile Advertising.png'
+import google from '../../../../Images/PPC_ Google.png'
+import microsoft from '../../../../Images/PPC_ Microsoft.png'
+import facebook from '../../../../Images/PPC_ Facebook.png'
+import twitter from '../../../../Images/PPC_ Twitter.png'
+import linkedin from '../../../../Images/PPC_ Linkedin.png'
+import amazon from '../../../../Images/PPC_ Amazon.png'
+ 
 
 function PPCServiceOffer() {
 
@@ -30,7 +31,7 @@ function PPCServiceOffer() {
                             <div className='PPCserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
-                                        <img src={SearchAds} alt="" loading='lazy' width={61} />
+                                        <img src={google} alt="" loading='lazy' width={61} />
                                     </div>
                                 </div>
                                 <h2>Google Ads</h2>
@@ -41,7 +42,7 @@ function PPCServiceOffer() {
                             <div className='PPCserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
-                                        <img src={DisplayAds} alt="" loading='lazy' width={60} />
+                                        <img src={microsoft} alt="" loading='lazy' width={60} />
                                     </div>
                                 </div>
                                 <h2>Microsoft Advertising (Bing Ads)</h2>
@@ -52,7 +53,7 @@ function PPCServiceOffer() {
                             <div className='PPCserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
-                                        <img src={Remarketing} alt="" loading='lazy' width={59} />
+                                        <img src={facebook} alt="" loading='lazy' width={59} />
                                     </div>
                                 </div>
                                 <h2>Facebook Ads</h2>
@@ -63,7 +64,7 @@ function PPCServiceOffer() {
                             <div className='PPCserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
-                                        <img src={ListingAds} alt="" loading='lazy' width={58} />
+                                        <img src={twitter} alt="" loading='lazy' width={58} />
                                     </div>
                                 </div>
                                 <h2>Twitter Ads</h2>
@@ -74,7 +75,7 @@ function PPCServiceOffer() {
                             <div className='PPCserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
-                                        <img src={ShoppingAds} alt="" loading='lazy' width={58} />
+                                        <img src={linkedin} alt="" loading='lazy' width={58} />
                                     </div>
                                 </div>
                                 <h2>LinkedIn Ads</h2>
@@ -85,7 +86,7 @@ function PPCServiceOffer() {
                             <div className='PPCserviceOffer-box'>
                                 <div className="row text-center">
                                     <div className="col">
-                                        <img src={MobileAdvertising} alt="" loading='lazy' width={58} />
+                                        <img src={amazon} alt="" loading='lazy' width={58} />
                                     </div>
                                 </div>
                                 <h2>Amazon Advertising</h2>

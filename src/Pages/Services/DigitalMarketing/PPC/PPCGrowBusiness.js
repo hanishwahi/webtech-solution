@@ -1,10 +1,10 @@
 import React from 'react'
 import keywoardsuggest from '../../../../Images/Keyword Suggestions.png'
-import Copywriting from '../../../../Images/PPC Copywriting.png'
-import BidManagement from '../../../../Images/Bid Management.png'
+import adcreation from '../../../../Images/PPC_in_ AD.png'
+import campaign from '../../../../Images/PPC_in_ Campaign.png'
 import Advertising from '../../../../Images/Search Advertising.png'
 import Reporting from '../../../../Images/Performance Reporting.png'
-import Scheduled from '../../../../Images/Scheduled Posting.png'
+import roi from '../../../../Images/PPC_in_ ROI.png'
 import payonclick from '../../../../Images/Pay on Clicks.png'
 import moreleads from '../../../../Images/More Leads.png'
 import increasesale from '../../../../Images/Increased Sales.png'
@@ -79,7 +79,7 @@ function PPCGrowBusiness() {
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className="row">
                                 <div className="col-md-3 col-sm-4 col-3">
-                                    <img src={Copywriting} alt="" width={60} />
+                                    <img src={adcreation} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
                                     <h3>Ad Creation and Optimization</h3>
@@ -92,7 +92,7 @@ function PPCGrowBusiness() {
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className="row">
                                 <div className="col-md-3 col-sm-4 col-3">
-                                    <img src={BidManagement} alt="" width={60} />
+                                    <img src={campaign} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
                                     <h3>Campaign Management</h3>
@@ -118,7 +118,7 @@ function PPCGrowBusiness() {
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className="row">
                                 <div className="col-md-3 col-sm-4 col-3">
-                                    <img src={Scheduled} alt="" width={60} />
+                                    <img src={roi} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
                                     <h3>Budget and ROI Tracking</h3>

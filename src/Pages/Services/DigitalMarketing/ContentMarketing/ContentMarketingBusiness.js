@@ -1,15 +1,15 @@
-import React from 'react'
-import keywoardsuggest from '../../../../Images/Keyword Suggestions.png'
-import Copywriting from '../../../../Images/PPC Copywriting.png'
-import BidManagement from '../../../../Images/Bid Management.png'
-import Advertising from '../../../../Images/Search Advertising.png'
-import Reporting from '../../../../Images/Performance Reporting.png'
-import Scheduled from '../../../../Images/Scheduled Posting.png'
-import payonclick from '../../../../Images/Pay on Clicks.png'
-import moreleads from '../../../../Images/More Leads.png'
-import increasesale from '../../../../Images/Increased Sales.png'
-import boosttraffic from '../../../../Images/Boost Traffic.png'
-import ImmediateResult from '../../../../Images/Immediate Results.png'
+import React from 'react' 
+import contestrat from '../../../../Images/CM2_ Strategy Development.png' 
+import highquality from '../../../../Images/CM2_ High-Quality.png' 
+import searcheng from '../../../../Images/CM2_ SEO.png' 
+import contentdistri from '../../../../Images/CM2_ Distribution.png' 
+import measurement from '../../../../Images/CM2_ Analytics.png' 
+import Tailored from '../../../../Images/CM_in_ Tailored.png' 
+import Compelling  from '../../../../Images/CM_in_ Compelling.png' 
+import SEO from '../../../../Images/CM_in_ SEO.png' 
+import Strategic from '../../../../Images/CM_in_ Strategic.png' 
+import Engagement from '../../../../Images/CM_in_ Engagement.png' 
+import Performance from '../../../../Images/CM_in_ Performance.png' 
 
 function ContentMarketingBusiness() {
     return (
@@ -22,32 +22,32 @@ function ContentMarketingBusiness() {
                     <div className="row justify-content-around">
                         <div className="col-lg-2 col-6 col-sm-4 col-md-3 mb-3">
                             <div className='growbusiness-box  '>
-                                <img src={ImmediateResult} alt="" width={55} />
+                                <img src={contestrat} alt="" width={55} />
                                 <h2>Content Strategy Development</h2>
                             </div>
                         </div>
                         <div className="col-lg-2 col-6 col-sm-4 col-md-3 mb-3">
                             <div className='growbusiness-box '>
-                                <img src={boosttraffic} alt="" width={55} />
+                                <img src={highquality} alt="" width={55} />
                                 <h2>High-Quality Content Creation</h2>
                             </div>
                         </div>
                         <div className="col-lg-2 col-6 col-sm-4 col-md-3 mb-3">
                             <div className='growbusiness-box '>
-                                <img src={payonclick} alt="" width={55} />
+                                <img src={searcheng} alt="" width={55} />
                                 <h2>Search Engine Optimization (SEO)</h2>
                             </div>
                         </div>
 
                         <div className="col-lg-2 col-6 col-sm-4 col-md-3 mb-3">
                             <div className='growbusiness-box '>
-                                <img src={moreleads} alt="" width={55} />
+                                <img src={contentdistri} alt="" width={55} />
                                 <h2>Content Distribution</h2>
                             </div>
                         </div>
                         <div className="col-lg-2 col-6 col-sm-4 col-md-3 mb-3">
                             <div className='growbusiness-box '>
-                                <img src={increasesale} alt="" width={55} />
+                                <img src={measurement} alt="" width={55} />
                                 <h2>Analytics and Measurement</h2>
                             </div>
                         </div>
@@ -66,7 +66,7 @@ function ContentMarketingBusiness() {
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className="row">
                                 <div className="col-md-3 col-sm-4 col-3">
-                                    <img src={keywoardsuggest} alt="" width={60} />
+                                    <img src={Tailored} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
                                     <h3>Tailored Strategy</h3>
@@ -79,7 +79,7 @@ function ContentMarketingBusiness() {
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className="row">
                                 <div className="col-md-3 col-sm-4 col-3">
-                                    <img src={Copywriting} alt="" width={60} />
+                                    <img src={Compelling} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
                                     <h3>Compelling Content</h3>
@@ -92,7 +92,7 @@ function ContentMarketingBusiness() {
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className="row">
                                 <div className="col-md-3 col-sm-4 col-3">
-                                    <img src={BidManagement} alt="" width={60} />
+                                    <img src={SEO} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
                                     <h3>SEO Optimization</h3>
@@ -105,7 +105,7 @@ function ContentMarketingBusiness() {
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className="row">
                                 <div className="col-md-3 col-sm-4 col-3">
-                                    <img src={Advertising} alt="" width={60} />
+                                    <img src={Strategic} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
                                     <h3>Strategic Distribution</h3>
@@ -118,7 +118,7 @@ function ContentMarketingBusiness() {
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className="row">
                                 <div className="col-md-3 col-sm-4 col-3">
-                                    <img src={Scheduled} alt="" width={60} />
+                                    <img src={Engagement} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
                                     <h3>Engagement and Conversion</h3>
@@ -131,7 +131,7 @@ function ContentMarketingBusiness() {
                         <div className="col-lg-4 col-md-6 col-sm-6 mb-4">
                             <div className="row">
                                 <div className="col-md-3 col-sm-4 col-3">
-                                    <img src={Reporting} alt="" width={60} />
+                                    <img src={Performance} alt="" width={60} />
                                 </div>
                                 <div className="col-md-9 col-sm-8 col-9 seo-work-text">
                                     <h3>Performance Analysis</h3>
