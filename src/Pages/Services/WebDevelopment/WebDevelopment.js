@@ -6,10 +6,33 @@ import Technologies from './Technologies'
 import webdevelopmentImg from '../../../Images/web-develop-imng.webp'
 import Faq from './FAQ'
 import ContactForm from '../../ContactForm/ContactForm'
+import { Helmet } from 'react-helmet'
 
 function WebDevelopment() {
   return (
     <>
+
+      <Helmet>
+        <title>Best Web Development Company in Chandigarh | Top-Notch Web Solutions
+        </title>
+        <meta name="description" content="Webtechsolutionsservice.com is an award-winning, globally recognized Website Development Company in Chandigarh, India. We are offering cost effective custom web development,. Get started!" />
+
+        {/* " Open Graph (OG) tags" */}
+        <meta property="og:title" content="Best Web Development Company in Chandigarh | Top-Notch Web Solutions" />
+        <meta property="og:description" content="Webtechsolutionsservice.com is an award-winning, globally recognized Website Development Company in Chandigarh, India. We are offering cost effective custom web development,. Get started!" />
+        <meta property="og:url" content="https://webtechsolutionsservice.com/web-development" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://webtechsolutionsservice.com/static/media/newlogo.e2c8970ce6ff827fea73.webp" />
+
+        {/* " Twitter Card tags" */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Best Web Development Company in Chandigarh | Top-Notch Web Solutions" />
+        <meta name="twitter:description" content="Webtechsolutionsservice.com is an award-winning, globally recognized Website Development Company in Chandigarh, India. We are offering cost effective custom web development,. Get started!" />
+        <meta name="twitter:image" content="https://webtechsolutionsservice.com/static/media/newlogo.e2c8970ce6ff827fea73.webp" />
+
+        {/* " Canonical tag" */}
+        <link rel="canonical" href="https://webtechsolutionsservice.com/web-development" />
+      </Helmet>
       <Header />
       <div className="container-fluid web-development-main">
         <div className="container-xl">

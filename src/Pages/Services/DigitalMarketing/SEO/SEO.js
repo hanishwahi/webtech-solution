@@ -8,11 +8,34 @@ import sales from '../../../../Images/Sales.webp'
 import appearence from '../../../../Images/Apperance.webp'
 import lg from '../../../../Images/LG.webp'
 import ContactForm from '../../../ContactForm/ContactForm'
-
+import { Helmet } from 'react-helmet'
 
 function SEO() {
     return (
         <>
+            <Helmet>
+                <title>SEO Specialist | SEO Agency |  Best SEO Company in Chandigarh, India
+                </title>
+                <meta name="description" content="Enhance your website's visibility and outrank the competition with our comprehensive SEO strategies. We are specializes in optimising websites for search engines." />
+
+                {/* Open Graph (OG) tags */}
+                <meta property="og:title" content="SEO Specialist | SEO Agency |  Best SEO Company in Chandigarh, India" />
+                <meta property="og:description" content="Enhance your website's visibility and outrank the competition with our comprehensive SEO strategies. We are specializes in optimising websites for search engines." />
+                <meta property="og:url" content="https://webtechsolutionsservice.com/seo-service" />
+                <meta property="og:type" content="website" />
+                <meta property="og:image" content="https://webtechsolutionsservice.com/static/media/newlogo.e2c8970ce6ff827fea73.webp" />
+
+                {/* Twitter Card tags */}
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="SEO Specialist | SEO Agency |  Best SEO Company in Chandigarh, India
+" />
+                <meta name="twitter:description" content="Enhance your website's visibility and outrank the competition with our comprehensive SEO strategies. We are specializes in optimising websites for search engines.
+" />
+                <meta name="twitter:image" content="https://webtechsolutionsservice.com/static/media/newlogo.e2c8970ce6ff827fea73.webp" />
+
+                {/* Canonical tag */}
+                <link rel="canonical" href="https://webtechsolutionsservice.com/seo-service" />
+            </Helmet>
             <Header />
             <div className="container-fluid web-development-main">
                 <div className="container-xl">
@@ -26,8 +49,8 @@ function SEO() {
                             <div className="why-choose-checkbox">
                                 <p><i className="fa-solid fa-check"></i> Your website struggles to gain online visibility.</p>
                                 <p><i className="fa-solid fa-check"></i> Recent declines in website traffic have left you puzzled.</p>
-                                <p><i className="fa-solid fa-check"></i> A sudden drop in incoming calls and leads has raised concerns.</p> 
-                                <p><i className="fa-solid fa-check"></i> You're launching a new website and need a rapid boost in business.</p> 
+                                <p><i className="fa-solid fa-check"></i> A sudden drop in incoming calls and leads has raised concerns.</p>
+                                <p><i className="fa-solid fa-check"></i> You're launching a new website and need a rapid boost in business.</p>
                             </div>
                             <p>Rest assured, you're in the hands of the right SEO company. WebTech serves hundreds of SEO clients, delivering solutions that adapt to Google's ever-changing algorithms.</p>
                             <div className="row">

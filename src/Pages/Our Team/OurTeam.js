@@ -11,13 +11,32 @@ import Meenakshi from '../../Images/Meenakshi.webp'
 import Garima from '../../Images/garima (1).webp'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
+import { Helmet } from 'react-helmet'
 
 
 function OurTeam() {
 
     return (
         <>
+    <Helmet>
+                <title>Meet Our Skilled IT Professionals | WebTech Solutions</title>
+                <meta name="description" content="Get to know the talented individuals behind WebTech Solutions. Our skilled team of IT professionals is dedicated to delivering top-notch solutions and exceptional customer service. Meet our experts today." />
 
+                {/* - Open Graph (OG) tags  */}
+                <meta property="og:title" content="Meet Our Skilled IT Professionals | WebTech Solutions" />
+                <meta property="og:description" content="Get to know the talented individuals behind WebTech Solutions. Our skilled team of IT professionals is dedicated to delivering top-notch solutions and exceptional customer service. Meet our experts today." />
+                <meta property="og:url" content="https://webtechsolutionsservice.com/our-team" />
+                <meta property="og:type" content="website" />
+                <meta property="og:image" content="https://webtechsolutionsservice.com/static/media/newlogo.e2c8970ce6ff827fea73.webp" />
+
+                {/* - Twitter Card tags  */}
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Meet Our Skilled IT Professionals | WebTech Solutions" />
+                <meta name="twitter:description" content="Get to know the talented individuals behind WebTech Solutions. Our skilled team of IT professionals is dedicated to delivering top-notch solutions and exceptional customer service. Meet our experts today." />
+                <meta name="twitter:image" content="https://webtechsolutionsservice.com/static/media/newlogo.e2c8970ce6ff827fea73.webp" />
+                {/* - Canonical tag  */}
+                <link rel="canonical" href="https://webtechsolutionsservice.com/our-team" />
+            </Helmet>
             <Header />
             <div className='container-fluid pb-5'>
                 <div className='container-lg'>
