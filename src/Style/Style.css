@@ -859,8 +859,8 @@ li.nav-item {
     padding: 10px 0;
 }
 .why-choose-checkbox p {
-    font-size: 16px;
-    line-height: 35px;
+    font-size: 16px;  
+    padding-bottom: 20px;
 }
 
 .ready-to-grow {
@@ -1329,20 +1329,8 @@ li.nav-item {
     text-align: left;
 }
 
-/* smo page  */
-.smo-main {
-    display: flex;
-    align-items: center;
-}
-.smoimg-left {
-    width: 40%;
-}
-.smotext-right {
-    padding-right: 118px;
-    padding-left: 30px;
-    width: 60%;
-}
-
+ 
+ 
 /* smm page  */
 .smm-main {
     display: flex;
@@ -1351,6 +1339,61 @@ li.nav-item {
     padding: 50px 0px;
 }
  
+
+/* ppc page  */
+.ppc-inner h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #263045;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.ppc-inner h1 span {
+    color: #43ade6;
+}
+
+.ppc-inner p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #263045;
+    text-decoration: none; 
+    text-align: justify;
+}
+
+.ppc-checkbox ul li i {
+    background-color: #42ADE4;
+    color: #fff;
+    border-radius: 50%;
+    padding: 3px;
+    font-size: 10px;
+}
+
+.ppc-checkbox ul{
+    columns: 2;
+    padding: 0px;
+}
+.ppc-checkbox ul li {
+    font-size: 16px;
+    line-height: 35px;
+    color: #263045;
+    font-weight: 400;
+    list-style-type: none; 
+    font-family: 'Roboto', sans-serif;
+}
+
+ 
+.ppc-checkbox {
+    padding: 10px 0;
+}
+.ppc-checkbox p {
+    font-size: 16px;
+    line-height: 35px;
+}
  
 /* technologies  */
 .technologies-main {
