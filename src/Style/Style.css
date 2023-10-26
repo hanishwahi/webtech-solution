@@ -56,6 +56,7 @@ body {
     height: 2px;
     background: #43ade6;
     transition: width 0.3s;
+    margin: 0px;
 }
 
 .navbar-001 a:hover::after {
@@ -130,7 +131,7 @@ li.nav-item {
 .dropdown-menu {
     position: absolute;
     z-index: 1000;
-    display: none;
+    display: none; 
     min-width: 22rem !important;
     padding: 0.5rem 0;
      margin: 0;
@@ -143,6 +144,19 @@ li.nav-item {
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 0.25rem;
+}
+
+.dropdown-menu::after {
+    content: '';
+    top: -9px;
+    background-color: #fff;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 34px;
+    border-top: 1px solid #ccc; 
+    border-left: 1px solid #ccc; 
+    transform: rotate(45deg);
 }
 .list-group-item {
     position: relative;
