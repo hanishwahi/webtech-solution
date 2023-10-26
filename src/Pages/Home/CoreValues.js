@@ -9,9 +9,9 @@ function CoreValues() {
             <div className="container-fluid core-values-bg">
                 <div className="container-xl">
                     <div className="row pb-lg-5 py-3">
-                        <div className="col industries">
+                       <div className="col industries">
                             <h1>Our <span>Core Values</span></h1>
-                        </div>
+                        </div> 
                     </div>
                     <div className="row corevalue-border-bottom">
                         <div className="col-lg-3 col-md-4 col-sm-6 ">

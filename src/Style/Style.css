@@ -500,13 +500,15 @@ li.nav-item {
     font-family: 'Roboto', sans-serif;
     color: #fff;
     text-decoration: none;
+    min-height: 68px;
 }
-.home-service-box a {
+.home-service-box h6 {
     border-radius: 6px;
     color: #fff;
     font-weight: 300;
     font-size: 16px;
     text-decoration: none;
+    margin-bottom: 0;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -2071,4 +2073,17 @@ input::-webkit-inner-spin-button {
     font-weight: 500;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+ /* certified  */
+ .certified h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #263045;
+    text-decoration: none;
+}
+.certified h1 span {
+    color: #43ade6;
 }

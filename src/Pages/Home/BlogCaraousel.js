@@ -62,7 +62,7 @@ function BlogCaraousel() {
 
                                                 <div className='row px-4 py-1 align-items-center'>
                                                     <div className='col-6 col-sm-6  col-md-12 col-lg-6 px-0 py-2 home-blogs-button'>
-                                                        <Link>Read More...</Link>
+                                                        <Link to={`/blogs/Golden-Rules-for-Elevating-Your-Creative-Vision`}>Read More...</Link>
                                                     </div>
                                                     <div className='col-6 col-sm-6 col-md-12 col-lg-6 text-end py-2 home-blog-content'>
                                                         <h6 className='h6 mb-0' >18-07-2023</h6>
@@ -91,7 +91,7 @@ function BlogCaraousel() {
 
                                                 <div className='row px-4 py-1 align-items-center'>
                                                     <div className='col-6 col-sm-6  col-md-12 col-lg-6 px-0 py-2 home-blogs-button'>
-                                                        <Link>Read More...</Link>
+                                                        <Link to={`/blogs/How-to-Improve-Your-Website-Visibility`}>Read More...</Link>
                                                     </div>
                                                     <div className='col-6 col-sm-6 col-md-12 col-lg-6 text-end py-2 home-blog-content'>
                                                         <h6 className='h6 mb-0' >19-07-2023</h6>

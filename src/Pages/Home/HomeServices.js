@@ -50,7 +50,7 @@ function HomeServices() {
                                                     <img width={50} src={digitalMarketing} alt="" className='pb-4' />
                                                     <h1>Digital Marketing</h1>
                                                     <p> From SEO to social media and PPC we'll help you reach your target audience and achieve remarkable results.</p>
-                                                    <Link> Explore More <i className="fa-solid fa-angles-right arrow1"></i></Link>
+                                                    <h6> Explore More <i className="fa-solid fa-angles-right arrow1"></i></h6>
                                                 </div>
                                             </Link>
                                         </div>
@@ -62,7 +62,7 @@ function HomeServices() {
                                                     <img width={53} src={webdevelopment} alt="" className='pb-4' />
                                                     <h1>Web Development</h1>
                                                     <p>We bring your digital vision to life with sleek designs and seamless functionality.</p>
-                                                    <Link>Explore More <i className="fa-solid fa-angles-right arrow1"></i></Link>
+                                                    <h6>Explore More <i className="fa-solid fa-angles-right arrow1"></i></h6>
                                                 </div>
                                             </Link>
                                         </div>
@@ -75,7 +75,7 @@ function HomeServices() {
                                                     <img width={40} src={appdevelopment} alt="" className='pb-4' />
                                                     <h1>App Development</h1>
                                                     <p>From concept to launch, we transform ideas into powerful, user-friendly mobile and web applications.</p>
-                                                    <Link>Explore More <i className="fa-solid fa-angles-right arrow1"></i></Link>
+                                                    <h6>Explore More <i className="fa-solid fa-angles-right arrow1"></i></h6>
                                                 </div>
                                             </Link>
                                         </div>
@@ -87,7 +87,7 @@ function HomeServices() {
                                                     <img width={54} src={graphicdesigning} alt="" className='pb-4' />
                                                     <h1>Graphic Designing</h1>
                                                     <p>From captivating logos to stunning visuals, we transform your ideas into compelling visual stories.</p>
-                                                    <Link>Explore More <i className="fa-solid fa-angles-right arrow1"></i></Link>
+                                                    <h6>Explore More <i className="fa-solid fa-angles-right arrow1"></i></h6>
                                                 </div>
                                             </Link>
                                         </div>
