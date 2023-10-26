@@ -91,9 +91,7 @@ function FlipkartService() {
                             <div className="border-bottom"></div>
                             <p>Understanding Category Visibility, Keyword Search and Analysis of reviews</p>
                         </div>
-                    </div>
-               
-
+                    </div> 
                 </div>
             </div>
         </div>
