@@ -15,7 +15,7 @@ function FlipkartFaq() {
                         <div className="accordion-item">
                             <h2 className="accordion-header" id="headingOne">
                                 <button className="accordion-button faq shadow-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                What is Amazon marketing Services?   
+                                    What is Amazon marketing Services?
                                 </button>
                             </h2>
                             <div id="collapseOne" className="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -27,7 +27,7 @@ function FlipkartFaq() {
                         <div className="accordion-item">
                             <h2 className="accordion-header" id="headingTwo">
                                 <button className="accordion-button faq shadow-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                How does Amazon marketing services work? 
+                                    How does Amazon marketing services work?
                                 </button>
                             </h2>
                             <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -39,7 +39,7 @@ function FlipkartFaq() {
                         <div className="accordion-item">
                             <h2 className="accordion-header" id="headingThree">
                                 <button className="accordion-button faq shadow-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                How does Amazon advertising work? How to advertise on Amazon?
+                                    How does Amazon advertising work? How to advertise on Amazon?
                                 </button>
                             </h2>
                             <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -47,8 +47,8 @@ function FlipkartFaq() {
                                     <p> Amazon advertising services include Pay Per Click Ads, sponsored brand management, video advertising, Amazon AI advertising management and more. There is no specific Amazon ad agency who will get this done for you. You can extract the benefits of advertising in Amazon by selecting a good Amazon advertising agency or an Amazon marketing agency who specializes in this service. The result – better prospects and better profits for your business. Amazon marketing services costs vary depending on the level of expertise of the Amazon marketing company you are considering. If you have never registered your product or advertised on Amazon here is the Amazon Marketing Services Guide to help you. </p>
                                 </div>
                             </div>
-                        </div> 
-                     
+                        </div>
+
                     </div>
                 </div>
             </div>
