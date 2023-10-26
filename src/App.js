@@ -27,6 +27,7 @@ import ORM from './Pages/Services/DigitalMarketing/ORM/ORM';
 import Thankyou from './Pages/ContactForm/Thankyou';
 import ContentMarketing from './Pages/Services/DigitalMarketing/ContentMarketing/ContentMarketing';
 import AmazonMarketing from './Pages/Services/AmazonMarketing/AmazonMarketing';
+import FlipkartMarketing from './Pages/Services/FlipkartMarketing/FlipkartMarketing';
   
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
           <Route path='/app-development' element={<AppDevelopment/>}/>
           <Route path='/graphic-designing' element={<GraphicDesigning/>}/>
           <Route path='/amazon-marketing' element={<AmazonMarketing/>}/>
+          <Route path='/flipkart-marketing' element={<FlipkartMarketing/>}/>
           <Route path='/digital-marketing' element={<DigitalMarketing/>}/>
           <Route path='/digital-marketing/seo' element={<SEO/>}/>
           <Route path='/digital-marketing/smo' element={<SMO/>}/>

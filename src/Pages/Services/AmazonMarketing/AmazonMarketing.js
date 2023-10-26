@@ -1,5 +1,5 @@
 import React from 'react'
-import digitalMarketingImg from '../../../Images/digitalMarketingImg.webp'
+import amazon_img from '../../../Images/amazon_img.webp'
 import Header from '../../Header/Header'
 import Footer from '../../Footer/Footer'  
 import AmazonService from './AmazonService'  
@@ -15,7 +15,7 @@ function AmazonMarketing() {
         <div className="container-xl">
           <div className="row">
             <div className="col-lg-6">
-              <img src={digitalMarketingImg} alt=""  className='img-fluid' loading='lazy'/>
+              <img src={amazon_img} alt=""  className='img-fluid' loading='lazy'/>
             </div>
             <div className="col-lg-6">
               <div className='web-development-inner'>

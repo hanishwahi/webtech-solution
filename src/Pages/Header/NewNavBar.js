@@ -50,7 +50,7 @@ function NewNavBar() {
                                                             <div className="col-md-4 col-lg-6 mb-3 mb-lg-0">
                                                                 <div className="list-group list-group-flush">
                                                                     <Link onClick={scrollToHome} to="/amazon-marketing" className="list-group-item list-group-item-action">Amazon Marketing</Link>
-                                                                    <Link onClick={scrollToHome} to="/web-development" className="list-group-item list-group-item-action">Flipkart Marketing</Link>
+                                                                    <Link onClick={scrollToHome} to="/flipkart-marketing" className="list-group-item list-group-item-action">Flipkart Marketing</Link>
                                                                 </div>
                                                             </div>
                                                         </div>
