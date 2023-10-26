@@ -211,6 +211,9 @@
     .smo-main{
         display: inline; 
     }
+    .certified h1 { 
+        font-size: 26px; 
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width: 767px){
@@ -356,6 +359,7 @@
     .smo-main{
         display: inline; 
     }
+    
 }
 @media screen and (min-width: 768px) and (max-width: 992px){
     .navbar-001-hide {
