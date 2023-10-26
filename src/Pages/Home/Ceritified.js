@@ -1,7 +1,7 @@
 import React from 'react'
 import amazon from '../../Images/amazonCeritified.png'
 import flipkart from '../../Images/flipkartCeritified.png'
-import google from '../../Images/googleCeritified.png'
+import google from '../../Images/googleCeritified.webp'
 
 function Ceritified() {
     return (
