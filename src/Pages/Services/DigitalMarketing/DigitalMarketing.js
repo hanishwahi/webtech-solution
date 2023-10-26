@@ -12,7 +12,7 @@ function DigitalMarketing() {
       <Header />
       <div className="container-fluid web-development-main">
         <div className="container-xl">
-          <div className="row align-items-center justify-content-center">
+          <div className="row justify-content-center">
             <div className="col-lg-6 col-md-6 col-sm-8 col-12 mb-3">
               <img src={digitalMarketingImg} alt="" loading='lazy' className='img-fluid' />
             </div>
