@@ -26,6 +26,7 @@ import SMM from './Pages/Services/DigitalMarketing/SMM/SMM';
 import ORM from './Pages/Services/DigitalMarketing/ORM/ORM';
 import Thankyou from './Pages/ContactForm/Thankyou';
 import ContentMarketing from './Pages/Services/DigitalMarketing/ContentMarketing/ContentMarketing';
+import AmazonMarketing from './Pages/Services/AmazonMarketing/AmazonMarketing';
   
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
           <Route path='/web-development' element={<WebDevelopment/>}/>
           <Route path='/app-development' element={<AppDevelopment/>}/>
           <Route path='/graphic-designing' element={<GraphicDesigning/>}/>
+          <Route path='/amazon-marketing' element={<AmazonMarketing/>}/>
           <Route path='/digital-marketing' element={<DigitalMarketing/>}/>
           <Route path='/digital-marketing/seo' element={<SEO/>}/>
           <Route path='/digital-marketing/smo' element={<SMO/>}/>

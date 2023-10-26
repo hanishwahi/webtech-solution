@@ -15,17 +15,22 @@ function Ceritified() {
                     </div>
                     <div className="row align-items-center justify-content-around">
                         <div className="col-lg-3">
-                            <div className='shadow'>
+                            <div className='shadow border'>
                                 <img src={amazon} alt="" className='img-fluid' />
                             </div>
                         </div>
                         <div className="col-lg-3">
-                            <div className='shadow'>
+                            <div className='shadow border'>
                                 <img src={flipkart} alt="" className='img-fluid' />
                             </div>
                         </div>
                         <div className="col-lg-3">
-                            <div className='shadow'>
+                            <div className='shadow border'>
+                                <img src={google} alt="" className='img-fluid' />
+                            </div>
+                        </div>
+                        <div className="col-lg-3">
+                            <div className='shadow border'>
                                 <img src={google} alt="" className='img-fluid' />
                             </div>
                         </div>

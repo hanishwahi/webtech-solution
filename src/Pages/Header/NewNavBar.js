@@ -39,12 +39,18 @@ function NewNavBar() {
 
                                                     <div className="px-3">
                                                         <div className="row">
-                                                            <div className="col-md-4 col-lg-12 mb-3 mb-lg-0">
+                                                            <div className="col-md-4 col-lg-6 mb-3 mb-lg-0">
                                                                 <div className="list-group list-group-flush">
                                                                     <Link onClick={scrollToHome} to="/digital-marketing" className="list-group-item list-group-item-action">Digital Marketing</Link>
                                                                     <Link onClick={scrollToHome} to="/web-development" className="list-group-item list-group-item-action">Web Development</Link>
                                                                     <Link onClick={scrollToHome} to="/app-development" className="list-group-item list-group-item-action">App Development</Link>
                                                                     <Link onClick={scrollToHome} to="/graphic-designing" className="list-group-item list-group-item-action">Graphic Designing</Link>
+                                                                </div>
+                                                            </div>
+                                                            <div className="col-md-4 col-lg-6 mb-3 mb-lg-0">
+                                                                <div className="list-group list-group-flush">
+                                                                    <Link onClick={scrollToHome} to="/amazon-marketing" className="list-group-item list-group-item-action">Amazon Marketing</Link>
+                                                                    <Link onClick={scrollToHome} to="/web-development" className="list-group-item list-group-item-action">Flipkart Marketing</Link>
                                                                 </div>
                                                             </div>
                                                         </div>
