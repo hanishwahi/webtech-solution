@@ -155,7 +155,7 @@ function OurTeam() {
                             <h5 className="card-title pt-3">Karan Yadav
                             </h5>
                             <p className="card-text">
-                                Project Coordinator
+                                Project Manager
                             </p>
                         </div>
                     </div>

@@ -1942,6 +1942,7 @@ input::-webkit-inner-spin-button {
 .team-image {
     border-radius: 50% 30%;
     width: 100%;
+    border: 1px solid #ccc;
 }
 
 
@@ -1992,10 +1993,11 @@ input::-webkit-inner-spin-button {
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
-    width: 100%;
+    text-align: center;
     padding: 10px;
     background: #000;
     width: 100%;
+    margin: 0;
 }
 
 

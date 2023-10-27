@@ -14,7 +14,7 @@ function FlipkartService() {
                     </div>
                     <div className="col-lg-8 col-md-8">
                         <div className='amazonserviceOffer'>
-                            <p>Mindstorm offers amazon marketing services to help you manage your Amazon Ads campaigns and optimise your product listings for the best Organic sales. Our amazon advertising team is backed by a leadership experience of 10 years in Amazon Marketing.</p>
+                            <p>Flipkart Marketing Services provides a range of advertising and promotional solutions to help businesses, brands, and sellers enhance their visibility and sales on the Flipkart e-commerce platform.</p>
 
                         </div>
                     </div>
@@ -27,9 +27,9 @@ function FlipkartService() {
                                     <img src={SEO} alt="" loading='lazy' width={60} />
                                 </div>
                             </div>
-                            <h2>Registration & Listings</h2>
+                            <h2>Flipkart Ads</h2>
                             <div className="border-bottom"></div>
-                            <p>We manage registration & listings on a fixed pre-decided or flexible pricing model</p>
+                            <p>Advertisers manage advertising campaigns, targeting specific customer segments based on interests, and shopping behavior.</p>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-4 col-sm-6">
@@ -39,9 +39,9 @@ function FlipkartService() {
                                     <img src={SEO} alt="" loading='lazy' width={60} />
                                 </div>
                             </div>
-                            <h2>Content Management</h2>
+                            <h2>Brand Stores</h2>
                             <div className="border-bottom"></div>
-                            <p>Manage A+ Content Writing for Product Listings on per unit pricing model.</p>
+                            <p>Branded shopping experience by designing customized brand stores to showcase their products in a unique environment.</p>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-4 col-sm-6">
@@ -51,9 +51,9 @@ function FlipkartService() {
                                     <img src={SEO} alt="" loading='lazy' width={60} />
                                 </div>
                             </div>
-                            <h2>AMS Management</h2>
+                            <h2>Flipkart Video Ads</h2>
                             <div className="border-bottom"></div>
-                            <p>Setup & Overall Management of the Ad Account on Amazon</p>
+                            <p>Use video content to engage their audience and promote their products effectively  the power of video marketing.</p>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-4 col-sm-6">
@@ -63,9 +63,9 @@ function FlipkartService() {
                                     <img src={SEO} alt="" loading='lazy' width={60} />
                                 </div>
                             </div>
-                            <h2>Consultation on Reports</h2>
+                            <h2>Promotions and Deals</h2>
                             <div className="border-bottom"></div>
-                            <p>Reports & Insights sourced from Amazon with Consulting</p>
+                            <p>Run promotional campaigns, offer discounts, and special events to attract customers with irresistible offers.</p>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-4 col-sm-6">
@@ -75,9 +75,9 @@ function FlipkartService() {
                                     <img src={SEO} alt="" loading='lazy' width={60} />
                                 </div>
                             </div>
-                            <h2>Product Intelligence</h2>
+                            <h2>Analytics and Insights</h2>
                             <div className="border-bottom"></div>
-                            <p>Understanding Pricing, Promotions & Customer Voice v/s competing products.</p>
+                            <p>Access to valuable data and analytics tools to measure the performance of marketing campaigns, gain insights into customer.</p>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-4 col-sm-6">
@@ -87,9 +87,9 @@ function FlipkartService() {
                                     <img src={SEO} alt="" loading='lazy' width={60} />
                                 </div>
                             </div>
-                            <h2>Market Intelligence</h2>
+                            <h2>Sponsored Brand</h2>
                             <div className="border-bottom"></div>
-                            <p>Understanding Category Visibility, Keyword Search and Analysis of reviews</p>
+                            <p>Create campaigns to increase brand awareness and showcase their product range through custom ad creatives.</p>
                         </div>
                     </div> 
                 </div>
