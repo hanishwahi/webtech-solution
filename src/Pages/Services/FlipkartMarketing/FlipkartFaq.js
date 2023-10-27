@@ -15,7 +15,7 @@ function FlipkartFaq() {
                         <div className="accordion-item">
                             <h2 className="accordion-header" id="headingOne">
                                 <button className="accordion-button faq shadow-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                What is Flipkart Marketing Services?
+                                    What is Flipkart Marketing Services?
                                 </button>
                             </h2>
                             <div id="collapseOne" className="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -27,7 +27,7 @@ function FlipkartFaq() {
                         <div className="accordion-item">
                             <h2 className="accordion-header" id="headingTwo">
                                 <button className="accordion-button faq shadow-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Who can use Flipkart Marketing Services?
+                                    Who can use Flipkart Marketing Services?
                                 </button>
                             </h2>
                             <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -39,7 +39,7 @@ function FlipkartFaq() {
                         <div className="accordion-item">
                             <h2 className="accordion-header" id="headingThree">
                                 <button className="accordion-button faq shadow-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                What are the key advertising options offered by Flipkart Marketing Services?
+                                    What are the key advertising options offered by Flipkart Marketing Services?
                                 </button>
                             </h2>
                             <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -52,9 +52,7 @@ function FlipkartFaq() {
                     </div>
                 </div>
             </div>
-
-
-
+ 
         </>
     )
 }
