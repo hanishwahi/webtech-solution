@@ -4,11 +4,12 @@ import Param from '../../Images/param.jpg'
 import Shamse from '../../Images/shamse.jpg'
 import Nidhi from '../../Images/nidhi.jpg'
 import Kuldeep from '../../Images/kuldeep.jpg'
-import Simar from '../../Images/simar.jpg'
-import Anuj from '../../Images/anuj.jpg'
+import Simar from '../../Images/simar.jpg' 
 import Ankit_Mishra from '../../Images/ankit_mishra.webp'
 import Meenakshi from '../../Images/Meenakshi.webp'
 import Garima from '../../Images/garima (1).webp'
+import karan from '../../Images/KARAN (1).webp'
+import gaurav from '../../Images/gaurav (1).webp'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 import { Helmet } from 'react-helmet'
@@ -108,16 +109,6 @@ function OurTeam() {
                             </p>
                         </div>
                         <div className="col-lg-3 text-center mb-3">
-                            <img loading="lazy" src={Anuj}
-                                className="team-image"
-                                alt='' />
-                            <h5 className="card-title pt-3">Anuj Thakur
-                            </h5>
-                            <p className="card-text">
-                                Sr. SEO Executive
-                            </p>
-                        </div>
-                        <div className="col-lg-3 text-center mb-3">
                             <img loading="lazy" src={Shamse}
                                 className="team-image"
                                 alt='' />
@@ -145,6 +136,26 @@ function OurTeam() {
                             </h5>
                             <p className="card-text">
                                 SEO Executive
+                            </p>
+                        </div>
+                        <div className="col-lg-3 text-center mb-3">
+                            <img loading="lazy" src={gaurav}
+                                className="team-image" alt=''
+                            />
+                            <h5 className="card-title pt-3">Gaurav
+                            </h5>
+                            <p className="card-text">
+                                SEO Executive
+                            </p>
+                        </div>
+                        <div className="col-lg-3 text-center mb-3">
+                            <img loading="lazy" src={karan}
+                                className="team-image" alt=''
+                            />
+                            <h5 className="card-title pt-3">Karan Yadav
+                            </h5>
+                            <p className="card-text">
+                                Project Coordinator
                             </p>
                         </div>
                     </div>

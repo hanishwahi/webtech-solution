@@ -75,7 +75,7 @@ function NewNavBar() {
                             </nav>
                         </div>
                         <div className="col-lg-2 text-end contact-button align-self-center">
-                            <Link onClick={scrollToHome} to='/contact-us' className="btn">Get In Touch</Link>
+                            <Link onClick={scrollToHome} to='/contact-us' className="">Get In Touch</Link>
                         </div>
 
                         <div className="col-7 col-sm-9 col-md-10 align-self-center  text-end new-menu-hide px-0">

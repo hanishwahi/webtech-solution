@@ -16,20 +16,20 @@ function Ceritified() {
                     <div className="row align-items-center justify-content-around text-center">
                         <div className="col-md-4 col-sm-4 col-6 mb-3">
                             <div className=''>
-                                <img src={amazon} alt="" width={160} />
+                                <img src={amazon} alt="" width={160} loading='lazy' />
                             </div>
                         </div>
                         <div className="col-md-4 col-sm-4 col-6 mb-3">
                             <div className=''>
-                                <img src={flipkart} alt="" width={160} />
+                                <img src={flipkart} alt="" width={160} loading='lazy' />
                             </div>
                         </div>
                         <div className="col-md-4 col-sm-4 col-6 mb-3">
                             <div className=''>
-                                <img src={google} alt="" width={160} />
+                                <img src={google} alt="" width={160} loading='lazy' />
                             </div>
                         </div>
-                         
+
                     </div>
                 </div>
             </div>
