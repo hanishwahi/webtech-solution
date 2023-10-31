@@ -1,6 +1,7 @@
 import React from 'react'
 
 function FlipkartFaq() {
+  
     return (
         <>
             <div className="container-fluid faq-main-top">

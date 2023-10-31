@@ -1,5 +1,13 @@
 import React from 'react'
-import SEO from '../../../Images/SEO.png'
+import Registration from '../../../Images/Ama_ Registration.png'
+import Content from '../../../Images/Ama_ Content.png'
+import Management from '../../../Images/Ama_ AMS.png'
+import Consultation from '../../../Images/Ama_ Consultation.png'
+import Product from '../../../Images/Ama_ Product.png'
+import Intelligence from '../../../Images/Ama_ Market.png'
+import Promotions from '../../../Images/Ama_ Promotions.png'
+import Optimization from '../../../Images/Ama_ Optimization.png'
+import Analytics from '../../../Images/Ama_ Analytics.png'
 
 function AmazonService() {
 
@@ -24,7 +32,7 @@ function AmazonService() {
                         <div className='amazonserviceOffer-box'>
                             <div className="row text-center">
                                 <div className="col">
-                                    <img src={SEO} alt="" loading='lazy' width={60} />
+                                    <img src={Registration} alt="" loading='lazy' width={60} />
                                 </div>
                             </div>
                             <h2>Registration & Listings</h2>
@@ -36,7 +44,7 @@ function AmazonService() {
                         <div className='amazonserviceOffer-box'>
                             <div className="row text-center">
                                 <div className="col">
-                                    <img src={SEO} alt="" loading='lazy' width={60} />
+                                    <img src={Content} alt="" loading='lazy' width={60} />
                                 </div>
                             </div>
                             <h2>Content Management</h2>
@@ -48,7 +56,7 @@ function AmazonService() {
                         <div className='amazonserviceOffer-box'>
                             <div className="row text-center">
                                 <div className="col">
-                                    <img src={SEO} alt="" loading='lazy' width={60} />
+                                    <img src={Management} alt="" loading='lazy' width={60} />
                                 </div>
                             </div>
                             <h2>AMS Management</h2>
@@ -60,7 +68,7 @@ function AmazonService() {
                         <div className='amazonserviceOffer-box'>
                             <div className="row text-center">
                                 <div className="col">
-                                    <img src={SEO} alt="" loading='lazy' width={60} />
+                                    <img src={Consultation} alt="" loading='lazy' width={60} />
                                 </div>
                             </div>
                             <h2>Consultation on Reports</h2>
@@ -72,7 +80,7 @@ function AmazonService() {
                         <div className='amazonserviceOffer-box'>
                             <div className="row text-center">
                                 <div className="col">
-                                    <img src={SEO} alt="" loading='lazy' width={60} />
+                                    <img src={Product} alt="" loading='lazy' width={60} />
                                 </div>
                             </div>
                             <h2>Product Intelligence</h2>
@@ -84,7 +92,7 @@ function AmazonService() {
                         <div className='amazonserviceOffer-box'>
                             <div className="row text-center">
                                 <div className="col">
-                                    <img src={SEO} alt="" loading='lazy' width={60} />
+                                    <img src={Intelligence} alt="" loading='lazy' width={60} />
                                 </div>
                             </div>
                             <h2>Market Intelligence</h2>
@@ -96,7 +104,7 @@ function AmazonService() {
                         <div className='amazonserviceOffer-box'>
                             <div className="row text-center">
                                 <div className="col">
-                                    <img src={SEO} alt="" loading='lazy' width={60} />
+                                    <img src={Promotions} alt="" loading='lazy' width={60} />
                                 </div>
                             </div>
                             <h2>Manage Promotions</h2>
@@ -108,7 +116,7 @@ function AmazonService() {
                         <div className='amazonserviceOffer-box'>
                             <div className="row text-center">
                                 <div className="col">
-                                    <img src={SEO} alt="" loading='lazy' width={60} />
+                                    <img src={Optimization} alt="" loading='lazy' width={60} />
                                 </div>
                             </div>
                             <h2>Content Optimization</h2>
@@ -120,7 +128,7 @@ function AmazonService() {
                         <div className='amazonserviceOffer-box'>
                             <div className="row text-center">
                                 <div className="col">
-                                    <img src={SEO} alt="" loading='lazy' width={60} />
+                                    <img src={Analytics} alt="" loading='lazy' width={60} />
                                 </div>
                             </div>
                             <h2>Business Analytics</h2>
@@ -128,9 +136,6 @@ function AmazonService() {
                             <p>Monthly reports that reflect the sales of your brand and the way forward</p>
                         </div>
                     </div>
-
-
-
                 </div>
             </div>
         </div>

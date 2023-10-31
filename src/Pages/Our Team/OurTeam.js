@@ -85,7 +85,7 @@ function OurTeam() {
                             <h5 className="card-title pt-3">Hanish Wahi
                             </h5>
                             <p className="card-text">
-                                Web Developer
+                                React Developer (Frontend Developer)
                             </p>
                         </div>
                         <div className="col-lg-3 text-center mb-3">
