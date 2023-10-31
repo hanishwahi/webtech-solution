@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom' 
 
 function Blogs() {
     function scrollToHome() {
@@ -8,9 +8,10 @@ function Blogs() {
             behavior: 'smooth',
         });
     }
+ 
     return (
         <>
-
+           
             <div className="col border-bottom">
                 <div className="row px-0 justify-content-start">
                     <div className="col-lg-2 col-12 col-md-5 col-sm-6 px-0 align-self-center">
@@ -42,7 +43,7 @@ function Blogs() {
             <div className="col border-bottom">
                 <div className="row px-0 justify-content-start">
                     <div className="col-lg-2 col-12 col-md-5 col-sm-6 px-0 align-self-center">
-                        <img className="img-fluid" src="https://www.modalyst.co/wp-content/uploads/2016/08/SEO.jpg" alt=''/>
+                        <img className="img-fluid" src="https://www.modalyst.co/wp-content/uploads/2016/08/SEO.jpg" alt='' />
                     </div>
                     <div className="col-lg-10 col-md-7 col-sm-6 align-self-center py-3">
                         <div className='row px-2'>
@@ -70,7 +71,7 @@ function Blogs() {
             <div className="col border-bottom">
                 <div className="row px-0 justify-content-start">
                     <div className="col-lg-2 col-12 col-md-5 col-sm-6 px-0 align-self-center">
-                        <img className="img-fluid" src="https://www.appsdevpro.com/blog/wp-content/uploads/2022/09/Top-Web-Design-Development-Trends-You-Need-to-Know-in-2023.png" alt=''/>
+                        <img className="img-fluid" src="https://www.appsdevpro.com/blog/wp-content/uploads/2022/09/Top-Web-Design-Development-Trends-You-Need-to-Know-in-2023.png" alt='' />
                     </div>
                     <div className="col-lg-10 col-md-7 col-sm-6 align-self-center py-3">
                         <div className='row px-2'>
