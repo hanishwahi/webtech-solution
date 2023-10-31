@@ -32,10 +32,10 @@ function GraphicDesigning() {
         <link rel="canonical" href="https://webtechsolutionsservice.com/graphic-design" />
       </Helmet>
       <Header />
-      <div className="container-fluid pb-3">
+      <div className="container-fluid py-3">
         <div className="container-xl">
           <div className="row align-items-center justify-content-center">
-            <div className="col-lg-6 col-md-6 col-sm-8 col-12 mb-3">
+            <div className="col-lg-6 col-md-6 col-sm-8 col-12 my-3">
               <img src={graphicdesignImg} alt="" width="80%" loading='lazy' />
             </div>
             <div className="col-lg-6 web-development-inner mb-3">
