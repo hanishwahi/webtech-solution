@@ -1,4 +1,4 @@
-import React from 'react' 
+import React from 'react'
 import FlipkartADS from '../../../Images/Flipkart_ Ads.png'
 import Brand from '../../../Images/Flipkart_ Stores.png'
 import Video from '../../../Images/Flipkart_ Vedio.png'
@@ -96,7 +96,7 @@ function FlipkartService() {
                             <div className="border-bottom"></div>
                             <p>Create campaigns to increase brand awareness and showcase their product range through custom ad creatives.</p>
                         </div>
-                    </div> 
+                    </div>
                 </div>
             </div>
         </div>
