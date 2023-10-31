@@ -1,5 +1,10 @@
-import React from 'react'
-import SEO from '../../../Images/SEO.png'
+import React from 'react' 
+import FlipkartADS from '../../../Images/Flipkart_ Ads.png'
+import Brand from '../../../Images/Flipkart_ Stores.png'
+import Video from '../../../Images/Flipkart_ Vedio.png'
+import Promotions from '../../../Images/Flipkart_ Promotion.png'
+import Analytics from '../../../Images/Flipkart_ Insight.png'
+import Sponsored from '../../../Images/Flipkart_ Brand.png'
 
 function FlipkartService() {
 
@@ -24,7 +29,7 @@ function FlipkartService() {
                         <div className='amazonserviceOffer-box'>
                             <div className="row text-center">
                                 <div className="col">
-                                    <img src={SEO} alt="" loading='lazy' width={60} />
+                                    <img src={FlipkartADS} alt="" loading='lazy' width={60} />
                                 </div>
                             </div>
                             <h2>Flipkart Ads</h2>
@@ -36,7 +41,7 @@ function FlipkartService() {
                         <div className='amazonserviceOffer-box'>
                             <div className="row text-center">
                                 <div className="col">
-                                    <img src={SEO} alt="" loading='lazy' width={60} />
+                                    <img src={Brand} alt="" loading='lazy' width={60} />
                                 </div>
                             </div>
                             <h2>Brand Stores</h2>
@@ -48,7 +53,7 @@ function FlipkartService() {
                         <div className='amazonserviceOffer-box'>
                             <div className="row text-center">
                                 <div className="col">
-                                    <img src={SEO} alt="" loading='lazy' width={60} />
+                                    <img src={Video} alt="" loading='lazy' width={60} />
                                 </div>
                             </div>
                             <h2>Flipkart Video Ads</h2>
@@ -60,7 +65,7 @@ function FlipkartService() {
                         <div className='amazonserviceOffer-box'>
                             <div className="row text-center">
                                 <div className="col">
-                                    <img src={SEO} alt="" loading='lazy' width={60} />
+                                    <img src={Promotions} alt="" loading='lazy' width={60} />
                                 </div>
                             </div>
                             <h2>Promotions and Deals</h2>
@@ -72,7 +77,7 @@ function FlipkartService() {
                         <div className='amazonserviceOffer-box'>
                             <div className="row text-center">
                                 <div className="col">
-                                    <img src={SEO} alt="" loading='lazy' width={60} />
+                                    <img src={Analytics} alt="" loading='lazy' width={60} />
                                 </div>
                             </div>
                             <h2>Analytics and Insights</h2>
@@ -84,7 +89,7 @@ function FlipkartService() {
                         <div className='amazonserviceOffer-box'>
                             <div className="row text-center">
                                 <div className="col">
-                                    <img src={SEO} alt="" loading='lazy' width={60} />
+                                    <img src={Sponsored} alt="" loading='lazy' width={60} />
                                 </div>
                             </div>
                             <h2>Sponsored Brand</h2>
