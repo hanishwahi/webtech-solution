@@ -225,6 +225,12 @@ li.nav-item {
     font-weight: 400;
 }
 
+.home-form{
+    padding: 50px 30px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
 /* how we work  */
 .how-we-work-main {
     padding: 70px 0 35px;

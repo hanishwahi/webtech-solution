@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import HomeForm from './HomeForm'
 
 function Slider() {
     return (
         <div className="container-fluid slider-bg">
             <div className="container-xl">
-                <div className="row">
+                <div className="row align-items-center">
                     <div className="col-lg-6 slider-head">
                         <div>
                             <h1>Boost Your Online Presence with <span>Digital Marketing Services</span> </h1>
@@ -21,10 +22,12 @@ function Slider() {
                             </div>
                         </div> 
                         <div className="slider-button">
-                            <Link to='/contact-us'>Get Started Free </Link>
+                            <Link to='/contact-us'>Get In Touch </Link>
                         </div> 
                     </div>
-                    <div className="col-lg-6"></div>
+                    <div className="col-lg-6 px-0">
+                        <HomeForm/>
+                    </div>
                 </div>
             </div>
         </div>

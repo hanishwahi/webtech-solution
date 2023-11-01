@@ -14,10 +14,10 @@
         display: none;
     }
     .slider-head h1 {
-        font-size: 28px; 
+        font-size: 33px; 
     }
     .slider-head {
-        padding: 40px 80px 40px 0px;
+        padding: 40px 40px 40px 0px;
     }
     .how-we-work-inner h1 { 
         padding: 20px 32px;
@@ -241,6 +241,9 @@
     .portfolio-nu-main {
         padding: 20px 0;
     }
+    .home-form{
+        margin-bottom: 30px;
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width: 767px){
@@ -255,10 +258,10 @@
         display: none;
     }
     .slider-head h1 {
-        font-size: 36px; 
+        font-size: 38px; 
     }
     .slider-head {
-        padding: 60px 124px 60px 0px;
+        padding: 40px 80px 40px 0px;
     }
     .how-we-work-inner h1 { 
         padding: 20px 24px;
@@ -392,6 +395,9 @@
     .amazonserviceOffer-box p { 
         font-size: 14px; 
     }
+    .home-form{
+        margin-bottom: 30px;
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 992px){
     .navbar-001-hide {
@@ -408,7 +414,7 @@
         font-size: 40px; 
     }
     .slider-head {
-        padding: 80px 260px 80px 0px;
+        padding: 40px 160px 40px 0px;
     }
     .caraousel::after{
         display: none;
@@ -518,6 +524,9 @@
     }
     .faq-main h1 {
         font-size: 26px; 
+    }
+    .home-form{
+        margin-bottom: 30px;
     }
 }
 @media screen and (min-width: 993px) and (max-width: 1024px){
