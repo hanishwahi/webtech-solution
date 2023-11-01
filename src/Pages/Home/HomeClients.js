@@ -12,7 +12,7 @@ function HomeClients() {
                 <div className="container-xl">
                     <div className="row py-3">
                         <div className="col industries">
-                            <h1>Our Clients <span>Review</span></h1> 
+                            <h1>Our Clients <span>Review</span></h1>
                         </div>
                     </div>
                     <div id="carouselExampleControls" className="carousel slide text-center carousel-dark" data-mdb-ride="carousel">
@@ -27,7 +27,7 @@ function HomeClients() {
                                     <div className="col-lg-6 col-11 col-sm-8">
                                         <div className="row text-muted">
                                             <div className="col-lg-11 col-12 col-sm-11 text-muted-inner">
-                                                <h5 className="mb-3">Tabbu Rajput</h5> 
+                                                <h5 className="mb-3">Tabbu Rajput</h5>
                                                 <p className=" ">
                                                     <i className="fas fa-quote-left pe-2"></i>
                                                     I am very impressed by the quality of work that Webtech Solutions delivers. They have designed and developed a stunning website for my brand, and also provided me with effective digital campaigns. They are very professional and easy to work with.
@@ -56,7 +56,7 @@ function HomeClients() {
                                     <div className="col-lg-6 col-11 col-sm-8">
                                         <div className="row text-muted">
                                             <div className="col-lg-11 col-12 col-sm-11 text-muted-inner">
-                                                <h5 className="mb-3">NU COsmetics</h5> 
+                                                <h5 className="mb-3">NU COsmetics</h5>
                                                 <p className=" ">
                                                     <i className="fas fa-quote-left pe-2"></i>
                                                     Webtech Solutions is a great partner for our digital marketing needs. They have helped us increase our online presence by 10x, reach new customers, and grow our business overall. Super responsive and creative team. Highly recommended.
@@ -84,7 +84,7 @@ function HomeClients() {
                                     <div className="col-lg-6 col-11 col-sm-8">
                                         <div className="row text-muted">
                                             <div className="col-lg-11 col-12 col-sm-11 text-muted-inner">
-                                                <h5 className="mb-3">Startup Khata</h5> 
+                                                <h5 className="mb-3">Startup Khata</h5>
                                                 <p className=" ">
                                                     <i className="fas fa-quote-left pe-2"></i>
                                                     Webtech Solutions has been a game-changer for our startup. They have helped us launch our product, and reach a wide audience through their innovative digital marketing solutions. They are always on top of the latest trends and technologies, and they are very friendly and supportive.
@@ -112,7 +112,7 @@ function HomeClients() {
                                     <div className="col-lg-6 col-11 col-sm-8">
                                         <div className="row text-muted">
                                             <div className="col-lg-11 col-12 col-sm-11 text-muted-inner">
-                                                <h5 className="mb-3">Rapid Tax</h5> 
+                                                <h5 className="mb-3">Rapid Tax</h5>
                                                 <p className=" ">
                                                     <i className="fas fa-quote-left pe-2"></i>
                                                     "Working with Webtech Solutions has been an incredible experience. From start to finish, they demonstrated professionalism, expertise, and a genuine commitment to delivering exceptional service.
@@ -128,11 +128,7 @@ function HomeClients() {
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
-
-
-
                         </div>
                         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
