@@ -121,7 +121,7 @@
     }
 
     .counter-box-inner { 
-        margin: 0 42px;
+        margin: 0 36px;
     }
     .ready-to-grow-content h1 { 
         font-size: 22px; 
@@ -152,7 +152,7 @@
     }
 
     .contact-us h1 {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .contact-us p {
@@ -225,6 +225,21 @@
     }
     .dropdown-item { 
         padding: 4px 10px; 
+    }
+    .OurTeam-inner-heading h1 {
+        font-size: 26px; 
+    }
+    .career-main {
+        padding: 20px 0;
+    }
+    .career-001 h1 {
+        font-size: 22px; 
+    }
+    .client-bg {
+        margin: 20px 0; 
+    }
+    .portfolio-nu-main {
+        padding: 20px 0;
     }
 }
 

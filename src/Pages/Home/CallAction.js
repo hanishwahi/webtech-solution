@@ -14,7 +14,7 @@ function CallAction() {
                 <div className="container-xl">
                     <div className="row call-action-content">
                         <h1>We are trusted by leading Companies around the world. </h1>
-                        <p>take to our Digital Marketing Stratgist now for a 360 Degree Digital Marketing Solutions  </p>
+                        <p>talk to our Digital Marketing Stratgist now for a 360 Degree Digital Marketing Solutions  </p>
                     </div>
                     <div className="row">
                         <div className="col-lg-6 col-sm-6 text-sm-end text-center mb-3 mb-sm-0 call-action-button1"> 

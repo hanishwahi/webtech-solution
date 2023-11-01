@@ -35,7 +35,7 @@ function NewNavBar() {
                                             <li className="nav-item dropdown dropdown-hover position-static">
 
                                                 <Link className="nav-link w-nav-link dropdown-toggle " id="navbarDropdown" role="button"
-                                                    data-mdb-toggle="dropdown" aria-expanded="false">What we do <i className="fa-solid fa-caret-down"></i></Link>
+                                                    data-mdb-toggle="dropdown" aria-expanded="false">Our Services <i className="fa-solid fa-caret-down"></i></Link>
                                                 <div className="dropdown-menu mt-0" aria-labelledby="navbarDropdown" >
 
 
@@ -60,7 +60,7 @@ function NewNavBar() {
                                                 </div>
                                             </li>
                                             <li className="nav-item">
-                                                <Link onClick={scrollToHome} to="/clients" className="nav-link w-nav-link">Clients</Link>
+                                                <Link onClick={scrollToHome} to="/clients" className="nav-link w-nav-link">Our Clients</Link>
                                             </li>
                                             <li className="nav-item">
                                                 <Link onClick={scrollToHome} to="/blogs" className="nav-link w-nav-link">Blog</Link>
@@ -100,7 +100,7 @@ function NewNavBar() {
                                 <Link onClick={scrollToHome} to="/about" className="nav-link w-nav-link">Who we are</Link> 
                                 <div className="dropdown">
                                     <a className="dropdown-toggle nav-link w-nav-link" href='/' role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        What we do <i className="fa-solid fa-caret-down"></i>
+                                        Our Services <i className="fa-solid fa-caret-down"></i>
                                     </a>
 
                                     <ul className="dropdown-menu" style={{columns:"2"}}>
@@ -112,9 +112,8 @@ function NewNavBar() {
                                         <li onClick={scrollToHome}><Link className="dropdown-item" to='/flipkart-marketing'>Flipkart Marketing</Link></li>
                                     </ul>
                                 </div>
-                                <Link onClick={scrollToHome} to="/clients" className="nav-link w-nav-link">Clients</Link>
-                                <Link onClick={scrollToHome} to="/career" className="nav-link w-nav-link">Careers</Link>
-                                <Link onClick={scrollToHome} to="/training-development" className="nav-link w-nav-link">Training</Link>
+                                <Link onClick={scrollToHome} to="/clients" className="nav-link w-nav-link">Our Clients</Link>
+                                <Link onClick={scrollToHome} to="/career" className="nav-link w-nav-link">Careers</Link> 
                                 <Link onClick={scrollToHome} to="/blogs" className="nav-link w-nav-link">Blog</Link>
                                 <Link onClick={scrollToHome} to="/portfolio" className="nav-link w-nav-link">Portfolio</Link>
                                 <Link onClick={scrollToHome} to="/our-team" className="nav-link w-nav-link">Team</Link>
