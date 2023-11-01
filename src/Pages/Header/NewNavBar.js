@@ -7,6 +7,8 @@ function NewNavBar() {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
+
+   
  
     return (
         <>
@@ -27,13 +29,13 @@ function NewNavBar() {
                                                 <Link onClick={scrollToHome} to="/" aria-current="page" className="nav-link w-nav-link ">Home</Link>
                                             </li>
                                             <li className="nav-item">
-                                                <Link onClick={scrollToHome} to="/about" className="nav-link w-nav-link">About</Link>
+                                                <Link onClick={scrollToHome} to="/about" className="nav-link w-nav-link">Who we are</Link>
                                             </li>
 
                                             <li className="nav-item dropdown dropdown-hover position-static">
 
                                                 <Link className="nav-link w-nav-link dropdown-toggle " id="navbarDropdown" role="button"
-                                                    data-mdb-toggle="dropdown" aria-expanded="false">Service <i className="fa-solid fa-caret-down"></i></Link>
+                                                    data-mdb-toggle="dropdown" aria-expanded="false">What we do <i className="fa-solid fa-caret-down"></i></Link>
                                                 <div className="dropdown-menu mt-0" aria-labelledby="navbarDropdown" >
 
 
