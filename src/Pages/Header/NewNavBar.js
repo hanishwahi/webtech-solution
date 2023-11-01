@@ -15,7 +15,7 @@ function NewNavBar() {
             <div className="container-fluid sticky-top py-1 py-lg-0 border-bottom bg-white">
                 <div className="container-xl">
                     <div className="row">
-                        <div className="col-lg-2 col-md-2 col-5 col-sm-3 text-start align-self-center">
+                        <div className="col-lg-2 col-md-3 col-5 col-sm-3 text-start align-self-center">
                             <Link onClick={scrollToHome} to='/'>
                                 <img width="90%" height={50} className="img-fluid px-0" src={MainNewlogo} alt="" />
                             </Link>
@@ -80,7 +80,7 @@ function NewNavBar() {
                             <Link onClick={scrollToHome} to='/contact-us' className="">Get In Touch</Link>
                         </div>
 
-                        <div className="col-7 col-sm-9 col-md-10 align-self-center  text-end new-menu-hide px-0">
+                        <div className="col-7 col-sm-9 col-md-9 align-self-center  text-end new-menu-hide px-0">
                             <Link onClick={scrollToHome} to='/'><i className="fa-solid fa-house" style={{ color: "#42ADE4", fontSize: "20px", paddingRight: "10px" }}></i></Link>
                             <button className="btn shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i className="fa-solid fa-bars h2 mb-0" style={{ color: "#42ADE4" }}></i></button>
                         </div>
@@ -97,18 +97,19 @@ function NewNavBar() {
                             </div>
                             <div className="offcanvas-body p-0">
                                 <Link onClick={scrollToHome} to="/" aria-current="page" className="nav-link w-nav-link ">Home</Link>
-                                <Link onClick={scrollToHome} to="/about" className="nav-link w-nav-link">About</Link>
-                                {/* <Link onClick={scrollToHome} to="/services" className="nav-link w-nav-link">Services</Link> */}
+                                <Link onClick={scrollToHome} to="/about" className="nav-link w-nav-link">Who we are</Link> 
                                 <div className="dropdown">
                                     <a className="dropdown-toggle nav-link w-nav-link" href='/' role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Services <i className="fa-solid fa-caret-down"></i>
+                                        What we do <i className="fa-solid fa-caret-down"></i>
                                     </a>
 
-                                    <ul className="dropdown-menu">
+                                    <ul className="dropdown-menu" style={{columns:"2"}}>
                                         <li onClick={scrollToHome}><Link className="dropdown-item" to='/digital-marketing'>Digital Marketing</Link></li>
                                         <li onClick={scrollToHome}><Link className="dropdown-item" to='/web-development'>Web Development</Link></li>
                                         <li onClick={scrollToHome}><Link className="dropdown-item" to='/app-development'>App Development</Link></li>
                                         <li onClick={scrollToHome}><Link className="dropdown-item" to='/graphic-designing'>Graphic Designing</Link></li>
+                                        <li onClick={scrollToHome}><Link className="dropdown-item" to='/amazon-marketing'>Amazon Marketing</Link></li>
+                                        <li onClick={scrollToHome}><Link className="dropdown-item" to='/flipkart-marketing'>Flipkart Marketing</Link></li>
                                     </ul>
                                 </div>
                                 <Link onClick={scrollToHome} to="/clients" className="nav-link w-nav-link">Clients</Link>

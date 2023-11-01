@@ -214,6 +214,18 @@
     .certified h1 { 
         font-size: 26px; 
     }
+    .dropdown-menu { 
+        min-width: 21rem !important; 
+    }
+    .amazonserviceOffer {
+        padding: 0 0 15px; 
+    }
+    .amazonserviceOffer h1 {
+        font-size: 26px; 
+    }
+    .dropdown-item { 
+        padding: 4px 10px; 
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width: 767px){
@@ -359,7 +371,12 @@
     .smo-main{
         display: inline; 
     }
-    
+    .amazonserviceOffer h1 {
+        font-size: 26px; 
+    }
+    .amazonserviceOffer-box p { 
+        font-size: 14px; 
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 992px){
     .navbar-001-hide {
@@ -474,6 +491,18 @@
     }
     .smo-main{
         display: inline; 
+    }
+    .web-development-main {
+        padding: 20px 0;
+    }
+    .amazonserviceOffer-box { 
+        min-height: 316px;
+    }
+    .amazonserviceOffer h1 {
+        font-size: 26px; 
+    }
+    .faq-main h1 {
+        font-size: 26px; 
     }
 }
 @media screen and (min-width: 993px) and (max-width: 1024px){

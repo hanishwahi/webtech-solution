@@ -13,8 +13,8 @@ function AmazonMarketing() {
 
       <div className="container-fluid web-development-main">
         <div className="container-xl">
-          <div className="row">
-            <div className="col-lg-6">
+          <div className="row justify-content-center">
+            <div className="col-lg-6 col-sm-8 col-md-6">
               <img src={amazon_img} alt=""  className='img-fluid p-2' loading='lazy'/>
             </div>
             <div className="col-lg-6">
