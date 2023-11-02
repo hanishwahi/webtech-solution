@@ -1,11 +1,14 @@
 import React from 'react'
 import emailjs from 'emailjs-com';
 import { useRef } from 'react';
-import { useNavigate } from 'react-router-dom'; 
+import { useNavigate } from 'react-router-dom';
+import { countryName } from './CountryName';
 
 function HomeForm() {
 
-  
+    const countryNameNew = countryName.map((countryName) => countryName.name)
+
+    console.log(countryNameNew);
 
     const Navigate = useNavigate()
 
@@ -38,25 +41,36 @@ function HomeForm() {
 
             <div className='bg-white home-form'>
                 <form ref={form} onSubmit={sendEmail}>
-                    <div className='row justify-content-between'>
-                        <div className="form-outline col-12 col-sm-6 mb-4">
+                    <div className='row justify-content-between form-outline '>
+                        <div className="col-12 col-sm-6 mb-4">
                             <label className="form-label fw-bold" htmlFor="form4Example1">*Name</label>
                             <input type="text" name="name" autoComplete="on" id="form4Example1" required className="form-control" placeholder='Full Name' />
                         </div>
-
-                        <div className="form-outline col-12 col-sm-6 mb-4">
-                         
-                                <label className="form-label fw-bold" htmlFor="form4Example2">*Phone</label>
-
-                               
-                                <input type="number" name="phone" autoComplete="on" id="form4Example2" required className="form-control" placeholder='Enter your Phone number' /> 
-                        </div>
-                    </div>
-                    <div className="form-outline mb-4 row">
                         <div className='col-sm-6 col-12'>
                             <label className="form-label text-dark fw-bold" htmlFor="form4Example2">*Email address</label>
                             <input type="email" name="email" autoComplete="on" id="form4Example3" required className="form-control" placeholder='Enter your Email ID' />
                         </div>
+                    </div>
+
+                    <div className="form-outline row">
+                        <div className="col-12 col-sm-6 mb-4">
+                            <label className="form-label fw-bold" htmlFor="form4Example2">*Country</label>
+                            <select name="country" id="" className="form-control" >
+                                <option value="" disabled >select the country</option>
+                                {countryNameNew.map((country, index) => (
+                                    <option key={index} value={country}>
+                                        {country}
+                                    </option>
+                                ))}
+                            </select>
+                        </div>
+                        <div className="col-12 col-sm-6 mb-4">
+                            <label className="form-label fw-bold" htmlFor="form4Example2">*Phone</label>
+                            <input type="number" name="phone" autoComplete="on" id="form4Example2" required className="form-control" placeholder='Enter your Phone number' />
+                        </div>
+
+                    </div>
+                    <div className="form-outline mb-4 row">
                         <div className='col-sm-6 col-12'>
                             <label className="form-label text-dark fw-bold" htmlFor="form4Example2">*Service</label>
                             <select required defaultValue='' name='service' className="form-select" aria-label="Default select example">
@@ -67,15 +81,12 @@ function HomeForm() {
                                 <option value="Graphic Designing">Graphic Designing</option>
                             </select>
                         </div>
-
+                        <div className='col-sm-6 col-12'>
+                            <label className="form-label text-dark fw-bold" htmlFor="form4Example2">Select Time for call</label>
+                            <input type="time" id="form4Example4" name="time" className="form-control" placeholder='Select Time' min="00:00" max="24:00" required />
+                        </div>
                     </div>
-
-
-
-                    <div className="form-outline mb-4">
-                        <label className="form-label text-dark fw-bold" htmlFor="form4Example2">Select Time for call</label>
-                        <input type="time" id="form4Example4" name="time" className="form-control" placeholder='Select Time' min="00:00" max="24:00" required />
-                    </div>
+ 
                     <input onClick={scrollToHome} className='form-Button' type="submit" value="Submit" />
                 </form>
             </div>
