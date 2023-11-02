@@ -78,12 +78,14 @@ body {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
 }
-
 .contact-button a:hover {
-    background-color: #8fc442;
-    color: #fff;
+    background-image: none;
+    border: 2px solid #43ade6;
+    color: #43ade6;
+    font-weight: 300;
 }
 
+ 
 .new-menu-hide {
     display: none;
     left: 0;
