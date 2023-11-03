@@ -72,7 +72,7 @@ function HomeForm() {
                                     </select>
                                 </div>
                                 <div className="col-4">
-                                    <input name="code" type="text" value={countryCodeSelected} className='form-control w-100' />
+                                    <input name="code" type="text" value={countryCodeSelected} placeholder='code' className='form-control w-100' />
                                 </div>
                             </div>
                         </div>
@@ -91,6 +91,7 @@ function HomeForm() {
                                 <option value="Web Development">Web Development</option>
                                 <option value="App Development">App Development</option>
                                 <option value="Graphic Designing">Graphic Designing</option>
+                                <option value="Other">Other</option>
                             </select>
                         </div>
                         <div className='col-sm-6 col-12'>
