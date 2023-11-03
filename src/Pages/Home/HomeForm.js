@@ -1,14 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import emailjs from 'emailjs-com';
 import { useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { countryName } from './CountryName';
 
 function HomeForm() {
+    const [selectedCountry, setselectedCountry] = useState("")
 
     const countryNameNew = countryName.map((countryName) => countryName.name)
+ 
+    const countryCode = countryName.find((country) => country.name === selectedCountry);
+    const countryCodeSelected = countryCode ? countryCode.dial_code : ''; 
 
-    console.log(countryNameNew);
+    console.log(countryCode);
 
     const Navigate = useNavigate()
 
@@ -55,14 +59,22 @@ function HomeForm() {
                     <div className="form-outline row">
                         <div className="col-12 col-sm-6 mb-4">
                             <label className="form-label fw-bold" htmlFor="form4Example2">*Country</label>
-                            <select name="country" id="" className="form-control" >
-                                <option value="" disabled >select the country</option>
-                                {countryNameNew.map((country, index) => (
-                                    <option key={index} value={country}>
-                                        {country}
-                                    </option>
-                                ))}
-                            </select>
+                            <div className="row">
+                                <div className="col-8">
+                                    <select defaultValue="" name="country" id="" className="form-control" onChange={(e) => { setselectedCountry(e.target.value) }} >
+                                        <option value="" disabled >Select the country</option>
+                                        {countryNameNew.map((country, index) => (
+                                            <option key={index}  >
+                                                {country}
+                                            </option>
+
+                                        ))}
+                                    </select>
+                                </div>
+                                <div className="col-4">
+                                    <input name="code" type="text" value={countryCodeSelected} className='form-control w-100' />
+                                </div>
+                            </div>
                         </div>
                         <div className="col-12 col-sm-6 mb-4">
                             <label className="form-label fw-bold" htmlFor="form4Example2">*Phone</label>
@@ -86,7 +98,7 @@ function HomeForm() {
                             <input type="time" id="form4Example4" name="time" className="form-control" placeholder='Select Time' min="00:00" max="24:00" required />
                         </div>
                     </div>
- 
+
                     <input onClick={scrollToHome} className='form-Button' type="submit" value="Submit" />
                 </form>
             </div>
